@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MessageBox MB_OK${1} "${2:messagebox_text}" ${3}
+]]></content>
+	<tabTrigger>do:MB_OK</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

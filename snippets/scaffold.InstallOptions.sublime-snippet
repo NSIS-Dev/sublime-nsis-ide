@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+
+; Settings ---------------------------------
+Name "${1:installer_name}"
+OutFile "${2:${1}}.exe"
+RequestExecutionLevel ${3:user}
+InstallDir "\$PROGRAMFILES\\${4:${1}}"
+
+; Includes ---------------------------------
+ReserveFile "\${NSISDIR}\Plugins\InstallOptions.dll"
+ReserveFile "${5:\${NSISDIR\}\Examples\InstallOptions\test}.ini"
+
+; Pages ------------------------------------
+Page custom "${6:iopage}" "${7:${6:iopage}_validation}" ": ${8:iopage_caption}"
+Page components
+Page directory
+Page instfiles
+
+
+; Sections ---------------------------------
+Section "${11:section_name}" ${12:section_index}
+
+	${13:# your code here}
+
+SectionEnd
+
+; Functions --------------------------------
+Function .onInit
+  
+	InitPluginsDir
+	File "/oname=\$PLUGINSDIR\\${9:ioFile}.ini" "${5}.ini"
+  
+FunctionEnd
+
+Function "${6}"
+
+ 	Push \$R0
+	InstallOptions::dialog "\$PLUGINSDIR\\${9}.ini"
+    Pop \$R0
+  
+	Pop \$R0
+
+FunctionEnd
+
+Function "${7}"
+
+ 	${10:# your code here}
+
+FunctionEnd
+]]></content>
+	<tabTrigger>scaffold:InstallOptions</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>
