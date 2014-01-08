@@ -169,7 +169,6 @@
 
                 // DcryptDll.dll - http://nsis.sourceforge.net/DcryptDll_plug-in
                 { "trigger": "DcryptDll::Decrypt", "contents": "DcryptDll::Decrypt \"${1:function}\" \"${2:HexKeyFileName}\" \"${3:InputFileName}\" \"${4:OutputFileName}\"" },
-                { "trigger": "DcryptDll::Decrypt", "contents": "DcryptDll::Decrypt \"${1:function}\" \"${2:HexKeyFileName}\" \"${3:InputFileName}\" \"${4:OutputFileName}\"" },
                 { "trigger": "DcryptDll::HexDecoder", "contents": "DcryptDll::HexDecoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"" },
                 { "trigger": "DcryptDll::HexEncoder", "contents": "DcryptDll::HexEncoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"" },
                 { "trigger": "DcryptDll::LoadStr", "contents": "DcryptDll::LoadStr \"${1:InputFileName}\"" },
@@ -338,6 +337,10 @@
                 // InetLoad.dll - http://nsis.sourceforge.net/InetLoad_plug-in
                 { "trigger": "InetLoad::load [/options]", "contents": "InetLoad::load ${1:options} \"${2:url}\" \"${3:target_file}\"" },
                 { "trigger": "InetLoad::load", "contents": "InetLoad::load \"${1:url}\" \"${2:target_file}\"" },
+
+                // IniGetSectionNames.nsh - http://nsis.sourceforge.net/IniGetSectionNames
+                { "trigger": "IniGetSectionNames", "contents": "\\${IniGetSectionNames} \"${1:file}.ini\" ${2:function}" },
+                { "trigger": "IniGetSectionNames_StopEnum", "contents": "\\${IniGetSectionNames_StopEnum}" },
 
                 // InstallOptionsEx.dll - http://nsis.sourceforge.net/InstallOptionsEx_plug-inn
                 { "trigger": "InstallOptionsEx::initDialog /NOUNLOAD", "contents": "InstallOptionsEx::initDialog /NOUNLOAD \"${1:file}.ini\"" },
@@ -556,6 +559,14 @@
                 // NsExpr.nsh - http://nsis.sourceforge.net/NsExpr_plug-in
                 { "trigger": "${Expr}", "contents": "\\${Expr} ${1:expression}" },
                 { "trigger": "${ExprEval}", "contents": "\\${ExprEval} ${1:expression}" },
+
+                // NsFlash.dll - http://nsis.sourceforge.net/File:NsFlash.zip
+                { "trigger": "nsFlash::Destroy", "contents": "nsFlash::Destroy" },
+                { "trigger": "nsFlash::IsInstalled", "contents": "nsFlash::IsInstalled\nPop ${1:var}" },
+                { "trigger": "nsFlash::Load /replace", "contents": "nsFlash::Load /replace ${1:hwnd} \"${2:swf_path}\"" },
+                { "trigger": "nsFlash::Load", "contents": "nsFlash::Load ${1:hwnd} \"${2:swf_path}\"" },
+                { "trigger": "nsFlash::Window /size", "contents": "nsFlash::Window /size ${1:WxH} \"${2:swf_path}\" \"${3:caption}\"" },
+                { "trigger": "nsFlash::Window", "contents": "nsFlash::Window \"${1:swf_path}\" \"${2:caption}\"" },
                 
                 // Nsis7z.dll - http://nsis.sourceforge.net/Nsis7z_plug-in
                 { "trigger": "Nsis7z::Extract", "contents": "Nsis7z::Extract \"${1:file}.7z\"" },
@@ -901,6 +912,9 @@
                 // PixelShader.dll - http://nsis.sourceforge.net/PixelShaderCheck
                 { "trigger": "PixelShader::GetPixelShaderVersion", "contents": "PixelShader::GetPixelShaderVersion" },
 
+                // PowerShellExec.nsh - http://nsis.sourceforge.net/Execute_PowerShell_script_or_command
+                { "trigger": "${PowerShellExec}", "contents": "\\${PowerShellExec} \"${1:command}\"" },
+
                 // Processes.dll - http://nsis.sourceforge.net/Processes_plug-in
                 { "trigger": "Processes::FindDevice", "contents": "Processes::FindDevice \"${1:device_base_name}\"" },
                 { "trigger": "Processes::FindProcess", "contents": "Processes::FindProcess \"${1:process_name}\"" },
@@ -909,7 +923,6 @@
                 // ProxySettings.dll - http://nsis.sourceforge.net/ProxySettings
                 { "trigger": "ProxySettings::GetConnectionName", "contents": "ProxySettings::GetConnectionName \\$${1:var}" },
                 { "trigger": "ProxySettings::GetConnectionCount", "contents": "ProxySettings::GetConnectionCount \\$${1:var}" },
-                { "trigger": "ProxySettings::SetConnectionProxyByProtocol", "contents": "ProxySettings::SetConnectionProxyByProtocol \\$${1:var}" },
                 { "trigger": "ProxySettings::GetConnectionProxy", "contents": "ProxySettings::GetConnectionProxy \\$${1:var}" },
                 { "trigger": "ProxySettings::SetConnectionProxy", "contents": "ProxySettings::SetConnectionProxy \\$${1:var}" },
                 { "trigger": "ProxySettings::SetConnectionProxyByProtocol", "contents": "ProxySettings::SetConnectionProxyByProtocol \\$${1:var}" },
@@ -1093,7 +1106,6 @@
                 { "trigger": "${Stack::Debug}", "contents": "\\${Stack::Debug} \"${1:handle}\"" },
                 { "trigger": "${Stack::dll_clear}", "contents": "\\${Stack::dll_clear} \"${1:handle}\"" },
                 { "trigger": "${Stack::dll_create}", "contents": "\\${Stack::dll_create} \\$${1:var}" },
-                { "trigger": "${Stack::dll_create}", "contents": "\\${Stack::dll_create} \\$${1:var}" },
                 { "trigger": "${Stack::dll_delete_range}", "contents": "\\${Stack::dll_delete_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" \\$${4:var}" },
                 { "trigger": "${Stack::dll_delete}", "contents": "\\${Stack::dll_delete} \"${1:handle}\" \"${2:string}\" \\$${3:var} \\$${4:var}" },
                 { "trigger": "${Stack::dll_destroy}", "contents": "\\${Stack::dll_destroy} \"${1:handle}\"" },
@@ -1229,7 +1241,6 @@
                 { "trigger": "!define UMUI_USE_CUSTOMBG", "contents": "!define UMUI_USE_CUSTOMBG \"${1:background_skin_name}\"" },
                 { "trigger": "!define UMUI_USE_CUSTOMBG", "contents": "!define UMUI_USE_CUSTOMBG" },
                 { "trigger": "!define UMUI_USE_UNALTERNATE_PAGE", "contents": "!define UMUI_USE_UNALTERNATE_PAGE" },
-                { "trigger": "!define UMUI_USE_UNALTERNATE_PAGE", "contents": "!define UMUI_USE_UNALTERNATE_PAGE" },
                 { "trigger": "!define UMUI_WELCOMEFINISHABORTPAGE_INI", "contents": "!define UMUI_WELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"" },
                 { "trigger": "!insertmacro UMUI_PAGE_ABORT", "contents": "!insertmacro UMUI_PAGE_ABORT" },
                 { "trigger": "!insertmacro UMUI_PAGE_ADDITIONALTASKS", "contents": "!insertmacro UMUI_PAGE_ADDITIONALTASKS \"${1:page_id}\" \"${1:function}\"" },
@@ -1239,13 +1250,11 @@
                 { "trigger": "!insertmacro UMUI_PAGE_INFORMATION", "contents": "!insertmacro UMUI_PAGE_INFORMATION \"${1:text_file}\"" },
                 { "trigger": "!insertmacro UMUI_PAGE_MAINTENANCE", "contents": "!insertmacro UMUI_PAGE_MAINTENANCE" },
                 { "trigger": "!insertmacro UMUI_PAGE_MULTILANGUAGE", "contents": "!insertmacro UMUI_PAGE_MULTILANGUAGE" },
-                { "trigger": "!insertmacro UMUI_PAGE_MULTILANGUAGE", "contents": "!insertmacro UMUI_PAGE_MULTILANGUAGE" },
                 { "trigger": "!insertmacro UMUI_PAGE_SERIALNUMBER", "contents": "!insertmacro UMUI_PAGE_SERIALNUMBER \"${1:function}\"" },
                 { "trigger": "!insertmacro UMUI_PAGE_SETUPTYPE", "contents": "!insertmacro UMUI_PAGE_SETUPTYPE" },
                 { "trigger": "!insertmacro UMUI_PAGE_UPDATE", "contents": "!insertmacro UMUI_PAGE_UPDATE" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_ABORT", "contents": "!insertmacro UMUI_UNPAGE_ABORT" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_ADDITIONALTASKS", "contents": "!insertmacro UMUI_UNPAGE_ADDITIONALTASKS \"${1:page_id}\" \"${1:function}\"" },
-                { "trigger": "!insertmacro UMUI_UNPAGE_CONFIRM", "contents": "!insertmacro UMUI_UNPAGE_CONFIRM" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_CONFIRM", "contents": "!insertmacro UMUI_UNPAGE_CONFIRM" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_FILEDISKREQUEST", "contents": "!insertmacro UMUI_UNPAGE_FILEDISKREQUEST" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_INFORMATION", "contents": "!insertmacro UMUI_UNPAGE_INFORMATION \"${1:text_file}\"" },
@@ -1343,7 +1352,6 @@
                 { "trigger": "!insertmacro XiMoL_GetElementFromPath", "contents": "!insertmacro XiMoL_GetElementFromPath \"${1:HANDLER}\" \"${2:NB}\" \"${3:NEW_HANDLER}\"" },
                 { "trigger": "!insertmacro XiMoL_GetElementName", "contents": "!insertmacro XiMoL_GetElementName \"${1:HANDLER}\" \"${2:NB}\" \"${3:NAME}\"" },
                 { "trigger": "!insertmacro XiMoL_GetErrorMessage", "contents": "!insertmacro XiMoL_GetErrorMessage \\$${2:VAR}" },
-                { "trigger": "!insertmacro XiMoL_GetLastCall", "contents": "!insertmacro XiMoL_GetLastCall \\$${2:VAR}" },
                 { "trigger": "!insertmacro XiMoL_GetLastCall", "contents": "!insertmacro XiMoL_GetLastCall \\$${2:VAR}" },
                 { "trigger": "!insertmacro XiMoL_GetNextElement", "contents": "!insertmacro XiMoL_GetNextElement \"${1:HANDLER}\" \"${2:GOTO_IF_SUCCESS}\"" },
                 { "trigger": "!insertmacro XiMoL_GetNumberOfAttributes", "contents": "!insertmacro XiMoL_GetNumberOfAttributes \"${1:HANDLER}\" \"${2:NB}\"" },
@@ -1588,7 +1596,6 @@
                 { "trigger": "UF_PASSWD_NOTREQD", "contents": "UF_PASSWD_NOTREQD" },
                 { "trigger": "UNGREEDY", "contents": "UNGREEDY" },
                 { "trigger": "UTF-16BE", "contents": "UTF-16BE" },
-                { "trigger": "UTF-16LE", "contents": "UTF-16LE" },
                 { "trigger": "UTF-16LE", "contents": "UTF-16LE" },
                 { "trigger": "UTF-32BE", "contents": "UTF-32BE" },
                 { "trigger": "UTF-32LE", "contents": "UTF-32LE" },
