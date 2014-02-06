@@ -130,18 +130,18 @@ LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up N
 Function .onInit
 	
 	${If} ${FileExists} "$APPDATA\Sublime Text 2\Packages\*.*"
-	${AndIfNot} ${FileExists} "$APPDATA\Sublime Text 3\Packages\*.*"
+	${AndIfNot} ${FileExists} "$APPDATA\Sublime Text 3\Packages\User\*.*"
 		StrCpy $INSTDIR "$APPDATA\Sublime Text 2\Packages"
 	${ElseIfNot} ${FileExists} "$APPDATA\Sublime Text 2\Packages\*.*"
-	${AndIf} ${FileExists} "$APPDATA\Sublime Text 3\Packages\*.*"
-		StrCpy $INSTDIR "$APPDATA\Sublime Text 3\Packages"
+	${AndIf} ${FileExists} "$APPDATA\Sublime Text 3\Packages\User\*.*"
+		StrCpy $INSTDIR "$APPDATA\Sublime Text 3\Packages\User"
 	${ElseIf} ${FileExists} "$APPDATA\Sublime Text 2\Packages\*.*"
-	${AndIf} ${FileExists} "$APPDATA\Sublime Text 3\Packages\*.*"
+	${AndIf} ${FileExists} "$APPDATA\Sublime Text 3\Packages\User\*.*"
 		StrCpy $INSTDIR "$APPDATA\Sublime Text 2\Packages"
 		MessageBox MB_YESNO|MB_ICONQUESTION "Do you prefer Sublime Text 3 over version 2?" IDNO +2
-		StrCpy $INSTDIR "$APPDATA\Sublime Text 3\Packages"
+		StrCpy $INSTDIR "$APPDATA\Sublime Text 3\Packages\User"
 	${ElseIfNot} ${FileExists} "$APPDATA\Sublime Text 2\Packages\*.*"
-	${AndIfNot} ${FileExists} "$APPDATA\Sublime Text 3\Packages\*.*"
+	${AndIfNot} ${FileExists} "$APPDATA\Sublime Text 3\Packages\User\*.*"
 		MessageBox MB_OK|MB_ICONEXCLAMATION "Sublime Text not found, please specify the packages directory."
 	${EndIf}
 FunctionEnd
