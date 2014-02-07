@@ -97,6 +97,13 @@
                 { "trigger": "ButtonEvent::UnsetEventHandler", "contents": "ButtonEvent::UnsetEventHandler ${1:control_id}" },
                 { "trigger": "ButtonEvent::WhichButtonId", "contents": "ButtonEvent::WhichButtonId /NOUNLOAD" },
 
+                // Buttons Header.nsh - http://nsis.sourceforge.net/Buttons_Header
+                { "trigger": "${buttonEnabled}", "contents": "\\${buttonEnabled} \"${1:label\" ${2:0|1}" },
+                { "trigger": "${buttonVisible}", "contents": "\\${buttonVisible} \"${1:label\" ${2:0|1}" },
+                { "trigger": "${unbuttonEnabled}", "contents": "\\${unbuttonEnabled} \"${1:label\" ${2:0|1}" },
+                { "trigger": "${unbuttonText}", "contents": "\\${unbuttonText} \"${1:label_from\" ${2:label_to}" },
+                { "trigger": "${unbuttonVisible}", "contents": "\\${unbuttonVisible} \"${1:label\" ${2:0|1}" },
+
                 // CabDLL.dll - http://nsis.sourceforge.net/CabDLL_plug-in
                 { "trigger": "CabDLL::CabInfo", "contents": "CabDLL::CabInfo \"${1:file}.cab\"" },
                 { "trigger": "CabDLL::CabView", "contents": "CabDLL::CabView \"${1:file}.cab\"" },
@@ -1602,6 +1609,6 @@
                 { "trigger": "UTF-8", "contents": "UTF-8" },
                 { "trigger": "UTF8", "contents": "UTF8" },
 
-                { /* It ain't over 'til the fat lady sings */ }
+                { "note": "It ain't over 'til the fat lady sings" }
         ]
 }
