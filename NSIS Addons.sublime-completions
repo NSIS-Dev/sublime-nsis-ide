@@ -550,8 +550,8 @@
                 { "trigger": "nsArray::Split", "contents": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter}" },
 
                 // nsArray.nsh - http://nsis.sourceforge.net/Arrays_in_NSIS
-                { "trigger": "${ForEachIn}", "contents": "\\${ForEachIn} ${1:array} \\$${2:key} \\$${3:value}\n\t${4}\n\\${Next}" },
-                { "trigger": "${ForEachInReverse}", "contents": "\\${ForEachInReverse} ${1:array} \\$${2:key} \\$${3:value}\n\t${4}\n\\${Next}" },
+                { "trigger": "${ForEachIn}", "contents": "\\${ForEachIn} ${1:array} \\$${2:key} \\$${3:value}\n\t${4:# your code here}\n\\${Next}" },
+                { "trigger": "${ForEachInReverse}", "contents": "\\${ForEachInReverse} ${1:array} \\$${2:key} \\$${3:value}\n\t${4:# your code here}\n\\${Next}" },
                 { "trigger": "${nsArray_Copy}", "contents": "\\${nsArray_Copy} ${1:source_array} ${1:destination_array}" },
                 { "trigger": "${nsArray_CopyKeys}", "contents": "\\${nsArray_CopyKeys} ${1:source_array} ${1:destination_array}" },
                 { "trigger": "${nsArray_ToString}", "contents": "\\${nsArray_ToString} ${1:array}" },
@@ -1261,8 +1261,8 @@
                 { "trigger": "!insertmacro UMUI_UNPAGE_MULTILANGUAGE", "contents": "!insertmacro UMUI_UNPAGE_MULTILANGUAGE" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_SERIALNUMBER", "contents": "!insertmacro UMUI_UNPAGE_SERIALNUMBER \"${1:function}\"" },
                 { "trigger": "!insertmacro UMUI_UNPAGE_SETUPTYPE", "contents": "!insertmacro UMUI_UNPAGE_SETUPTYPE" },
-                { "trigger": "!macro UMUI_BG", "contents": "!macro UMUI_BG\n\t${1}\n!macroend" },
-                { "trigger": "!macro UMUI_BG_Destroy", "contents": "!macro UMUI_BG_Destroy\n\t${1}\n!macroend" },
+                { "trigger": "!macro UMUI_BG", "contents": "!macro UMUI_BG\n\t${1:# your code here}\n!macroend" },
+                { "trigger": "!macro UMUI_BG_Destroy", "contents": "!macro UMUI_BG_Destroy\n\t${1:# your code here}\n!macroend" },
 
                 // Unicode.dll - http://nsis.sourceforge.net/Unicode_plug-in
                 { "trigger": "Unicode::FileAnsi2Unicode", "contents": "Unicode::FileAnsi2Unicode \"${1:input}\" \"${2:input}\" ${3:type}" },
