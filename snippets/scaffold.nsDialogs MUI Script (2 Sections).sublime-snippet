@@ -1,0 +1,70 @@
+<snippet>
+	<content><![CDATA[
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+
+; Includes ---------------------------------
+!include nsDialogs.nsh
+!include LogicLib.nsh
+!include MUI2.nsh
+
+; Settings ---------------------------------
+Name "${1:installer_name}"
+OutFile "${2:${1}}.exe"
+RequestExecutionLevel ${3:user}
+InstallDir "\$PROGRAMFILES\\${4:${1}}"
+
+; Pages ------------------------------------
+Page custom "${5:nsdialog_page}" "${6:${5:nsdialog_page}_validation}"
+!insertmacro MUI_PAGE_COMPONENTS 
+!insertmacro MUI_PAGE_DIRECTORY
+!insertmacro MUI_PAGE_INSTFILES
+
+; Variables --------------------------------
+${7}
+
+; Languages --------------------------------
+!insertmacro MUI_LANGUAGE "${8:English}"
+
+; Functions --------------------------------
+Function "${5}"
+
+	nsDialogs::Create 1018
+	Pop \$0
+
+	${9:# your code here}
+
+	nsDialogs::Show
+
+FunctionEnd
+
+Function "${6}"
+
+	${10:# your code here}
+
+FunctionEnd
+
+; Sections ---------------------------------
+Section "${11:section_name}" ${12:section_index1}
+
+	${13:# your code here}
+
+SectionEnd
+
+Section "${14:section_name}" ${15:section_index2}
+
+	${16:# your code here}
+
+SectionEnd
+
+; Descriptions -----------------------------
+LangString DESC_${12} \${LANG_${8}} "${17:section_description}"
+LangString DESC_${15} \${LANG_${8}} "${18:section_description}"
+
+!insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
+	!insertmacro MUI_DESCRIPTION_TEXT \${${12}} \$(DESC_${12})
+	!insertmacro MUI_DESCRIPTION_TEXT \${${15}} \$(DESC_${15})
+!insertmacro MUI_FUNCTION_DESCRIPTION_END
+]]></content>
+	<tabTrigger>scaffold:nsDialogs ModernUI (2 Sections)</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

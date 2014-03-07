@@ -4,28 +4,28 @@
 
 !ifdef MUI_WELCOMEPAGE
   \${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "${2:Welcome to the \$(^NameDA) Setup Wizard}"
-  \${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "${3:This wizard will guide you through the installation of \$(^NameDA).}\$\r\$\n\$\r\$\n${4:It is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.}\$\r\$\n\$\r\$\n$_CLICK"
+  \${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "${3:This wizard will guide you through the installation of \$(^NameDA).}\$\r\$\n\$\r\$\n${4:It is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.}\$\r\$\n\$\r\$\n\$_CLICK"
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
   \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TITLE "${5:Welcome to the \$(^NameDA) Uninstall Wizard}"
-  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TEXT "${6:This wizard will guide you through the uninstallation of \$(^NameDA).}\$\r\$\n\$\r\$\n${7:Before starting the uninstallation, make sure \$(^NameDA) is not running.}\$\r\$\n\$\r\$\n$_CLICK"
+  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TEXT "${6:This wizard will guide you through the uninstallation of \$(^NameDA).}\$\r\$\n\$\r\$\n${7:Before starting the uninstallation, make sure \$(^NameDA) is not running.}\$\r\$\n\$\r\$\n\$_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE
   \${LangFileString} MUI_TEXT_LICENSE_TITLE "${8:License Agreement}"
   \${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "${9:Please review the license terms before installing \$(^NameDA).}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "${10:If you accept the terms of the agreement, click I Agree to continue. You must accept the agreement to install \$(^NameDA).}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "${11:If you accept the terms of the agreement, click the check box below. You must accept the agreement to install \$(^NameDA). $_CLICK}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${12:If you accept the terms of the agreement, select the first option below. You must accept the agreement to install \$(^NameDA). $_CLICK}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "${10:If you accept the terms of the agreement, clickMUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS I Agree to continue. You must accept the agreement to install \$(^NameDA).}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "${11:If you accept the terms of the agreement, click the check box below. You must accept the agreement to install \$(^NameDA).} \$_CLICK"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${12:If you accept the terms of the agreement, select the first option below. You must accept the agreement to install \$(^NameDA).} \$_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
   \${LangFileString} MUI_UNTEXT_LICENSE_TITLE "${13:License Agreement}"
   \${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "${14:Please review the license terms before uninstalling \$(^NameDA).}"
   \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "${15:If you accept the terms of the agreement, click I Agree to continue. You must accept the agreement to uninstall \$(^NameDA).}"
-  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "${16:If you accept the terms of the agreement, click the check box below. You must accept the agreement to uninstall \$(^NameDA). $_CLICK}"
-  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${17:If you accept the terms of the agreement, select the first option below. You must accept the agreement to uninstall \$(^NameDA). $_CLICK}"
+  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "${16:If you accept the terms of the agreement, click the check box below. You must accept the agreement to uninstall \$(^NameDA).} \$_CLICK"
+  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${17:If you accept the terms of the agreement, select the first option below. You must accept the agreement to uninstall \$(^NameDA).} \$_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE

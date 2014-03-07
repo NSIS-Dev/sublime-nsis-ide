@@ -3,7 +3,7 @@
 
         "completions":
         [
-                // Controls
+                { "#": "Controls" },
                 { "trigger": "Align", "contents": "Align=${1:LEFT|CENTER|RIGHT}" },
                 { "trigger": "BackButtonText", "contents": "BackButtonText=${1:text}" },
                 { "trigger": "BackEnabled", "contents": "BackEnabled=${1:0|1}" },
@@ -94,7 +94,7 @@
                 { "trigger": "ValidateText", "contents": "ValidateText=${1:text}" },
                 { "trigger": "VAlign", "contents": "VAlign=${1:TOP|CENTER|BOTTOM}" },
 
-                // Flags
+                { "#": "Flags" },
                 { "trigger": "BALLOON", "contents": " BALLOON" },
                 { "trigger": "BOTTOM", "contents": "BOTTOM" },
                 { "trigger": "CENTER", "contents": "CENTER" },
@@ -141,7 +141,6 @@
                 { "trigger": "REQ_SAVE", "contents": "REQ_SAVE" },
                 { "trigger": "RESIZETOFIT", "contents": "RESIZETOFIT" },
                 { "trigger": "RIGHT", "contents": "RIGHT" },
-                { "trigger": "RIGHT", "contents": "RIGHT" },
                 { "trigger": "STOP", "contents": "STOP" },
                 { "trigger": "TOP", "contents": "TOP" },
                 { "trigger": "TRANSPARENT", "contents": "TRANSPARENT" },
@@ -149,6 +148,6 @@
                 { "trigger": "WANTRETURN", "contents": "WANTRETURN" },
                 { "trigger": "WARN_IF_EXIST", "contents": "WARN_IF_EXIST" },
 
-                { /* It ain't over 'til the fat lady sings */ }
+                { "note": "It ain't over 'til the fat lady sings" }
         ]
 }

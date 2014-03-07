@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+Push ""
+
+# first language will be default 
+Push \${LANG_ENGLISH}
+Push "English"
+
+# more languages here
+Push \${LANG_DUTCH}
+Push "Dutch"
+
+Push \${LANG_FRENCH}
+Push "French"
+
+Push \${LANG_PORTUGUESEBR}
+Push "Portuguese"
+
+Push \${LANG_SPANISHINTERNATIONAL}
+Push "Spanish"
+
+Push "A"
+
+LangDLL::LangDialog "${1:Program Language}" "${2:Please select a language for this program}"
+Pop \$LANGUAGE
+StrCmp \$LANGUAGE "cancel" 0 +2
+Abort
+]]></content>
+	<tabTrigger>do:Language Dialog (Americas)</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

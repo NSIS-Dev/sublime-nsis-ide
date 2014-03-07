@@ -44,12 +44,14 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 		SetOutPath "$INSTDIR\NSIS"
 		
 		File "..\NSIS.sublime-completions"
+		File "..\NSIS.sublime-settings"
 	SectionEnd
 
 	Section "Plug-in Commands" sublimePlugCompletion
 		SetOutPath "$INSTDIR\NSIS"
 		
 		File "..\NSIS Addons.sublime-completions"
+		File "..\NSIS.sublime-settings"
 	SectionEnd
 
 	Section "InstallOptions" sublimeIOCompletion
