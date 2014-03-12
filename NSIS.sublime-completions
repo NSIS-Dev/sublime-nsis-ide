@@ -508,7 +508,7 @@
                 { "trigger": "ReadEnvStr", "contents": "ReadEnvStr \\$${1:user_var} \"${2:name}\"" },
                 { "trigger": "ReadINIStr", "contents": "ReadINIStr \\$${1:user_var} \"${2:ini_filename}\" \"${3:section_name}\" \"${4:entry_name}\"" },
                 { "trigger": "ReadRegDWORD", "contents": "ReadRegDWORD \\$${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
-                { "trigger": "ReadRegStr", "contents": "ReadRegStr \\${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
+                { "trigger": "ReadRegStr", "contents": "ReadRegStr \\$${1:user_var} ${2:root_key} \"${3:sub_key}\" \"${4:name}\"" },
                 { "trigger": "Reboot", "contents": "Reboot" },
                 { "trigger": "RegDLL", "contents": "RegDLL \"${1:dllfile}\" ${2:entrypoint_name}" },
                 { "trigger": "Rename /REBOOTOK", "contents": "RegDLL /REBOOTOK \"${1:source_file}\" \"${2:dest_file}\"" },
