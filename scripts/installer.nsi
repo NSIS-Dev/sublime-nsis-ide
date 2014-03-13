@@ -47,6 +47,13 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 		File "..\NSIS.sublime-settings"
 	SectionEnd
 
+	Section "Drunken NSIS" sublimeDrunkenNsis
+		SetOutPath "$INSTDIR\NSIS"
+		
+		File "..\Word Order.sublime-completions"
+		File "..\Prince Versions.sublime-settings"
+	SectionEnd
+
 	Section "Plug-in Commands" sublimePlugCompletion
 		SetOutPath "$INSTDIR\NSIS"
 		
@@ -109,6 +116,7 @@ LangString DESC_sublimeNsisSyntax ${LANG_English} "Add syntax highlighting for N
 LangString DESC_sublimeNlfSyntax ${LANG_English} "Add syntax highlighting for NSIS language files"
 LangString DESC_sublimeAutoCompletion ${LANG_English} "Add code completion for NSIS to Sublime Text"
 LangString DESC_sublimeCmdCompletion ${LANG_English} "Code completion for all NSIS commands, Useful Headers, and bundled plug-ins"
+LangString DESC_sublimeDrunkenNsis ${LANG_ENGLISH} "Drunken NSIS completions, command aliases to eliminate naming inconsistencies"
 LangString DESC_sublimePlugCompletion ${LANG_English} "Code completion for third party plug-ins and macros"
 LangString DESC_sublimeIOCompletion ${LANG_English} "Code completion for InstallOptions ini-files"
 LangString DESC_sublimeSnippets ${LANG_English} "Useful snippets providing scaffolding and code blocks"
@@ -121,6 +129,7 @@ LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up N
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeNlfSyntax} $(DESC_sublimeNlfSyntax)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeAutoCompletion} $(DESC_sublimeAutoCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeCmdCompletion} $(DESC_sublimeCmdCompletion)
+	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeDrunkenNsis} $(DESC_sublimeDrunkenNsis)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimePlugCompletion} $(DESC_sublimePlugCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeIOCompletion} $(DESC_sublimeIOCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeSnippets} $(DESC_sublimeSnippets)
