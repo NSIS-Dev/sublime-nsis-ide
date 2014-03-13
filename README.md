@@ -9,6 +9,7 @@ This package has been tested and approved for Sublime Text versions 2 and 3 (bet
 * [Syntax Highlighting for language files](https://github.com/idleberg/NSIS-Language-File-Sublime-Text)
 * [Auto-completion for NSIS syntax, Useful Headers, bundled plug-ins](https://github.com/idleberg/NSIS-Sublime-Text)
 * [Auto-completion for third party plug-ins and macros](https://github.com/idleberg/NSIS-Sublime-Text-Addons)
+* [Drunken NSIS auto-completion](https://github.com/idleberg/Drunken-NSIS)
 * [Build System](http://nsis.sourceforge.net/Sublime_Text_Build_System_for_NSIS)
 * [Context menu for online scripting reference](https://github.com/idleberg/NSIS-Sublime-Text-Menu)
 
