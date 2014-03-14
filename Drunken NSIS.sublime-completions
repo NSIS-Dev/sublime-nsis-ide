@@ -3,7 +3,11 @@
 
         "completions":
         [  
-                { "#": "Commands" },
+                { "#": "Prince Versions" },
+                { "trigger": "%Bring2Front", "contents": "BringToFront" },
+                { "trigger": "%Go2", "contents": "Goto ${1:label_to_jump_to}" },
+
+                { "#": "Word Order" },
                 { "trigger": "%BitmapCheck", "contents": "CheckBitmap \"${1:bitmap}.bmp\"" },
                 { "trigger": "%BitmapCheck:big.bmp", "contents": "CheckBitmap \"\\${NSISDIR}\\Contrib\\Graphics\\Checks\\big.bmp\"" },
                 { "trigger": "%BitmapCheck:classic-cross.bmp", "contents": "CheckBitmap \"\\${NSISDIR}\\Contrib\\Graphics\\Checks\\classic-cross.bmp\"" },
