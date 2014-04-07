@@ -381,7 +381,7 @@
                 { "trigger": "FindClose", "contents": "FindClose \\$${1:handle}" },
                 { "trigger": "FindFirst", "contents": "FindFirst \\$${1:handle} \\$${2:user_var} \"${2:filespec}\"" },
                 { "trigger": "FindNext", "contents": "FindNext \\$${1:handle} \\$${2:user_var}" },
-                { "trigger": "FindWindow", "contents": "FindWindow \\$${1:user_var} \"${2:windowclass}\"" },
+                { "trigger": "FindWindow", "contents": "FindWindow \\$${1:user_var} \"${2:windowclass}\"${3: \"${4:windowtitle}\"${5: ${6:windowparent}${7: ${8:childafter}}}}" },
                 { "trigger": "FlushINI", "contents": "FlushINI \"${1:ini_filename}\"" },
                 { "trigger": "Function", "contents": "Function \"${1:function_name}\"\n\t${2:# your code here}\nFunctionEnd" },
                 { "trigger": "FunctionEnd", "contents": "FunctionEnd" },
