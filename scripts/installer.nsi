@@ -50,8 +50,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 	Section "Drunken NSIS" sublimeDrunkenNsis
 		SetOutPath "$INSTDIR\NSIS"
 		
-		File "..\Word Order.sublime-completions"
-		File "..\Prince Versions.sublime-settings"
+		File "..\Drunken NSIS.sublime-completions"
 	SectionEnd
 
 	Section "Plug-in Commands" sublimePlugCompletion
