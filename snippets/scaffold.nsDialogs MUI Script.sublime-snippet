@@ -44,7 +44,7 @@ Function "${6}"
 FunctionEnd
 
 ; Sections ---------------------------------
-Section "${11:section_name}" ${12:section_index}
+Section "${11:section}" ${12:${11/(.*)/\U\1/}_INDEX}
 
 	${13:# your code here}
 

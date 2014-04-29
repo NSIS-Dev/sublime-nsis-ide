@@ -40,19 +40,19 @@ Function "${6}"
 FunctionEnd
 
 ; Sections ---------------------------------
-Section "${10:section_name}" ${11:section_index1}
+Section "${10:section1}" ${11:${10/(.*)/\U\1/}_INDEX}
 
 	${12:# your code here}
 
 SectionEnd
 
-Section "${13:section_name}" ${14:section_index2}
+Section "${13:section2}" ${14:${13/(.*)/\U\1/}_INDEX}
 
 	${15:# your code here}
 
 SectionEnd
 
-Section "${16:section_name}" ${17:section_index3}
+Section "${16:section3}" ${17:${16/(.*)/\U\1/}_INDEX}
 
 	${18:# your code here}
 

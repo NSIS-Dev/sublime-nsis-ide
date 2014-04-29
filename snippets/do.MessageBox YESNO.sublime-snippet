@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-MessageBox MB_YESNO${1} "${2:messagebox_text}"  ${3}
+MessageBox MB_YESNO${1} "${2:messagebox_text}" ${3}
 ]]></content>
 	<tabTrigger>do:MB_YESNO</tabTrigger>
 	<scope>source.nsis</scope>

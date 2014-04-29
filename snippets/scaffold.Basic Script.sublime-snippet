@@ -8,20 +8,23 @@ OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:user}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
+; Includes ---------------------------------
+${5}
+
 ; Pages ------------------------------------
 Page components
 Page directory
 Page instfiles
 
 ; Sections ---------------------------------
-Section "${5:section_name}" ${6:section_index}
+Section "${6:section_name}" ${7:${6/(.*)/\L\1/}_index}
 
-	${7:# your code here}
+	${8:# your code here}
 
 SectionEnd
 
 ; Functions --------------------------------
-${8}
+${9}
 ]]></content>
 	<tabTrigger>scaffold:Basic Script</tabTrigger>
 	<scope>source.nsis</scope>

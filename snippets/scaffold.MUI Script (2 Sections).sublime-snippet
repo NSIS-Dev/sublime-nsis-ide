@@ -20,13 +20,13 @@ InstallDir "\$PROGRAMFILES\\${4:${1}}"
 !insertmacro MUI_LANGUAGE "${5:English}"
 
 ; Sections ---------------------------------
-Section "${6:section_name}" ${7:section_index1}
+Section "${6:section1}" ${7:${6/(.*)/\U\1/}_INDEX}
 
 	${8:# your code here}
 
 SectionEnd
 
-Section "${9:section_name}" ${10:section_index2}
+Section "${9:section2}" ${10:${9/(.*)/\U\1/}_INDEX}
 
 	${11:# your code here}
 

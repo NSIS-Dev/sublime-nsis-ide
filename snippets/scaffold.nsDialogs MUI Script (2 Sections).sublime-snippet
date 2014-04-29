@@ -44,13 +44,13 @@ Function "${6}"
 FunctionEnd
 
 ; Sections ---------------------------------
-Section "${11:section_name}" ${12:section_index1}
+Section "${11:section1}" ${12:${11/(.*)/\U\1/}_INDEX}
 
 	${13:# your code here}
 
 SectionEnd
 
-Section "${14:section_name}" ${15:section_index2}
+Section "${14:section2}" ${15:${14/(.*)/\U\1/}_INDEX}
 
 	${16:# your code here}
 
