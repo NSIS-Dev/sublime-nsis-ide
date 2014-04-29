@@ -20,25 +20,25 @@ ${8:\$(^Name) Setup}
 # ^UninstallCaption
 ${9:\$(^Name) Uninstall}
 # ^LicenseSubCaption
-${10: License Agreement}
+: ${10:License Agreement}
 # ^ComponentsSubCaption
-${11: Installation Options}
+: ${11:Installation Options}
 # ^DirSubCaption
-${12: Installation Folder}
+: ${12:Installation Folder}
 # ^InstallingSubCaption
-${13: Installing}
+: ${13:Installing}
 # ^CompletedSubCaption
-${14: Completed}
+: ${14:Completed}
 # ^UnComponentsSubCaption
-${15: Uninstallation Options}
+: ${15:Uninstallation Options}
 # ^UnDirSubCaption
-${16: Uninstallation Folder}
+: ${16:Uninstallation Folder}
 # ^ConfirmSubCaption
-${17: Confirmation}
+: ${17:Confirmation}
 # ^UninstallingSubCaption
-${18: Uninstalling}
+: ${18:Uninstalling}
 # ^UnCompletedSubCaption
-${19: Completed}
+: ${19:Completed}
 # ^BackBtn
 ${20:< &Back}
 # ^NextBtn
@@ -88,97 +88,97 @@ ${42:Custom}
 # ^ComponentsText
 ${43:Check the components you want to install and uncheck the components you don't want to install. \$_CLICK}
 # ^ComponentsSubText1
-${44:Select the type of install:}
+${44:Select the type of install}:
 # ^ComponentsSubText2_NoInstTypes
-${45:Select components to install:}
+${45:Select components to install}:
 # ^ComponentsSubText2
-${46:Or, select the optional components you wish to install:}
+${46:Or, select the optional components you wish to install}:
 # ^UnComponentsText
 ${47:Check the components you want to uninstall and uncheck the components you don't want to uninstall. \$_CLICK}
 # ^UnComponentsSubText1
-${48:Select the type of uninstall:}
+${48:Select the type of uninstall}:
 # ^UnComponentsSubText2_NoInstTypes
-${49:Select components to uninstall:}
+${49:Select components to uninstall}:
 # ^UnComponentsSubText2
-${50:Or, select the optional components you wish to uninstall:}
+${50:Or, select the optional components you wish to uninstall}:
 # ^DirText
 ${51:Setup will install \$(^NameDA) in the following folder. To install in a different folder, click Browse and select another folder. \$_CLICK}
 # ^DirSubText
 ${52:Destination Folder}
 # ^DirBrowseText
-${53:Select the folder to install \$(^NameDA) in:}
+${53:Select the folder to install \$(^NameDA) in}:
 # ^UnDirText
 ${54:Setup will uninstall \$(^NameDA) from the following folder. To uninstall from a different folder, click Browse and select another folder. \$_CLICK}
 # ^UnDirSubText
-"${55:}"
+"${55}:"
 # ^UnDirBrowseText
-${56:Select the folder to uninstall \$(^NameDA) from:}
+${56:Select the folder to uninstall \$(^NameDA) from}:
 # ^SpaceAvailable
-"${57:Space available: }"
+"${57:Space available}: "
 # ^SpaceRequired
-"${58:Space required: }"
+"${58:Space required}: "
 # ^UninstallingText
 ${59:\$(^NameDA) will be uninstalled from the following folder. \$_CLICK}
 # ^UninstallingSubText
-${60:Uninstalling from:}
+${60:Uninstalling from}:
 # ^FileError
-${61:Error opening file for writing: \r\n\r\n\$0\r\n\r\nClick Abort to stop the installation,\r\nRetry to try again, or\r\nIgnore to skip this file.}
+${61:Error opening file for writing: \r\n\r\n\"$0"\r\n\r\nClick Abort to stop the installation,\r\nRetry to try again, or\r\nIgnore to skip this file.}
 # ^FileError_NoIgnore
-${62:Error opening file for writing: \r\n\r\n\$0\r\n\r\nClick Retry to try again, or\r\nCancel to stop the installation.}
+${62:Error opening file for writing: \r\n\r\n\"$0"\r\n\r\nClick Retry to try again, or\r\nCancel to stop the installation.}
 # ^CantWrite
-"${63:Can't write: }"
+"${63:Can't write}: "
 # ^CopyFailed
 ${64:Copy failed}
 # ^CopyTo
 "${65:Copy to }"
 # ^Registering
-"${66:Registering: }"
+"${66:Registering}: "
 # ^Unregistering
-"${67:Unregistering: }"
+"${67:Unregistering}: "
 # ^SymbolNotFound
-"${68:Could not find symbol: }"
+"${68:Could not find symbol}: "
 # ^CouldNotLoad
-"${69:Could not load: }"
+"${69:Could not load}: "
 # ^CreateFolder
-"${70:Create folder: }"
+"${70:Create folder}: "
 # ^CreateShortcut
-"${71:Create shortcut: }"
+"${71:Create shortcut}: "
 # ^CreatedUninstaller
-"${72:Created uninstaller: }"
+"${72:Created uninstaller}: "
 # ^Delete
-"${73:Delete file: }"
+"${73:Delete file}: "
 # ^DeleteOnReboot
-"${74:Delete on reboot: }"
+"${74:Delete on reboot}: "
 # ^ErrorCreatingShortcut
-"${75:Error creating shortcut: }"
+"${75:Error creating shortcut}: "
 # ^ErrorCreating
-"${76:Error creating: }"
+"${76:Error creating}: "
 # ^ErrorDecompressing
 ${77:Error decompressing data! Corrupted installer?}
 # ^ErrorRegistering
 ${78:Error registering DLL}
 # ^ExecShell
-"${79:ExecShell: }"
+"${79:ExecShell}: "
 # ^Exec
-"${80:Execute: }"
+"${80:Execute}: "
 # ^Extract
-"${81:Extract: }"
+"${81:Extract}: "
 # ^ErrorWriting
 "${82:Extract: error writing to file }"
 # ^InvalidOpcode
 ${83:Installer corrupted: invalid opcode}
 # ^NoOLE
-"${84:No OLE for: }"
+"${84:No OLE for}: "
 # ^OutputFolder
-"${85:Output folder: }"
+"${85:Output folder}: "
 # ^RemoveFolder
-"${86:Remove folder: }"
+"${86:Remove folder}: "
 # ^RenameOnReboot
-"${87:Rename on reboot: }"
+"${87:Rename on reboot}: "
 # ^Rename
-"${88:Rename: }"
+"${88:Rename}: "
 # ^Skipped
-"${89:Skipped: }"
+"${89:Skipped}: "
 # ^CopyDetails
 ${90:Copy Details To Clipboard}
 # ^LogInstall
@@ -192,6 +192,6 @@ ${94:M}
 # ^Giga
 ${95:G}
 ]]></content>
-	<tabTrigger>scaffold:NSIS Language File</tabTrigger>
+	<tabTrigger>scaffold__NSIS Language File</tabTrigger>
 	<scope>source.nlf</scope>
 </snippet>
