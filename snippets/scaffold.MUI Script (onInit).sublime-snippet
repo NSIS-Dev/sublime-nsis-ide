@@ -27,7 +27,7 @@ Section "${6:section}" ${7:${6/(.*)/\U\1/}_INDEX}
 SectionEnd
 
 ; Descriptions -----------------------------
-LangString DESC_${7} \${LANG_${5}} "${9:section_description}"
+LangString DESC_${7} \${LANG_${5/(.*)/\U\1/}} "${9:section_description}"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
 	!insertmacro MUI_DESCRIPTION_TEXT \${${7}} \$(DESC_${7})

@@ -57,8 +57,8 @@ Section "${14:section2}" ${15:${14/(.*)/\U\1/}_INDEX}
 SectionEnd
 
 ; Descriptions -----------------------------
-LangString DESC_${12} \${LANG_${8}} "${17:section_description}"
-LangString DESC_${15} \${LANG_${8}} "${18:section_description}"
+LangString DESC_${12} \${LANG_${8/(.*)/\U\1/}} "${17:section_description}"
+LangString DESC_${15} \${LANG_${8/(.*)/\U\1/}} "${18:section_description}"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
 	!insertmacro MUI_DESCRIPTION_TEXT \${${12}} \$(DESC_${12})
