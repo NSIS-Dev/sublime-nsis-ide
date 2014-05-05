@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/NSIS-Dev/Sublime-Text-Packages.png)](http://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
+
 # Sublime Text Packages for NSIS
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
@@ -16,6 +18,6 @@ This package has been tested and approved for Sublime Text versions 2 and 3 (bet
 ## Installation
 
 ### Windows Installer
-1. Download and extract [`ZIP file`](https://github.com/NSIS-Handbook/Tools/archive/master.zip)
+1. Download and extract [`ZIP file`](https://github.com/NSIS-Dev/Sublime-Text-Packages/archive/master.zip)
 2. Compile `Sublime Text Packages\scripts\installer.nsi`
 3. Execute installer and follow instructions
