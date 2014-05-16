@@ -1335,6 +1335,11 @@
                 { "w7tbp.dll": "http://nsis.sourceforge.net/TaskbarProgress_plug-in" },
                 { "trigger": "w7tbp::Start", "contents": "w7tbp::Start" },
 
+                { "WimImage.dll": "http://forums.winamp.com/showthread.php?t=377498" },
+                { "trigger": "WimImage::AddDir", "contents": "WimImage::AddDir ${1:options}" },
+                { "trigger": "WimImage::AppendDir", "contents": "WimImage::AppendDir ${1:options}" },
+                { "trigger": "WimImage::Extract", "contents": "WimImage::Extract ${1:options}" },
+
                 { "WinShell.dll": "http://nsis.sourceforge.net/WinShell_plug-in" },
                 { "trigger": "WinShell::SetLnkAUMI", "contents": "WinShell::SetLnkAUMI \"${1:shortcut}.lnk\" \"${2:id}\"" },
                 { "trigger": "WinShell::UninstAppUserModelId", "contents": "WinShell::UninstAppUserModelId \"${1:id}\"" },
