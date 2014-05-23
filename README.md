@@ -18,8 +18,14 @@ This package has been tested and approved for Sublime Text versions 2 and 3 (bet
 
 ### Windows Installer
 
-1. Clone repository `git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git`
-2. Initialize configuration file `git submodule init`
-3. Fetch submodules `git submodule update`
-4. Compile `Sublime Text Packages\installer.nsi`
-5. Execute installer and follow instructions
+Before you continue, make sure you have [Git installed](http://git-scm.com/download/) and are familiar with its [basics](http://git-scm.com/documentation)
+
+    # cloning repository
+    git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git
+    cd Sublime-Text-Packages/
+
+    # cloning submodules
+    git submodule init
+    git submodule update
+
+Compile the `installer.nsi`, execute installer and follow instructions.
