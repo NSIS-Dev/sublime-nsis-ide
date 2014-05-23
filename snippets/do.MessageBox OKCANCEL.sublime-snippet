@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-MessageBox MB_OKCANCEL${1} "${2:messagebox_text}" ${3}
-]]></content>
-	<tabTrigger>do:MB_OKCANCEL</tabTrigger>
-	<scope>source.nsis</scope>
-</snippet>

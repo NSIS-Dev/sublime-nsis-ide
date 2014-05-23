@@ -10,8 +10,6 @@ OutFile "sublimetext-packages.exe"
 RequestExecutionLevel user
 InstallDir "$APPDATA\Sublime Text 2\Packages"
 
-Var copyBat
-
 ; Pages ------------------------------------
 !insertmacro MUI_PAGE_COMPONENTS 
 !insertmacro MUI_PAGE_DIRECTORY
@@ -21,19 +19,30 @@ Var copyBat
 !insertmacro MUI_LANGUAGE "English"
 
 ; Sections ---------------------------------
-SectionGroup /e "Auto Completion" sublimeSyntax
+SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 	Section "NSIS Scripts" sublimeNsisSyntax
+		${If} ${FileExists} "$INSTDIR\NSIS\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\NSIS?" IDNO End
+		${EndIf}
+
 		SetOutPath "$INSTDIR\NSIS"
 		
-		File "..\NSIS.tmLanguage"
-		File "..\Miscellaneous.tmPreferences"
+		File /r "NSIS\*.*"
+
+		End:
 	SectionEnd
 
 	Section "NSIS Language Files" sublimeNlfSyntax
-		SetOutPath "$INSTDIR\NSIS"
+		${If} ${FileExists} "$INSTDIR\NSIS-Language-File-Sublime-Text\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\NSIS-Language-File-Sublime-Text?" IDNO End
+		${EndIf}
+
+		SetOutPath "$INSTDIR\NSIS-Language-File-Sublime-Text"
 		
-		File "..\NLF.tmLanguage"
+		File /r "NSIS-Language-File-Sublime-Text\*.*"
+
+		End:
 	SectionEnd
 
 SectionGroupEnd
@@ -41,72 +50,54 @@ SectionGroupEnd
 SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 	Section "NSIS Commands" sublimeCmdCompletion
-		SetOutPath "$INSTDIR\NSIS"
+		${If} ${FileExists} "$INSTDIR\NSIS-Sublime-Text\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\NSIS-Sublime-Text?" IDNO End
+		${EndIf}
+
+		SetOutPath "$INSTDIR\NSIS-Sublime-Text"
 		
-		File "..\NSIS.sublime-completions"
-		File "..\NSIS.sublime-settings"
+		File /r "NSIS-Sublime-Text\*.*"
+
+		End:
 	SectionEnd
 
 	Section "Drunken NSIS" sublimeDrunkenNsis
-		SetOutPath "$INSTDIR\NSIS"
+		${If} ${FileExists} "$INSTDIR\Drunken-NSIS\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\Drunken-NSIS?" IDNO End
+		${EndIf}
+
+		SetOutPath "$INSTDIR\Drunken-NSIS"
 		
-		File "..\Drunken NSIS.sublime-completions"
+		File /r "Drunken-NSIS\*.*"
+
+		End:
 	SectionEnd
 
 	Section "Plug-in Commands" sublimePlugCompletion
-		SetOutPath "$INSTDIR\NSIS"
-		
-		File "..\NSIS Addons.sublime-completions"
-		File "..\NSIS.sublime-settings"
-	SectionEnd
+		${If} ${FileExists} "$INSTDIR\NSIS-Sublime-Text-Addons\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\NSIS-Sublime-Text-Addons?" IDNO End
+		${EndIf}
 
-	Section "InstallOptions" sublimeIOCompletion
-		SetOutPath "$INSTDIR\NSIS"
+		SetOutPath "$INSTDIR\NSIS-Sublime-Text-Addons"
 		
-		File "..\InstallOptions.sublime-completions"
-	SectionEnd
+		File /r "NSIS-Sublime-Text-Addons\*.*"
 
-	Section "Snippets" sublimeSnippets
-		SetOutPath "$INSTDIR\NSIS\snippets"
-		
-		File "..\snippets\*.sublime-snippet"
+		End:
 	SectionEnd
 
 SectionGroupEnd
 
-Section "Build System" sublimeBuild
-	SetOutPath "$INSTDIR\NSIS"
-	
-	ReadRegStr $0 HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NSIS" "InstallLocation"
-	${If} $0 != ""
-	${AndIf} ${FileExists} "$0\makensis.exe"
-		File "..\NSIS.sublime-build"
-		StrCpy $copyBat 1
-	${EndIf}
-
-	ReadRegStr $0 HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NSIS Unicode" "InstallLocation"
-	${If} $0 != ""
-	${AndIf} ${FileExists} "$0\makensis.exe"
-		File "..\NSIS (Unicode).sublime-build"
-		StrCpy $copyBat 1
-	${EndIf}
-
-	ReadRegStr $0 HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NSIS ANSI" "InstallLocation"
-	${If} $0 != ""
-	${AndIf} ${FileExists} "$0\makensis.exe"
-		File "..\NSIS (ANSI).sublime-build"
-		StrCpy $copyBat 1
-	${EndIf}
-
-	StrCmp $copyBat 1 0 +2
-	File "..\nsis_build.bat"
-SectionEnd
 
 Section "Menu" sublimeMenu
-	SetOutPath "$INSTDIR\NSIS"
+	${If} ${FileExists} "$INSTDIR\NSIS-Sublime-Text-Menu\*.*"
+			MessageBox MB_YESNO|MB_DEFBUTTON2 "Overwrite existing files in $INSTDIR\NSIS-Sublime-Text-Menu?" IDNO End
+		${EndIf}
+
+	SetOutPath "$INSTDIR\NSIS-Sublime-Text-Menu"
 	
-	File "..\NSIS.py"
-	File "..\Context.sublime-menu"
+	File /r "NSIS-Sublime-Text-Menu\*.*"
+
+	End:
 SectionEnd
 
 ; Descriptions -----------------------------
@@ -117,9 +108,6 @@ LangString DESC_sublimeAutoCompletion ${LANG_English} "Add code completion for N
 LangString DESC_sublimeCmdCompletion ${LANG_English} "Code completion for all NSIS commands, Useful Headers, and bundled plug-ins"
 LangString DESC_sublimeDrunkenNsis ${LANG_ENGLISH} "Drunken NSIS completions, command aliases to eliminate naming inconsistencies"
 LangString DESC_sublimePlugCompletion ${LANG_English} "Code completion for third party plug-ins and macros"
-LangString DESC_sublimeIOCompletion ${LANG_English} "Code completion for InstallOptions ini-files"
-LangString DESC_sublimeSnippets ${LANG_English} "Useful snippets providing scaffolding and code blocks"
-LangString DESC_sublimeBuild ${LANG_English} "Add Makensis to Sublime Text's build system (supports official NSIS, NSIS Unicode and NSIS ANSI)"
 LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up NSIS commands in the online scripting reference"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
@@ -130,9 +118,6 @@ LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up N
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeCmdCompletion} $(DESC_sublimeCmdCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeDrunkenNsis} $(DESC_sublimeDrunkenNsis)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimePlugCompletion} $(DESC_sublimePlugCompletion)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeIOCompletion} $(DESC_sublimeIOCompletion)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeSnippets} $(DESC_sublimeSnippets)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeBuild} $(DESC_sublimeBuild)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeMenu} $(DESC_sublimeMenu)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
