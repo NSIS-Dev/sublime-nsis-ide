@@ -10,8 +10,6 @@ OutFile "sublimetext-packages.exe"
 RequestExecutionLevel user
 InstallDir "$APPDATA\Sublime Text 2\Packages"
 
-Var copyBat
-
 ; Pages ------------------------------------
 !insertmacro MUI_PAGE_COMPONENTS 
 !insertmacro MUI_PAGE_DIRECTORY
@@ -30,7 +28,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS"
 		
-		File /r "$INSTDIR\NSIS\*.*"
+		File /r "NSIS\*.*"
 
 		End:
 	SectionEnd
@@ -42,7 +40,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS-Language-File-Sublime-Text"
 		
-		File /r "$INSTDIR\NSIS-Language-File-Sublime-Text\*.*"
+		File /r "NSIS-Language-File-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -58,7 +56,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text"
 		
-		File /r "$INSTDIR\NSIS-Sublime-Text\*.*"
+		File /r "NSIS-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -70,7 +68,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\Drunken-NSIS"
 		
-		File /r "$INSTDIR\Drunken-NSIS\*.*"
+		File /r "Drunken-NSIS\*.*"
 
 		End:
 	SectionEnd
@@ -82,7 +80,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text-Addons"
 		
-		File /r "$INSTDIR\NSIS-Sublime-Text-Addons\*.*"
+		File /r "NSIS-Sublime-Text-Addons\*.*"
 
 		End:
 	SectionEnd
@@ -97,7 +95,7 @@ Section "Menu" sublimeMenu
 
 	SetOutPath "$INSTDIR\NSIS-Sublime-Text-Menu"
 	
-	File /r "$INSTDIR\NSIS-Sublime-Text-Menu\*.*"
+	File /r "NSIS-Sublime-Text-Menu\*.*"
 
 	End:
 SectionEnd
@@ -110,9 +108,6 @@ LangString DESC_sublimeAutoCompletion ${LANG_English} "Add code completion for N
 LangString DESC_sublimeCmdCompletion ${LANG_English} "Code completion for all NSIS commands, Useful Headers, and bundled plug-ins"
 LangString DESC_sublimeDrunkenNsis ${LANG_ENGLISH} "Drunken NSIS completions, command aliases to eliminate naming inconsistencies"
 LangString DESC_sublimePlugCompletion ${LANG_English} "Code completion for third party plug-ins and macros"
-LangString DESC_sublimeIOCompletion ${LANG_English} "Code completion for InstallOptions ini-files"
-LangString DESC_sublimeSnippets ${LANG_English} "Useful snippets providing scaffolding and code blocks"
-LangString DESC_sublimeBuild ${LANG_English} "Add Makensis to Sublime Text's build system (supports official NSIS, NSIS Unicode and NSIS ANSI)"
 LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up NSIS commands in the online scripting reference"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
@@ -123,9 +118,6 @@ LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up N
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeCmdCompletion} $(DESC_sublimeCmdCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeDrunkenNsis} $(DESC_sublimeDrunkenNsis)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimePlugCompletion} $(DESC_sublimePlugCompletion)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeIOCompletion} $(DESC_sublimeIOCompletion)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeSnippets} $(DESC_sublimeSnippets)
-	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeBuild} $(DESC_sublimeBuild)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeMenu} $(DESC_sublimeMenu)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
