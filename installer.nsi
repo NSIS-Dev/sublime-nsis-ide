@@ -103,13 +103,16 @@ Section "Menu" sublimeMenu
 SectionEnd
 
 ; Descriptions -----------------------------
-LangString DESC_sublimeSyntax ${LANG_English} "Add syntax highlighting for Sublime Text (or Textmate)"
-LangString DESC_sublimeNsisSyntax ${LANG_English} "Add syntax highlighting and a build system for NSIS scripts"
+LangString DESC_sublimeSyntax ${LANG_English} "Add syntax highlighting Sublime Text (or Textmate)"
+LangString DESC_sublimeNsisSyntax ${LANG_English} "Add syntax highlighting for NSIS scripts"
 LangString DESC_sublimeNlfSyntax ${LANG_English} "Add syntax highlighting for NSIS language files"
 LangString DESC_sublimeAutoCompletion ${LANG_English} "Add code completion for NSIS to Sublime Text"
 LangString DESC_sublimeCmdCompletion ${LANG_English} "Code completion for all NSIS commands, Useful Headers, and bundled plug-ins"
 LangString DESC_sublimeDrunkenNsis ${LANG_ENGLISH} "Drunken NSIS completions, command aliases to eliminate naming inconsistencies"
 LangString DESC_sublimePlugCompletion ${LANG_English} "Code completion for third party plug-ins and macros"
+LangString DESC_sublimeIOCompletion ${LANG_English} "Code completion for InstallOptions ini-files"
+LangString DESC_sublimeSnippets ${LANG_English} "Useful snippets providing scaffolding and code blocks"
+LangString DESC_sublimeBuild ${LANG_English} "Add Makensis to Sublime Text's build system (supports official NSIS, NSIS Unicode and NSIS ANSI)"
 LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up NSIS commands in the online scripting reference"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
@@ -120,6 +123,9 @@ LangString DESC_sublimeMenu ${LANG_English} "Add context menu entry to look-up N
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeCmdCompletion} $(DESC_sublimeCmdCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeDrunkenNsis} $(DESC_sublimeDrunkenNsis)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimePlugCompletion} $(DESC_sublimePlugCompletion)
+	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeIOCompletion} $(DESC_sublimeIOCompletion)
+	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeSnippets} $(DESC_sublimeSnippets)
+	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeBuild} $(DESC_sublimeBuild)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeMenu} $(DESC_sublimeMenu)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
