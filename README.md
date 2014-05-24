@@ -32,7 +32,7 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 Open your command-line interface (e.g. `cmd.exe`) and perform the following commands
 
 ```
-git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages  ``
+git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages
 cd Sublime-Text-Packages
 git submodule init
 git submodule update
