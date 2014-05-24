@@ -28,7 +28,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS"
 		
-		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS\*.*" 
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "NSIS\*.*" 
 
 		End:
 	SectionEnd
@@ -40,7 +40,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS-Language-File-Sublime-Text"
 		
-		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Language-File-Sublime-Text\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "NSIS-Language-File-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -56,7 +56,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text"
 		
-		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "NSIS-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -68,7 +68,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\Drunken-NSIS"
 		
-		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "Drunken-NSIS\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "Drunken-NSIS\*.*"
 
 		End:
 	SectionEnd
@@ -80,7 +80,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text-Addons"
 		
-		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text-Addons\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "NSIS-Sublime-Text-Addons\*.*"
 
 		End:
 	SectionEnd
@@ -95,7 +95,7 @@ Section "Menu" sublimeMenu
 
 	SetOutPath "$INSTDIR\NSIS-Sublime-Text-Menu"
 	
-	File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text-Menu\*.*"
+	File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" /x "screenshot.*" "NSIS-Sublime-Text-Menu\*.*"
 
 	End:
 SectionEnd
