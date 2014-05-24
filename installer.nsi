@@ -28,7 +28,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS"
 		
-		File /r "NSIS\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS\*.*" 
 
 		End:
 	SectionEnd
@@ -40,7 +40,7 @@ SectionGroup /e "Syntax Highlighting" sublimeSyntax
 
 		SetOutPath "$INSTDIR\NSIS-Language-File-Sublime-Text"
 		
-		File /r "NSIS-Language-File-Sublime-Text\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Language-File-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -56,7 +56,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text"
 		
-		File /r "NSIS-Sublime-Text\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text\*.*"
 
 		End:
 	SectionEnd
@@ -68,7 +68,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\Drunken-NSIS"
 		
-		File /r "Drunken-NSIS\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "Drunken-NSIS\*.*"
 
 		End:
 	SectionEnd
@@ -80,7 +80,7 @@ SectionGroup /e "Auto Completion" sublimeAutoCompletion
 
 		SetOutPath "$INSTDIR\NSIS-Sublime-Text-Addons"
 		
-		File /r "NSIS-Sublime-Text-Addons\*.*"
+		File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text-Addons\*.*"
 
 		End:
 	SectionEnd
@@ -95,7 +95,7 @@ Section "Menu" sublimeMenu
 
 	SetOutPath "$INSTDIR\NSIS-Sublime-Text-Menu"
 	
-	File /r "NSIS-Sublime-Text-Menu\*.*"
+	File /r /x ".git" /x ".gitignore" /x ".messages" /x ".no-sublime-package" /x ".travis.yml" /x "Gruntfile.js" /x "messages.json" /x "package.json" "NSIS-Sublime-Text-Menu\*.*"
 
 	End:
 SectionEnd

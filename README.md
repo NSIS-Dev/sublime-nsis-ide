@@ -2,7 +2,7 @@
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
 
-This package has been tested and approved for Sublime Text versions 2 and 3 (beta).
+This package has been tested and approved for all Sublime Text versions.
 
 ### Includes
 
@@ -18,8 +18,24 @@ This package has been tested and approved for Sublime Text versions 2 and 3 (bet
 
 ### Windows Installer
 
-1. Clone repository `git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git`
-2. Initialize configuration file `git submodule init`
-3. Fetch submodules `git submodule update`
-4. Compile `Sublime Text Packages\installer.nsi`
-5. Execute installer and follow instructions
+Before you continue, make sure you have [Git installed](http://git-scm.com/download/) and are familiar with its [basics](http://git-scm.com/documentation). We are going to assume that you have [NSIS 2.46](http://nsis.sourceforge.net/Download) (or higher) installed.
+
+#### Batch file
+
+1. Clone the repository `git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages`
+2. Change directory to clone `cd Sublime-Text-Packages`
+3. Run `make` to configure submodules and compile installer
+
+
+#### Manual Installation
+
+Open your command-line interface (e.g. `cmd.exe`) and perform the following commands
+
+```
+git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages  ``
+cd Sublime-Text-Packages
+git submodule init
+git submodule update
+```
+
+Compile `installer.nsi`, run the executable and follow instructions.
