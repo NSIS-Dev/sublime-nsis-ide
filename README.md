@@ -29,11 +29,13 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 
 #### Manual Installation
 
-1. Open your command-line interface (e.g. `cmd.exe`) and perform the following commands
+Open your command-line interface (e.g. `cmd.exe`) and perform the following commands
 
-    git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages
-    cd Sublime-Text-Packages
-    git submodule init
-    git submodule update
+```
+git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages  ``
+cd Sublime-Text-Packages
+git submodule init
+git submodule update
+```
 
-2. Compile `installer.nsi`, run the executable and follow instructions.
+Compile `installer.nsi`, run the executable and follow instructions.
