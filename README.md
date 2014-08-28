@@ -1,4 +1,4 @@
-# Sublime Text Packages for NSIS [![Build Status](https://secure.travis-ci.org/NSIS-Dev/Sublime-Text-Packages.png)](http://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
+# Sublime Text Packages for NSIS [![Build Status](https://secure.travis-ci.org/NSIS-Dev/Sublime-Text-Packages.svg)](http://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
 
@@ -29,7 +29,7 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 
 #### Manual Installation
 
-Open your command-line interface (e.g. `cmd.exe`) and perform the following commands
+Change directory to your [Packages](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/basic_concepts.html#the-packages-directory) folder, e.g. `%APPDATA%\Sublime Text 3\Packages`. You can do so from the command palette using the *Browse Packages* command. Then open the command-line interface (e.g. `cmd.exe`) and perform the following:
 
 ```
 git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages
