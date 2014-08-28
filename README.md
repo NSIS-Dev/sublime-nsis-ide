@@ -16,6 +16,8 @@ This package has been tested and approved for all Sublime Text versions.
 
 ## Installation
 
+Change to the [Packages](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/basic_concepts.html#the-packages-directory) folder, e.g. `%APPDATA%\Sublime Text 3\Packages`. You can also get there by typing *Browse Packages* in Sublime Text's [command palette](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/command_palette.html). 
+
 ### Windows Installer
 
 Before you continue, make sure you have [Git installed](http://git-scm.com/download/) and are familiar with its [basics](http://git-scm.com/documentation). We are going to assume that you have [NSIS 2.46](http://nsis.sourceforge.net/Download) (or higher) installed.
@@ -23,13 +25,13 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 #### Batch file
 
 1. Clone the repository `git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages`
-2. Change directory to clone `cd Sublime-Text-Packages`
+2. Change directory to `cd Sublime-Text-Packages`
 3. Run `make` to configure submodules and compile installer
 
 
 #### Manual Installation
 
-Change directory to your [Packages](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/basic_concepts.html#the-packages-directory) folder, e.g. `%APPDATA%\Sublime Text 3\Packages`. You can do so from the command palette using the *Browse Packages* command. Then open the command-line interface (e.g. `cmd.exe`) and perform the following:
+Open the command-line interface of your choice (e.g. `cmd.exe`) and perform the following commands:
 
 ```
 git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages
