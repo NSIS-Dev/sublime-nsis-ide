@@ -18,8 +18,6 @@ This package has been tested and approved for all Sublime Text versions.
 
 Before you continue, make sure you have [Git installed](http://git-scm.com/download/) and are familiar with its [basics](http://git-scm.com/documentation). We are going to assume that you have [NSIS 2.46](http://nsis.sourceforge.net/Download) (or higher) installed.
 
-Change to the [Packages](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/basic_concepts.html#the-packages-directory) folder, e.g. `%APPDATA%\Sublime Text 3\Packages`. You can also get there by typing *Browse Packages* in Sublime Text's [command palette](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/command_palette.html). 
-
 ### Windows Installer
 
 #### Batch file
