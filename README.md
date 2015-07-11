@@ -1,4 +1,6 @@
-# Sublime Text Packages for NSIS [![Build Status](https://secure.travis-ci.org/NSIS-Dev/Sublime-Text-Packages.svg)](http://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
+# Sublime Text Packages for NSIS
+
+[![Travis](https://img.shields.io/travis/NSIS-Dev/Sublime-Text-Packages.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
 
