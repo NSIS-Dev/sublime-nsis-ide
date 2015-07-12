@@ -1,9 +1,6 @@
 [submodule "NSIS"]
 	path = NSIS
 	url = https://github.com/SublimeText/NSIS.git
-[submodule "NSIS-Sublime-Text"]
-	path = NSIS-Sublime-Text
-	url = https://github.com/idleberg/NSIS-Sublime-Text.git
 [submodule "NSIS-Sublime-Text-Addons"]
 	path = NSIS-Sublime-Text-Addons
 	url = https://github.com/idleberg/NSIS-Sublime-Text-Addons.git
