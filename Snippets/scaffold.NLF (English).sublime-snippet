@@ -1,0 +1,197 @@
+<snippet>
+	<content><![CDATA[
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+${1:1033}
+# Font and size - dash (-) means default
+${2:-}
+${3:-}
+# Codepage - dash (-) means ANSI code page
+${4:-}
+# RTL - anything else than RTL means LTR
+${5:-}
+# Translation by ${6:<your name>}
+# ^Branding
+${7:Nullsoft Install System %s}
+# ^SetupCaption
+${8:\$(^Name) Setup}
+# ^UninstallCaption
+${9:\$(^Name) Uninstall}
+# ^LicenseSubCaption
+: ${10:License Agreement}
+# ^ComponentsSubCaption
+: ${11:Installation Options}
+# ^DirSubCaption
+: ${12:Installation Folder}
+# ^InstallingSubCaption
+: ${13:Installing}
+# ^CompletedSubCaption
+: ${14:Completed}
+# ^UnComponentsSubCaption
+: ${15:Uninstallation Options}
+# ^UnDirSubCaption
+: ${16:Uninstallation Folder}
+# ^ConfirmSubCaption
+: ${17:Confirmation}
+# ^UninstallingSubCaption
+: ${18:Uninstalling}
+# ^UnCompletedSubCaption
+: ${19:Completed}
+# ^BackBtn
+${20:< &Back}
+# ^NextBtn
+${21:&Next >}
+# ^AgreeBtn
+${22:I &Agree}
+# ^AcceptBtn
+${23:I &accept the terms of the License Agreement}
+# ^DontAcceptBtn
+${24:I &do not accept the terms of the License Agreement}
+# ^InstallBtn
+${25:&Install}
+# ^UninstallBtn
+${26:&Uninstall}
+# ^CancelBtn
+${27:Cancel}
+# ^CloseBtn
+${28:&Close}
+# ^BrowseBtn
+${29:B&rowse...}
+# ^ShowDetailsBtn
+${30:Show &details}
+# ^ClickNext
+${31:Click Next to continue.}
+# ^ClickInstall
+${32:Click Install to start the installation.}
+# ^ClickUninstall
+${33:Click Uninstall to start the uninstallation.}
+# ^Name
+${34:Name}
+# ^Completed
+${35:Completed}
+# ^LicenseText
+${36:Please review the license agreement before installing \$(^NameDA). If you accept all terms of the agreement, click I Agree.}
+# ^LicenseTextCB
+${37:Please review the license agreement before installing \$(^NameDA). If you accept all terms of the agreement, click the check box below. \$_CLICK}
+# ^LicenseTextRB
+${38:Please review the license agreement before installing \$(^NameDA). If you accept all terms of the agreement, select the first option below. \$_CLICK}
+# ^UnLicenseText
+${39:Please review the license agreement before uninstalling \$(^NameDA). If you accept all terms of the agreement, click I Agree.}
+# ^UnLicenseTextCB
+${40:Please review the license agreement before uninstalling \$(^NameDA). If you accept all terms of the agreement, click the check box below. \$_CLICK}
+# ^UnLicenseTextRB
+${41:Please review the license agreement before uninstalling \$(^NameDA). If you accept all terms of the agreement, select the first option below. \$_CLICK}
+# ^Custom
+${42:Custom}
+# ^ComponentsText
+${43:Check the components you want to install and uncheck the components you don't want to install. \$_CLICK}
+# ^ComponentsSubText1
+${44:Select the type of install}:
+# ^ComponentsSubText2_NoInstTypes
+${45:Select components to install}:
+# ^ComponentsSubText2
+${46:Or, select the optional components you wish to install}:
+# ^UnComponentsText
+${47:Check the components you want to uninstall and uncheck the components you don't want to uninstall. \$_CLICK}
+# ^UnComponentsSubText1
+${48:Select the type of uninstall}:
+# ^UnComponentsSubText2_NoInstTypes
+${49:Select components to uninstall}:
+# ^UnComponentsSubText2
+${50:Or, select the optional components you wish to uninstall}:
+# ^DirText
+${51:Setup will install \$(^NameDA) in the following folder. To install in a different folder, click Browse and select another folder. \$_CLICK}
+# ^DirSubText
+${52:Destination Folder}
+# ^DirBrowseText
+${53:Select the folder to install \$(^NameDA) in}:
+# ^UnDirText
+${54:Setup will uninstall \$(^NameDA) from the following folder. To uninstall from a different folder, click Browse and select another folder. \$_CLICK}
+# ^UnDirSubText
+"${55}:"
+# ^UnDirBrowseText
+${56:Select the folder to uninstall \$(^NameDA) from}:
+# ^SpaceAvailable
+"${57:Space available}: "
+# ^SpaceRequired
+"${58:Space required}: "
+# ^UninstallingText
+${59:\$(^NameDA) will be uninstalled from the following folder. \$_CLICK}
+# ^UninstallingSubText
+${60:Uninstalling from}:
+# ^FileError
+${61:Error opening file for writing: \r\n\r\n\"$0"\r\n\r\nClick Abort to stop the installation,\r\nRetry to try again, or\r\nIgnore to skip this file.}
+# ^FileError_NoIgnore
+${62:Error opening file for writing: \r\n\r\n\"$0"\r\n\r\nClick Retry to try again, or\r\nCancel to stop the installation.}
+# ^CantWrite
+"${63:Can't write}: "
+# ^CopyFailed
+${64:Copy failed}
+# ^CopyTo
+"${65:Copy to }"
+# ^Registering
+"${66:Registering}: "
+# ^Unregistering
+"${67:Unregistering}: "
+# ^SymbolNotFound
+"${68:Could not find symbol}: "
+# ^CouldNotLoad
+"${69:Could not load}: "
+# ^CreateFolder
+"${70:Create folder}: "
+# ^CreateShortcut
+"${71:Create shortcut}: "
+# ^CreatedUninstaller
+"${72:Created uninstaller}: "
+# ^Delete
+"${73:Delete file}: "
+# ^DeleteOnReboot
+"${74:Delete on reboot}: "
+# ^ErrorCreatingShortcut
+"${75:Error creating shortcut}: "
+# ^ErrorCreating
+"${76:Error creating}: "
+# ^ErrorDecompressing
+${77:Error decompressing data! Corrupted installer?}
+# ^ErrorRegistering
+${78:Error registering DLL}
+# ^ExecShell
+"${79:ExecShell}: "
+# ^Exec
+"${80:Execute}: "
+# ^Extract
+"${81:Extract}: "
+# ^ErrorWriting
+"${82:Extract: error writing to file }"
+# ^InvalidOpcode
+${83:Installer corrupted: invalid opcode}
+# ^NoOLE
+"${84:No OLE for}: "
+# ^OutputFolder
+"${85:Output folder}: "
+# ^RemoveFolder
+"${86:Remove folder}: "
+# ^RenameOnReboot
+"${87:Rename on reboot}: "
+# ^Rename
+"${88:Rename}: "
+# ^Skipped
+"${89:Skipped}: "
+# ^CopyDetails
+${90:Copy Details To Clipboard}
+# ^LogInstall
+${91:Log install process}
+# ^Byte
+${92:B}
+# ^Kilo
+${93:K}
+# ^Mega
+${94:M}
+# ^Giga
+${95:G}
+]]></content>
+	<tabTrigger>scaffold__NSIS Language File</tabTrigger>
+	<scope>source.nlf</scope>
+</snippet>

@@ -1,11 +1,12 @@
 @echo off
 
-echo Initializing submodules
-git submodule init
-git submodule update
-
-echo Locating makensis.exe
 set nsis_compiler=
+
+if defined NSIS_HOME (
+    if exist "%NSIS_HOME%\makensis.exe" (
+        set "nsis_compiler=%NSIS_HOME%"
+    )
+)
 
 if %PROCESSOR_ARCHITECTURE%==x86 (
     set RegQry=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NSIS
@@ -21,19 +22,14 @@ if not defined nsis_compiler (
     for %%X in (makensis.exe) do (set nsis_compiler=%%~dp$PATH:X)
 )
 
-echo Compiling installer.nsis
 set args=
 :loop
-    set args=%args% /v2 installer.nsi
+    set args=%args% %1
     shift
-if not "%~2"=="" goto loop
+if not "%~1"=="" goto loop
 
 if defined nsis_compiler (
     "%nsis_compiler%\makensis.exe" %args%
-    start /d "/" sublimetext-packages.exe
 ) else (
     echo "Error, build system cannot find NSIS! Please reinstall it, add makensis.exe to your PATH, or defined the NSIS_HOME environment variable."
 )
-
-echo Good bye.
-exit /b

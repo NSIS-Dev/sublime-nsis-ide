@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\${If} \${IsServer}
+
+	${1:# your code here}
+
+\${EndIf}
+]]></content>
+	<tabTrigger>do:IsServer</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

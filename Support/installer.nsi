@@ -8,10 +8,10 @@
 !include LogicLib.nsh
 
 ; Settings ---------------------------------
-Name "Sublime Text Packages for NSIS"
-OutFile "sublimetext-packages.exe"
+Name "NSIS-Dev for Sublime TExt"
+OutFile "sublime-nsis.exe"
 RequestExecutionLevel user
-InstallDir "$APPDATA\Sublime Text 2\Packages"
+InstallDir "$APPDATA\Sublime Text 3\Packages"
 
 ; Pages ------------------------------------
 !insertmacro MUI_PAGE_COMPONENTS 

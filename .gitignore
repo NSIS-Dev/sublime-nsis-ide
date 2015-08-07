@@ -1,3 +1,7 @@
+*.exe
+bower_components/
 node_modules/
 npm-debug.log
-sublimetext-packages.exe
+src/
+Support/installer.nsi
+vendor/

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\${If} \${IsRunningX64}
+
+	${1:# your 64-bit code here}
+
+\${Else}
+
+	${2:# your 32-bit code here}
+
+\${EndIf}
+]]></content>
+	<tabTrigger>do:IsRunningX64..Else</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

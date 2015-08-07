@@ -1,0 +1,69 @@
+<snippet>
+	<content><![CDATA[
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+
+; Includes ---------------------------------
+!include nsDialogs.nsh
+!include LogicLib.nsh
+
+; Settings ---------------------------------
+Name "${1:installer_name}"
+OutFile "${2:${1}}.exe"
+RequestExecutionLevel ${3:user}
+InstallDir "\$PROGRAMFILES\\${4:${1}}"
+
+; Pages ------------------------------------
+Page custom "${5:nsdialog_page}" "${6:${5:nsdialog_page}_validation}"
+Page components
+Page directory
+Page instfiles
+
+; Variables --------------------------------
+${7}
+
+; Functions --------------------------------
+Function "${5}"
+
+	nsDialogs::Create 1018
+	Pop \$0
+
+	${8:# your code here}
+
+	nsDialogs::Show
+
+FunctionEnd
+
+Function "${6}"
+
+	${9:# your code here}
+
+FunctionEnd
+
+; Sections ---------------------------------
+Section "${10:section1}" ${11:${10/(.*)/\U\1/}_INDEX}
+
+	${12:# your code here}
+
+SectionEnd
+
+Section "${13:section2}" ${14:${13/(.*)/\U\1/}_INDEX}
+
+	${15:# your code here}
+
+SectionEnd
+
+Section "${16:section3}" ${17:${16/(.*)/\U\1/}_INDEX}
+
+	${18:# your code here}
+
+SectionEnd
+
+Section "${19:section4}" ${18:${19/(.*)/\U\1/}_INDEX}
+
+	${21:# your code here}
+
+SectionEnd
+]]></content>
+	<tabTrigger>scaffold:nsDialogs (4 Sections)</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

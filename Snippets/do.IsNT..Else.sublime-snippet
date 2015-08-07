@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\${If} \${IsNT}
+
+	${1:# your NT code here}
+
+\${Else}
+
+	${2:# your non-NT code here}
+
+\${EndIf}
+]]></content>
+	<tabTrigger>do:IsNT..Else</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

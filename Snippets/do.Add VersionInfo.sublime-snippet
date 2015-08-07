@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+VIProductVersion "${1:0}.${2:0}.${3:0}.${4:0}"
+VIFileVersion    "${1:0}.${2:0}.${3:0}.${4:0}"
+VIAddVersionKey  "FileDescription"  "${5:description}"
+VIAddVersionKey  "FileVersion"      "${6:${1:0}.${2:0}.${3:0}.${4:0}}"
+VIAddVersionKey  "ProductName"      "${7:product_name}"
+VIAddVersionKey  "ProductVersion"   "${8:${1:0}.${2:0}.${3:0}.${4:0}}"
+VIAddVersionKey  "LegalCopyright"   "${9:copyright}"
+VIAddVersionKey  "OriginalFilename" "${10:file_name}.exe"
+VIAddVersionKey  "Comments"         "${11:comment}"
+VIAddVersionKey  "LegalTrademarks"  "${12:trademark}"
+VIAddVersionKey  "CompanyName"      "${13:company_name}"
+VIAddVersionKey  "InternalName"     "${14:internal_name}"
+VIAddVersionKey  "PrivateBuild"     "${15:private_build}"
+VIAddVersionKey  "SpecialBuild"     "${16:special_build}"
+]]></content>
+	<tabTrigger>do:Version Information</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>
