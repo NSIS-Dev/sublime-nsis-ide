@@ -3,5 +3,4 @@ bower_components/
 node_modules/
 npm-debug.log
 src/
-Support/installer.nsi
 vendor/
