@@ -10,21 +10,19 @@ This package has been tested and approved for all Sublime Text versions.
 
 ### Includes
 
-* [Syntax Highlighting](https://github.com/SublimeText/NSIS)
-* [Syntax Highlighting for language files](https://github.com/idleberg/NSIS-Language-File-Sublime-Text)
-* [Auto-completion for NSIS syntax, Useful Headers, bundled plug-ins](https://github.com/idleberg/NSIS-Sublime-Text)
-* [Auto-completion for third party plug-ins and macros](https://github.com/idleberg/NSIS-Sublime-Text-Addons)
-* [Drunken NSIS auto-completion](https://github.com/idleberg/Drunken-NSIS)
-* [Build System](http://nsis.sourceforge.net/Sublime_Text_Build_System_for_NSIS)
-* [Context menu for online scripting reference](https://github.com/idleberg/NSIS-Sublime-Text-Menu)
+* [NSIS Grammar](https://github.com/SublimeText/NSIS)
+* [NSIS Language File Grammar](https://github.com/idleberg/NSIS-Language-File-Sublime-Text)
+* [NSIS Completions](https://github.com/idleberg/NSIS-Sublime-Text)
+* [Drunken NSIS Completions](https://github.com/idleberg/Drunken-NSIS)
+* [Build System](https://github.com/idleberg/Drunken-NSIS)
 
 ## Installation
 
 ### Package Control
 
-The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/):
+The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/). However, before you
 
-1. Add our Package Control repository `https://nsis-dev.github.io/sublime-nsis/repository.json`
+1. Add our repository `https://nsis-dev.github.io/sublime-nsis/repository.json`
 2. “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
 3. Select *NSIS Developer* and press <kbd>Enter</kbd>
 
