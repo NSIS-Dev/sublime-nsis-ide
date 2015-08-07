@@ -39,6 +39,6 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 2. Compile `Support/installer.nsi`
 3. Run setup and follow instructions
 
-### License
+## License
 
 This package is largely released under [The MIT License](http://opensource.org/licenses/MIT), except NSIS language definitions and Windows build system, both released under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
