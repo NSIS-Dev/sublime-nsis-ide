@@ -1,4 +1,4 @@
-# Sublime Text Packages for NSIS
+# NSIS Developer for Sublime Text
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -31,7 +31,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 ### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/NSIS-Dev/sublime-nsis.git 'NSIS Developer'`
+2. `git clone https://github.com/NSIS-Dev/sublime-nsis.git 'NSIS Developer'`
 
 ### Windows Installer
 
