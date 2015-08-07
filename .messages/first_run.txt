@@ -1,0 +1,5 @@
+On Unix systems, you might have to make the build script executable:
+
+    chmod +x makensis.sh
+
+Use the default shortcut Super+b to build scripts.
