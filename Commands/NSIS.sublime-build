@@ -1,11 +1,11 @@
 {
-  "cmd": ["$packages/NSIS-Dev/Support/makensis.sh", "$file"],
+  "cmd": ["$packages/NSIS Developer/Support/makensis.sh", "$file"],
   "working_dir": "${project_path:${folder}}",
   "file_regex": ".*rror in script:? \"(...*?)\" on line ([0-9]*)",
   "selector" : "source.nsis",
   
   "windows":
     {
-      "cmd": ["$packages\\NSIS-Dev\\Support\\makensis.cmd", "$file"]
+      "cmd": ["$packages\\NSIS Developer\\Support\\makensis.cmd", "$file"]
     }
 }

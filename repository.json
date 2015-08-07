@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "packages": [
     {
-      "name": "NSIS-Dev",
+      "name": "NSIS Developer",
       "details": "https://github.com/NSIS-Dev/sublime-nsis",
       "labels": [
         "language syntax",
