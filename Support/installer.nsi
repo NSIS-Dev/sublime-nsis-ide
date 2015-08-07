@@ -83,7 +83,6 @@ LangString DESC_sublimeNlfSyntax ${LANG_ENGLISH} "Add syntax highlighting for NS
 LangString DESC_sublimeAutoCompletion ${LANG_ENGLISH} "Add code completion for NSIS to Sublime Text"
 LangString DESC_sublimeCmdCompletion ${LANG_ENGLISH} "Code completion for all NSIS commands, Useful Headers, and bundled plug-ins"
 LangString DESC_sublimeDrunkenNsis ${LANG_ENGLISH} "Drunken NSIS completions, command aliases to eliminate naming inconsistencies"
-; LangString DESC_sublimePlugCompletion ${LANG_ENGLISH} "Code completion for third party plug-ins and macros"
 LangString DESC_sublimeBuild ${LANG_ENGLISH} "Add build system to compile NSIS scripts"
 LangString DESC_sublimeSnippets ${LANG_ENGLISH} "Add useful snippets for common tasks"
 LangString DESC_sublimeNsisSnippets ${LANG_ENGLISH} "Useful snippets for code blocks and scaffolding of entire scripts"
@@ -96,7 +95,6 @@ LangString DESC_sublimeNlfSnippets ${LANG_ENGLISH} "Useful snippets to scaffold 
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeAutoCompletion} $(DESC_sublimeAutoCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeCmdCompletion} $(DESC_sublimeCmdCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeDrunkenNsis} $(DESC_sublimeDrunkenNsis)
-	; !insertmacro MUI_DESCRIPTION_TEXT ${sublimePlugCompletion} $(DESC_sublimePlugCompletion)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeBuild} $(DESC_sublimeBuild)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeSnippets} $(DESC_sublimeSnippets)
 	!insertmacro MUI_DESCRIPTION_TEXT ${sublimeNsisSnippets} $(DESC_sublimeNsisSnippets)
