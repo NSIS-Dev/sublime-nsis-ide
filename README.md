@@ -23,8 +23,8 @@ This package has been tested and approved for all Sublime Text versions.
 The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/). However, before you
 
 1. Add our repository `https://nsis-dev.github.io/sublime-nsis/repository.json`
-2. “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
-3. Select *NSIS Developer* and press <kbd>Enter</kbd>
+2. Choose “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
+3. Select “*NSIS Developer*” and press <kbd>Enter</kbd>
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
@@ -41,4 +41,4 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### License
 
-This package is largely released under [The MIT License](http://opensource.org/licenses/MIT) except NSIS language definitions and Windows build system, both released under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
+This package is largely released under [The MIT License](http://opensource.org/licenses/MIT), except NSIS language definitions and Windows build system, both released under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
