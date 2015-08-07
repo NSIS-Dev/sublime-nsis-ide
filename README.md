@@ -2,6 +2,7 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+[![GitHub](https://img.shields.io/github/release/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://github.com/NSIS-Dev/sublime-nsis/releases)
 [![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
@@ -20,7 +21,7 @@ This package has been tested and approved for all Sublime Text versions.
 
 ### Package Control
 
-The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/). However, before you
+The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/).
 
 1. Add our repository `https://nsis-dev.github.io/sublime-nsis/repository.json`
 2. Choose “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
