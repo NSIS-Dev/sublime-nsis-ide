@@ -1,6 +1,6 @@
 # Sublime Text Packages for NSIS
 
-[![Travis](https://img.shields.io/travis/NSIS-Dev/Sublime-Text-Packages.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/Sublime-Text-Packages)
+[![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
 
@@ -24,8 +24,8 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 
 #### Batch file
 
-1. Clone the repository `git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages`
-2. Change directory to `cd Sublime-Text-Packages`
+1. Clone the repository `git clone https://github.com/NSIS-Dev/sublime-nsis.git sublime-nsis`
+2. Change directory to `cd sublime-nsis`
 3. Run `make` to configure submodules and compile installer
 
 #### Manual installation
@@ -33,7 +33,7 @@ Before you continue, make sure you have [Git installed](http://git-scm.com/downl
 Open the command-line interface of your choice (e.g. `cmd.exe`) and perform the following commands:
 
 ``` bash
-git clone https://github.com/NSIS-Dev/Sublime-Text-Packages.git Sublime-Text-Packages
+git clone https://github.com/NSIS-Dev/sublime-nsis.git Sublime-Text-Packages
 cd Sublime-Text-Packages
 git submodule init
 git submodule update
