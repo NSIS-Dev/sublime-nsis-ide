@@ -21,7 +21,7 @@ This package has been tested and approved for all Sublime Text versions.
 
 ### Package Control
 
-The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control/).
+The easiest way to install is via [Package Control](https://packagecontrol.io/).
 
 1. Add our repository `https://nsis-dev.github.io/sublime-nsis/repository.json`
 2. Choose “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
