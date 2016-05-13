@@ -3,6 +3,7 @@
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 [![GitHub](https://img.shields.io/github/release/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://github.com/NSIS-Dev/sublime-nsis/releases)
+[![David](https://img.shields.io/david/dev/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://david-dm.org/NSIS-Dev/sublime-nsis#info=devDependencies)
 [![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
@@ -12,10 +13,10 @@ This package has been tested and approved for all Sublime Text versions.
 ### Includes
 
 * [NSIS Grammar](https://github.com/SublimeText/NSIS)
-* [NSIS Language File Grammar](https://github.com/idleberg/NSIS-Language-File-Sublime-Text)
-* [NSIS Completions](https://github.com/idleberg/NSIS-Sublime-Text)
-* [Drunken NSIS Completions](https://github.com/idleberg/Drunken-NSIS)
-* [Build System](https://github.com/idleberg/Drunken-NSIS)
+* [NSIS Language File Grammar](https://github.com/idleberg/sublime-nlf)
+* [NSIS Completions](https://github.com/idleberg/sublime-nsis)
+* [Drunken NSIS Completions](https://github.com/idleberg/sublime-drunken-nsis)
+* [Build System](https://github.com/idleberg/sublime-makensis)
 
 ## Installation
 

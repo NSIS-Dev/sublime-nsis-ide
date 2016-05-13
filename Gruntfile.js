@@ -2,7 +2,7 @@
   * sublimetext-gruntfile.js
   * https://github.com/idleberg/sublimetext-gruntfile.js
   *
-  * Copyright (c) 2014 Jan T. Sott
+  * Copyright (c) 2014-2016 Jan T. Sott
   * Licensed under the MIT license.
   */
  
@@ -24,6 +24,10 @@
 
     var pyFiles = [
         '*.py'
+    ];
+
+    var ymlFiles = [
+        '**/*.sublime-syntax'
     ];
 
     var xmlFiles = [
@@ -52,6 +56,12 @@
           }
         },
 
+        yamllint: {
+            files: {
+                src: ymlFiles
+            },
+        },
+
         xml_validator: {
             files: {
                 src: xmlFiles
@@ -63,6 +73,10 @@
             json: {
                 files: jsonFiles,
                 tasks: ['jsonlint']
+            },
+            yml: {
+                files: ymlFiles,
+                tasks: ['yamllint']
             },
             xml: {
                 files: xmlFiles,
@@ -85,12 +99,13 @@
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-jsonlint');
     grunt.loadNpmTasks('grunt-pylint');
+    grunt.loadNpmTasks('grunt-yamllint');
     grunt.loadNpmTasks('grunt-xml-validator');
     grunt.registerTask('default', 'lint');
 
     // task shortcuts
     grunt.registerTask('json',   'jsonlint');
-    grunt.registerTask('lint',  ['jsonlint', 'xml_validator']);
+    grunt.registerTask('lint',  ['jsonlint', 'yamllint', 'xml_validator']);
     grunt.registerTask('py',     'pylint');
     grunt.registerTask('travis', 'lint');
     grunt.registerTask('xml',    'xml_validator');

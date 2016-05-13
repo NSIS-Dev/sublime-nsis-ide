@@ -3,29 +3,24 @@
 ; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Settings ---------------------------------
-Name "${1:installer_name}"
-OutFile "${2:${1}}.exe"
-RequestExecutionLevel ${3:user}
-InstallDir "\$PROGRAMFILES\\${4:${1}}"
+OutFile "${1:installer_name}"
 
 ; Includes ---------------------------------
-$5
+$2
 
 ; Pages ------------------------------------
-Page components
-Page directory
-Page instfiles
+${3:Page instfiles}
 
 ; Sections ---------------------------------
-Section "${6:section_name}" ${7:${6/(.*)/\L\1/}_index}
+Section "${4:section_name}"
 
-	${8:# your code here}
+	${5:# your code here}
 
 SectionEnd
 
 ; Functions --------------------------------
-$9
+$7
 ]]></content>
-	<tabTrigger>scaffold:Basic Script</tabTrigger>
+	<tabTrigger>scaffold:Minimal Script</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

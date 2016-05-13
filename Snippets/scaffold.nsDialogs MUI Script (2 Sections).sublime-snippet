@@ -20,13 +20,13 @@ Page custom "${5:nsdialog_page}" "${6:${5:nsdialog_page}_validation}"
 !insertmacro MUI_PAGE_INSTFILES
 
 ; Variables --------------------------------
-${7}
+$7
 
 ; Languages --------------------------------
 !insertmacro MUI_LANGUAGE "${8:English}"
 
 ; Functions --------------------------------
-Function "${5}"
+Function "$5"
 
 	nsDialogs::Create 1018
 	Pop \$0
@@ -37,7 +37,7 @@ Function "${5}"
 
 FunctionEnd
 
-Function "${6}"
+Function "$6"
 
 	${10:# your code here}
 

@@ -9,7 +9,7 @@ RequestExecutionLevel ${3:user}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
 ; Includes ---------------------------------
-${5}
+$5
 
 ; Pages ------------------------------------
 Page components
@@ -36,7 +36,7 @@ Function .onInit
 
 FunctionEnd
 
-${13}
+$13
 ]]></content>
 	<tabTrigger>scaffold:Basic Script (2 Sections, onInit)</tabTrigger>
 	<scope>source.nsis</scope>
