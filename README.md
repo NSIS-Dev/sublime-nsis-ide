@@ -1,4 +1,4 @@
-# NSIS Developer for Sublime Text
+# NSIS Developer for Sublime Text 3
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -11,7 +11,7 @@ A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime
 
 ![Screenshot](https://raw.githubusercontent.com/NSIS-Dev/sublime-nsis/master/screenshot.png)
 
-This package has been tested and approved for all Sublime Text versions.
+This package has been tested and approved for Sublime Text 3 ([Build 3103](http://www.sublimetext.com/blog/articles/sublime-text-3-build-3103) or higher).
 
 ### Includes
 
