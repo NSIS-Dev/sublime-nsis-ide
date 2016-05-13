@@ -35,8 +35,11 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### GitHub
 
-1. Change to your Sublime Text `Packages` directory
-2. `git clone https://github.com/NSIS-Dev/sublime-nsis.git 'NSIS Developer'`
+Change to your Sublime Text `Packages` directory, then clone this repository:
+
+```bash
+$ git clone https://github.com/NSIS-Dev/sublime-nsis.git 'NSIS Developer'
+```
 
 ### Windows Installer
 
@@ -58,10 +61,10 @@ Install `makensis` from your distribution's default package manager, for example
 
 ```bash
 # Debian
-sudo apt-get install nsis
+$ sudo apt-get install nsis
 
 # Red Hat
-sudo dnf install nsis
+$ sudo dnf install nsis
 ```
 
 ### Mac OS X
@@ -70,10 +73,10 @@ Install `makensis` through Homebrew:
 
 ```bash
 # Homebrew
-brew install nsis
+$ brew install nsis
 
 # MacPorts - not maintained, not recommended!
-ports install nsis
+$ ports install nsis
 ```
 
 ## License
