@@ -42,6 +42,38 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 2. Compile `Support/installer.nsi`
 3. Run setup and follow instructions
 
+## Building
+
+Before using this plugin, you must ensure that `makensis` is installed on your system. To install `makensis, do the following:
+
+### Windows
+
+With [NSIS](https://sourceforge.net/p/nsis) installed, make sure `makensis` is in your [PATH environmental variable](http://superuser.com/a/284351/195953).
+
+### Linux
+
+Install `makensis` from your distribution's default package manager, for example:
+
+```bash
+# Debian
+sudo apt-get install nsis
+
+# Red Hat
+sudo dnf install nsis
+```
+
+### Mac OS X
+
+Install `makensis` through Homebrew:
+
+```bash
+# Homebrew
+brew install nsis
+
+# MacPorts - not maintained, not recommended!
+ports install nsis
+```
+
 ## License
 
 This package is largely released under [The MIT License](http://opensource.org/licenses/MIT), except NSIS language definitions and Windows build system, both released under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
