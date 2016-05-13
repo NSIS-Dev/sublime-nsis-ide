@@ -7,7 +7,9 @@
 [![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
-A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
+A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/).
+
+![Screenshot](https://raw.githubusercontent.com/NSIS-Dev/sublime-nsis/master/screenshot.png)
 
 This package has been tested and approved for all Sublime Text versions.
 
