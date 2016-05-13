@@ -20,6 +20,8 @@ This package has been tested and approved for Sublime Text 3 ([Build 3103](http:
 * [NSIS Completions](https://github.com/idleberg/sublime-nsis)
 * [Drunken NSIS Completions](https://github.com/idleberg/sublime-drunken-nsis)
 * [Build System](https://github.com/idleberg/sublime-makensis)
+* [Build System](https://github.com/idleberg/sublime-makensis)
+* [Linter](https://github.com/idleberg/SublimeLinter-contrib-makensis)
 
 ## Installation
 
@@ -78,6 +80,14 @@ $ brew install nsis
 # MacPorts - not maintained, not recommended!
 $ ports install nsis
 ```
+
+## Linting
+
+SublimeLinter 3 must be [installed](http://sublimelinter.readthedocs.org/en/latest/installation.html) in order to use the linter.
+
+In order for `makensis` to be executed by SublimeLinter, you must [ensure that its path is available][path] to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
+
+Use the [Command Palette](http://docs.sublimetext.info/en/latest/reference/command_palette.html) to set up your linting preferences, or to run the linter.
 
 ## License
 
