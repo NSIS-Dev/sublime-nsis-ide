@@ -4,6 +4,7 @@
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 [![GitHub](https://img.shields.io/github/release/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://github.com/NSIS-Dev/sublime-nsis/releases)
 [![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis)
+[![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
 
