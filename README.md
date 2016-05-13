@@ -20,7 +20,6 @@ This package has been tested and approved for Sublime Text 3 ([Build 3103](http:
 * [NSIS Completions](https://github.com/idleberg/sublime-nsis)
 * [Drunken NSIS Completions](https://github.com/idleberg/sublime-drunken-nsis)
 * [Build System](https://github.com/idleberg/sublime-makensis)
-* [Build System](https://github.com/idleberg/sublime-makensis)
 * [Linter](https://github.com/idleberg/SublimeLinter-contrib-makensis)
 
 ## Installation
