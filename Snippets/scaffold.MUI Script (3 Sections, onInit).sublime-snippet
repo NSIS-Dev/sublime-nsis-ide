@@ -56,7 +56,7 @@ Function .onInit
 
 FunctionEnd
 
-${19}
+$19
 ]]></content>
 	<tabTrigger>scaffold:ModernUI (3 Sections, onInit)</tabTrigger>
 	<scope>source.nsis</scope>

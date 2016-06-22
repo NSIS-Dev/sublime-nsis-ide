@@ -9,7 +9,7 @@ RequestExecutionLevel ${3:user}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
 ; Includes ---------------------------------
-${5}
+$5
 
 ; Pages ------------------------------------
 Page components
@@ -30,7 +30,7 @@ Section "${9:section2}" ${10:${9/(.*)/\L\1/}_index}
 SectionEnd
 
 ; Functions --------------------------------
-${12}
+$12
 ]]></content>
 	<tabTrigger>scaffold:Basic Script (2 Sections)</tabTrigger>
 	<scope>source.nsis</scope>

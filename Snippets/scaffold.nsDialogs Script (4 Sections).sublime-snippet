@@ -19,10 +19,10 @@ Page directory
 Page instfiles
 
 ; Variables --------------------------------
-${7}
+$7
 
 ; Functions --------------------------------
-Function "${5}"
+Function "$5"
 
 	nsDialogs::Create 1018
 	Pop \$0
@@ -33,7 +33,7 @@ Function "${5}"
 
 FunctionEnd
 
-Function "${6}"
+Function "$6"
 
 	${9:# your code here}
 

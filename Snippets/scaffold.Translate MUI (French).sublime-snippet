@@ -1,130 +1,130 @@
 <snippet>
   <content><![CDATA[
-!insertmacro LANGFILE "${1:French}" "${1:Français}"
+!insertmacro LANGFILE "${1:French}" "${2:Français}"
 
 !ifdef MUI_WELCOMEPAGE
-  \${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "${2:Bienvenue dans le programme d'installation de \$(^NameDA)}"
-  \${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "${3:Vous êtes sur le point de désinstaller \$(^NameDA) de votre ordinateur.}\$\r\$\n\$\r\$\n${4:Avant de démarrer l'installation, il est recommandé de fermer toutes les autres applications. Cela permettra la mise à jour de certains fichiers système sans redémarrer votre ordinateur.}\$\r\$\n\$\r\$\n\$_CLICK"
+  \${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "${3:Bienvenue dans le programme d'installation de \$(^NameDA)}"
+  \${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "${4:Vous êtes sur le point de désinstaller \$(^NameDA) de votre ordinateur.}\$\r\$\n\$\r\$\n${5:Avant de démarrer l'installation, il est recommandé de fermer toutes les autres applications. Cela permettra la mise à jour de certains fichiers système sans redémarrer votre ordinateur.}\$\r\$\n\$\r\$\n\$_CLICK"
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
-  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TITLE "${5:Bienvenue dans le programme de désinstallation de \$(^NameDA)}"
-  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TEXT "${6:Vous êtes sur le point de désinstaller \$(^NameDA) de votre ordinateur.}\$\r\$\n\$\r\$\n${7:Avant d'amorcer la désinstallation, assurez-vous que \$(^NameDA) ne soit pas en cours d'exécution.}\$\r\$\n\$\r\$\n\$_CLICK"
+  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TITLE "${6:Bienvenue dans le programme de désinstallation de \$(^NameDA)}"
+  \${LangFileString} MUI_UNTEXT_WELCOME_INFO_TEXT "${7:Vous êtes sur le point de désinstaller \$(^NameDA) de votre ordinateur.}\$\r\$\n\$\r\$\n${8:Avant d'amorcer la désinstallation, assurez-vous que \$(^NameDA) ne soit pas en cours d'exécution.}\$\r\$\n\$\r\$\n\$_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  \${LangFileString} MUI_TEXT_LICENSE_TITLE "${8:Licence utilisateur}"
-  \${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "${9:Veuillez examiner les termes de la licence avant d'installer \$(^NameDA).}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "${10:Si vous acceptez les conditions de la licence utilisateur, cliquez sur J'accepte pour continuer. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "${11:Si vous acceptez les conditions de la licence utilisateur, cochez la case ci-dessous. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
-  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${12:Si vous acceptez les conditions de la licence utilisateur, sélectionnez le premier choix ci-dessous. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
+  \${LangFileString} MUI_TEXT_LICENSE_TITLE "${9:Licence utilisateur}"
+  \${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "${10:Veuillez examiner les termes de la licence avant d'installer \$(^NameDA).}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "${11:Si vous acceptez les conditions de la licence utilisateur, cliquez sur J'accepte pour continuer. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "${12:Si vous acceptez les conditions de la licence utilisateur, cochez la case ci-dessous. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${13:Si vous acceptez les conditions de la licence utilisateur, sélectionnez le premier choix ci-dessous. Vous devez accepter la licence utilisateur afin d'installer \$(^NameDA).}"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
-  \${LangFileString} MUI_UNTEXT_LICENSE_TITLE "${13:Licence utilisateur}"
+  \${LangFileString} MUI_UNTEXT_LICENSE_TITLE "${14:Licence utilisateur}"
   \${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "${14:Veuillez examiner les conditions de la licence avant de désinstaller \$(^NameDA).}"
-  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "${15:Si vous acceptez les conditions de la licence utilisateur, cliquez sur J'accepte pour continuer. Vous devez accepter la licence utilisateur afin de désinstaller \$(^NameDA).}"
-  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "${16:Si vous acceptez les conditions de la licence utilisateur, cochez la case ci-dessous. Vous devez accepter la licence utilisateur afin de désintaller \$(^NameDA).}"
-  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${17:Si vous acceptez les conditions de la licence utilisateur, sélectionnez le premier choix ci-dessous. Vous devez accepter la licence utilisateur afin de désinstaller \$(^NameDA).}"
+  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "${16:Si vous acceptez les conditions de la licence utilisateur, cliquez sur J'accepte pour continuer. Vous devez accepter la licence utilisateur afin de désinstaller \$(^NameDA).}"
+  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "${17:Si vous acceptez les conditions de la licence utilisateur, cochez la case ci-dessous. Vous devez accepter la licence utilisateur afin de désintaller \$(^NameDA).}"
+  \${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "${18:Si vous acceptez les conditions de la licence utilisateur, sélectionnez le premier choix ci-dessous. Vous devez accepter la licence utilisateur afin de désinstaller \$(^NameDA).}"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  \${LangFileString} MUI_INNERTEXT_LICENSE_TOP "${18:Appuyez sur Page Suivante pour lire le reste de la licence utilisateur.}"
+  \${LangFileString} MUI_INNERTEXT_LICENSE_TOP "${19:Appuyez sur Page Suivante pour lire le reste de la licence utilisateur.}"
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
-  \${LangFileString} MUI_TEXT_COMPONENTS_TITLE "${19:Choisissez les composants}"
-  \${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "${20:Choisissez les composants de \$(^NameDA) que vous souhaitez installer.}"
+  \${LangFileString} MUI_TEXT_COMPONENTS_TITLE "${20:Choisissez les composants}"
+  \${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "${21:Choisissez les composants de \$(^NameDA) que vous souhaitez installer.}"
 !endif
 
 !ifdef MUI_UNCOMPONENTSPAGE
-  \${LangFileString} MUI_UNTEXT_COMPONENTS_TITLE "${21:Choose Components}"
-  \${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "${22:Choose which features of \$(^NameDA) you want to uninstall.}"
+  \${LangFileString} MUI_UNTEXT_COMPONENTS_TITLE "${22:Choose Components}"
+  \${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "${23:Choose which features of \$(^NameDA) you want to uninstall.}"
 !endif
 
 !ifdef MUI_COMPONENTSPAGE | MUI_UNCOMPONENTSPAGE
-  \${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_TITLE "${23:Description}"
+  \${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_TITLE "${24:Description}"
   !ifndef NSIS_CONFIG_COMPONENTPAGE_ALTERNATIVE
-    \${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "${24:Passez le curseur de votre souris sur un composant pour en voir la description.}"
-  !else
     \${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "${25:Passez le curseur de votre souris sur un composant pour en voir la description.}"
+  !else
+    \${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "${26:Passez le curseur de votre souris sur un composant pour en voir la description.}"
   !endif
 !endif
 
 !ifdef MUI_DIRECTORYPAGE
-  \${LangFileString} MUI_TEXT_DIRECTORY_TITLE "${26:Choisissez le dossier d'installation}"
-  \${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "${27:Choisissez le dossier dans lequel installer \$(^NameDA).}"
+  \${LangFileString} MUI_TEXT_DIRECTORY_TITLE "${27:Choisissez le dossier d'installation}"
+  \${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "${28:Choisissez le dossier dans lequel installer \$(^NameDA).}"
 !endif
 
 !ifdef MUI_UNDIRECTORYPAGE
-  \${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "${28:Choisissez le dossier de désinstallation}"
-  \${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "${29:Choisissez le dossier à partir duquel vous voulez désinstaller \$(^NameDA).}"
+  \${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "${29:Choisissez le dossier de désinstallation}"
+  \${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "${30:Choisissez le dossier à partir duquel vous voulez désinstaller \$(^NameDA).}"
 !endif
 
 !ifdef MUI_INSTFILESPAGE
-  \${LangFileString} MUI_TEXT_INSTALLING_TITLE "${30:Installation en cours}"
-  \${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "${31:Veuillez patienter pendant que \$(^NameDA) est en train d'être installé.}"
-  \${LangFileString} MUI_TEXT_FINISH_TITLE "${32:Installation terminée}"
-  \${LangFileString} MUI_TEXT_FINISH_SUBTITLE "${33:L'installation s'est terminée avec succès.}"
-  \${LangFileString} MUI_TEXT_ABORT_TITLE "${34:Installation interrompue}"
-  \${LangFileString} MUI_TEXT_ABORT_SUBTITLE "${35:L'installation n'a pas été terminée.}"
+  \${LangFileString} MUI_TEXT_INSTALLING_TITLE "${31:Installation en cours}"
+  \${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "${32:Veuillez patienter pendant que \$(^NameDA) est en train d'être installé.}"
+  \${LangFileString} MUI_TEXT_FINISH_TITLE "${33:Installation terminée}"
+  \${LangFileString} MUI_TEXT_FINISH_SUBTITLE "${34:L'installation s'est terminée avec succès.}"
+  \${LangFileString} MUI_TEXT_ABORT_TITLE "${35:Installation interrompue}"
+  \${LangFileString} MUI_TEXT_ABORT_SUBTITLE "${36:L'installation n'a pas été terminée.}"
 !endif
 
 !ifdef MUI_UNINSTFILESPAGE
-  \${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "${36:Désinstallation en cours}"
-  \${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "${37:Veuillez patienter pendant que \$(^NameDA) est en train d'être supprimé de votre ordinateur.}"
-  \${LangFileString} MUI_UNTEXT_FINISH_TITLE "${38:Désinstallation terminée}"
-  \${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "${39:La désinstallation s'est terminée avec succès.}"
-  \${LangFileString} MUI_UNTEXT_ABORT_TITLE "${40:Désinstallation interrompue}"
-  \${LangFileString} MUI_UNTEXT_ABORT_SUBTITLE "${41:La désinstallation n'a pas été terminée.}"
+  \${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "${37:Désinstallation en cours}"
+  \${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "${38:Veuillez patienter pendant que \$(^NameDA) est en train d'être supprimé de votre ordinateur.}"
+  \${LangFileString} MUI_UNTEXT_FINISH_TITLE "${39:Désinstallation terminée}"
+  \${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "${40:La désinstallation s'est terminée avec succès.}"
+  \${LangFileString} MUI_UNTEXT_ABORT_TITLE "${41:Désinstallation interrompue}"
+  \${LangFileString} MUI_UNTEXT_ABORT_SUBTITLE "${42:La désinstallation n'a pas été terminée.}"
 !endif
 
 !ifdef MUI_FINISHPAGE
-  \${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "${42:Fin de l'installation de \$(^NameDA)}"
-  \${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "${43:\$(^NameDA) a été installé sur votre ordinateur}\$\r\$\n\$\r\$\n${44:Cliquez sur Fermer pour quitter le programme d'installation.}"
-  \${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "${45:Votre ordinateur doit être redémarré afin de compléter l'installation de \$(^NameDA). Souhaitez-vous redémarrer maintenant ?}"
+  \${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "${43:Fin de l'installation de \$(^NameDA)}"
+  \${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "${44:\$(^NameDA) a été installé sur votre ordinateur}\$\r\$\n\$\r\$\n${45:Cliquez sur Fermer pour quitter le programme d'installation.}"
+  \${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "${46:Votre ordinateur doit être redémarré afin de compléter l'installation de \$(^NameDA). Souhaitez-vous redémarrer maintenant ?}"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
-  \${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "${46:Fin de la désinstallation de \$(^NameDA)}"
-  \${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "${47:\$(^NameDA) a été supprimé de votre ordinateur.}\$\r\$\n\$\r\$\n${48:Cliquez sur Fermer pour quitter le programme d'installation.}"
-  \${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "${49:Votre ordinateur doit être redémarré pour terminer la désinstallation de \$(^NameDA). Souhaitez-vous redémarrer maintenant ?}"
+  \${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "${47:Fin de la désinstallation de \$(^NameDA)}"
+  \${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "${48:\$(^NameDA) a été supprimé de votre ordinateur.}\$\r\$\n\$\r\$\n${49:Cliquez sur Fermer pour quitter le programme d'installation.}"
+  \${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "${50:Votre ordinateur doit être redémarré pour terminer la désinstallation de \$(^NameDA). Souhaitez-vous redémarrer maintenant ?}"
 !endif
 
 !ifdef MUI_FINISHPAGE | MUI_UNFINISHPAGE
-  \${LangFileString} MUI_TEXT_FINISH_REBOOTNOW "${50:Redémarrer maintenant}"
-  \${LangFileString} MUI_TEXT_FINISH_REBOOTLATER "${51:Je souhaite redémarrer moi-même plus tard}"
-  \${LangFileString} MUI_TEXT_FINISH_RUN "${52:Lancer \$(^NameDA)}"
-  \${LangFileString} MUI_TEXT_FINISH_SHOWREADME "${53:Afficher le fichier Readme}"
-  \${LangFileString} MUI_BUTTONTEXT_FINISH "${54:&Fermer}"  
+  \${LangFileString} MUI_TEXT_FINISH_REBOOTNOW "${51:Redémarrer maintenant}"
+  \${LangFileString} MUI_TEXT_FINISH_REBOOTLATER "${52:Je souhaite redémarrer moi-même plus tard}"
+  \${LangFileString} MUI_TEXT_FINISH_RUN "${53:Lancer \$(^NameDA)}"
+  \${LangFileString} MUI_TEXT_FINISH_SHOWREADME "${54:Afficher le fichier Readme}"
+  \${LangFileString} MUI_BUTTONTEXT_FINISH "${55:&Fermer}"  
 !endif
 
 !ifdef MUI_STARTMENUPAGE
-  \${LangFileString} MUI_TEXT_STARTMENU_TITLE "${55:Choisissez un dossier dans le menu Démarrer}"
-  \${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "${56:Choisissez un dossier dans le menu Démarrer pour les raccourcis de l'application.}"
-  \${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "${57:Choisissez le dossier du menu Démarrer dans lequel vous voulez placer les raccourcis du programme. Vous pouvez également entrer un nouveau nom pour créer un nouveau dossier.}"
-  \${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "${58:Ne pas créer de raccourcis}"
+  \${LangFileString} MUI_TEXT_STARTMENU_TITLE "${56:Choisissez un dossier dans le menu Démarrer}"
+  \${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "${57:Choisissez un dossier dans le menu Démarrer pour les raccourcis de l'application.}"
+  \${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "${58:Choisissez le dossier du menu Démarrer dans lequel vous voulez placer les raccourcis du programme. Vous pouvez également entrer un nouveau nom pour créer un nouveau dossier.}"
+  \${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "${59:Ne pas créer de raccourcis}"
 !endif
 
 !ifdef MUI_UNCONFIRMPAGE
-  \${LangFileString} MUI_UNTEXT_CONFIRM_TITLE "${59:Désinstaller \$(^NameDA)}"
-  \${LangFileString} MUI_UNTEXT_CONFIRM_SUBTITLE "${60:Supprimer \$(^NameDA) de votre ordinateur.}"
+  \${LangFileString} MUI_UNTEXT_CONFIRM_TITLE "${60:Désinstaller \$(^NameDA)}"
+  \${LangFileString} MUI_UNTEXT_CONFIRM_SUBTITLE "${61:Supprimer \$(^NameDA) de votre ordinateur.}"
 !endif
 
 !ifdef MUI_ABORTWARNING
-  \${LangFileString} MUI_TEXT_ABORTWARNING "${61:Êtes-vous sûr de vouloir quitter l'installation de \$(^Name) ?}"
+  \${LangFileString} MUI_TEXT_ABORTWARNING "${62:Êtes-vous sûr de vouloir quitter l'installation de \$(^Name) ?}"
 !endif
 
 !ifdef MUI_UNABORTWARNING
-  \${LangFileString} MUI_UNTEXT_ABORTWARNING "${62:Êtes-vous sûr de vouloir quitter la désinstallation de \$(^Name) ?}"
+  \${LangFileString} MUI_UNTEXT_ABORTWARNING "${63:Êtes-vous sûr de vouloir quitter la désinstallation de \$(^Name) ?}"
 !endif
 
 !ifdef MULTIUSER_INSTALLMODEPAGE
-  \${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "${63:Choix des utilisateurs}"
-  \${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "${64:Sélection des utilisateurs désirant utiliser \$(^NameDA).}"
-  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "${65:Choix entre installer \$(^NameDA) seulement pour vous-même  ou bien pour tous les utilisateurs du système. \$(^ClickNext)}"
-  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "${66:Installer pour tous les utilisateurs}"
-  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "${67:Installer seulement pour moi}"
+  \${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "${64:Choix des utilisateurs}"
+  \${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "${65:Sélection des utilisateurs désirant utiliser \$(^NameDA).}"
+  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "${66:Choix entre installer \$(^NameDA) seulement pour vous-même  ou bien pour tous les utilisateurs du système. \$(^ClickNext)}"
+  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "${67:Installer pour tous les utilisateurs}"
+  \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "${68:Installer seulement pour moi}"
 !endif
 ]]></content>
   <tabTrigger>scaffold:Translate MUI (French)</tabTrigger>

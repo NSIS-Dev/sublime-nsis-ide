@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+!define funcName "${1:function_name}"
+
+!macro ${1:funcName}Call ${2:_PARAM} ${3:_RESULT}
+    !verbose push
+    !verbose \$\{_${1/(.*)/\U\1/}_VERBOSE\}
+    Push `\$\{${2:_PARAM}\}`
+    \$\{CallArtificialFunction\} ${1:funcName}_
+    Pop `\$\{${3:_RESULT}\}`
+    !verbose pop
+!macroend
+
+!define ${1:funcName} `!insertmacro ${1:funcName}Call`
+!define un.${1:funcName} `!insertmacro ${1:funcName}Call`
+
+!macro ${1:funcName}
+!macroend
+
+!macro un.${1:funcName}
+!macroend
+
+!macro ${1:funcName}_
+    !verbose push
+    !verbose ${_${1/(.*)/\U\1/}_VERBOSE
+    
+    ${7:# your code}
+
+    !verbose pop
+!macroend
+]]></content>
+    <tabTrigger>do:Library function</tabTrigger>
+    <scope>source.nsis</scope>
+</snippet>

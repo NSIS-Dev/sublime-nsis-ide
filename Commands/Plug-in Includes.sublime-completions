@@ -1,0 +1,109 @@
+{
+  "scope": "source.nsis",
+  "completions": [
+    {
+      "trigger": "CPUFeatures.nsh",
+      "contents": "!include \"CPUFeatures.nsh\""
+    },
+    {
+      "trigger": "DlgHost.nsh",
+      "contents": "!include \"DlgHost.nsh\""
+    },
+    {
+      "trigger": "DotNetChecker.nsh",
+      "contents": "!include \"DotNetChecker.nsh\""
+    },
+    {
+      "trigger": "Locate.nsh",
+      "contents": "!include \"Locate.nsh\""
+    },
+    {
+      "trigger": "MUIEx.nsh",
+      "contents": "!include \"MUIEx.nsh\""
+    },
+    {
+      "trigger": "name2ip.nsh",
+      "contents": "!include \"name2ip.nsh\""
+    },
+    {
+      "trigger": "nsArray.nsh",
+      "contents": "!include \"nsArray.nsh\""
+    },
+    {
+      "trigger": "NsExpr.nsh",
+      "contents": "!include \"NsExpr.nsh\""
+    },
+    {
+      "trigger": "NSISList.nsh",
+      "contents": "!include \"NSISList.nsh\""
+    },
+    {
+      "trigger": "NSISpcre.nsh",
+      "contents": "!include \"NSISpcre.nsh\""
+    },
+    {
+      "trigger": "nsisXML.nsh",
+      "contents": "!include \"nsisXML.nsh\""
+    },
+    {
+      "trigger": "nsKeyHook.nsh",
+      "contents": "!include \"nsKeyHook.nsh\""
+    },
+    {
+      "trigger": "nsProcess.nsh",
+      "contents": "!include \"nsProcess.nsh\""
+    },
+    {
+      "trigger": "nsResize.nsh",
+      "contents": "!include \"nsResize.nsh\""
+    },
+    {
+      "trigger": "nsThread.nsh",
+      "contents": "!include \"nsThread.nsh\""
+    },
+    {
+      "trigger": "OLEDB.nsh",
+      "contents": "!include \"OLEDB.nsh\""
+    },
+    {
+      "trigger": "Registry.nsh",
+      "contents": "!include \"Registry.nsh\""
+    },
+    {
+      "trigger": "Stack.nsh",
+      "contents": "!include \"Stack.nsh\""
+    },
+    {
+      "trigger": "StdUtils.nsh",
+      "contents": "!include \"StdUtils.nsh\""
+    },
+    {
+      "trigger": "TextReplace.nsh",
+      "contents": "!include \"TextReplace.nsh\""
+    },
+    {
+      "trigger": "Time.nsh",
+      "contents": "!include \"Time.nsh\""
+    },
+    {
+      "trigger": "UAC.nsh",
+      "contents": "!include \"UAC.nsh\""
+    },
+    {
+      "trigger": "UMUI.nsh",
+      "contents": "!include \"UMUI.nsh\""
+    },
+    {
+      "trigger": "XiMoL.nsh",
+      "contents": "!include \"XiMoL.nsh\""
+    },
+    {
+      "trigger": "XML.nsh",
+      "contents": "!include \"XML.nsh\""
+    },
+    {
+      "trigger": "ZipDLL.nsh",
+      "contents": "!include \"ZipDLL.nsh\""
+    }
+  ]
+}

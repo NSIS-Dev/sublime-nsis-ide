@@ -36,10 +36,8 @@ FunctionEnd
 
 Function "${6}"
 
- 	Push \$R0
+	Push \$R0
 	InstallOptions::dialog "\$PLUGINSDIR\\${9}.ini"
-    Pop \$R0
-  
 	Pop \$R0
 
 FunctionEnd

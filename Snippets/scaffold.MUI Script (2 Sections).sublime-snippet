@@ -42,7 +42,7 @@ LangString DESC_${10} \${LANG_${5/(.*)/\U\1/}} "${13:section2_description}"
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ; Functions --------------------------------
-${14}
+$14
 ]]></content>
 	<tabTrigger>scaffold:ModernUI (2 Sections)</tabTrigger>
 	<scope>source.nsis</scope>
