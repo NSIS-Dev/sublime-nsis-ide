@@ -10,7 +10,7 @@
         "completions",
         "nsis"
       ],
-      "previous_names": ["Academic Markdown"],
+      "previous_names": ["NSIS Developer"],
       "releases": [
         {
           "sublime_text": "<3000",
