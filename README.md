@@ -1,4 +1,4 @@
-# NSIS Developer for Sublime Text 3
+# NSIS IDE for Sublime Text 3
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
