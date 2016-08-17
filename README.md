@@ -30,7 +30,7 @@ The easiest way to install is via [Package Control](https://packagecontrol.io/).
 
 1. Add our repository `https://nsis-dev.github.io/sublime-nsis-ide/repository.json`
 2. Choose “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
-3. Select “*NSIS Developer*” and press <kbd>Enter</kbd>
+3. Select “*NSIS IDE*” and press <kbd>Enter</kbd>
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
@@ -39,7 +39,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 Change to your Sublime Text `Packages` directory, then clone this repository:
 
 ```bash
-$ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS Developer'
+$ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS IDE'
 ```
 
 ### Windows Installer
