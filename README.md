@@ -68,7 +68,7 @@ $ sudo apt-get install nsis
 $ sudo dnf install nsis
 ```
 
-### Mac OS X
+### macOS
 
 Install `makensis` through Homebrew:
 
