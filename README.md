@@ -1,9 +1,9 @@
-# NSIS Developer for Sublime Text
+# NSIS IDE for Sublime Text
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Apache License](https://img.shields.io/badge/license-Apache-orange.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
-[![GitHub](https://img.shields.io/github/release/NSIS-Dev/sublime-nsis-dev.svg?style=flat-square)](https://github.com/NSIS-Dev/sublime-nsis-dev/releases)
-[![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis-dev.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis-dev)
+[![GitHub](https://img.shields.io/github/release/NSIS-Dev/sublime-nsis-ide.svg?style=flat-square)](https://github.com/NSIS-Dev/sublime-nsis-ide/releases)
+[![Travis](https://img.shields.io/travis/NSIS-Dev/sublime-nsis-ide.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/sublime-nsis-ide)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 A collection of useful [NSIS](http://nsis.sourceforge.net) packages for [Sublime Text](http://www.sublimetext.com/). 
@@ -24,20 +24,20 @@ This package has been tested and approved for all Sublime Text versions.
 
 The easiest way to install is via [Package Control](https://packagecontrol.io/).
 
-1. Add our repository `https://nsis-dev.github.io/sublime-nsis-dev/repository.json`
+1. Add our repository `https://nsis-dev.github.io/sublime-nsis-ide/repository.json`
 2. Choose “*Install package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
-3. Select “*NSIS Developer*” and press <kbd>Enter</kbd>
+3. Select “*NSIS IDE*” and press <kbd>Enter</kbd>
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
 ### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. `git clone https://github.com/NSIS-Dev/sublime-nsis-dev.git 'NSIS Developer'`
+2. `git clone https://github.com/NSIS-Dev/sublime-nsis-dev.git 'NSIS IDE'`
 
 ### Windows Installer
 
-1. Download the [latest release](https://github.com/NSIS-Dev/sublime-nsis-dev/releases)
+1. Download the [latest release](https://github.com/NSIS-Dev/sublime-nsis-ide/releases)
 2. Compile `Support/installer.nsi`
 3. Run setup and follow instructions
 
