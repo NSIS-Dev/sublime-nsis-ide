@@ -5,7 +5,7 @@
 !include LogicLib.nsh
 
 ; Settings ---------------------------------
-Name "NSIS-Dev for Sublime Text"
+Name "NSIS IDE for Sublime Text"
 OutFile "sublime-nsis.exe"
 RequestExecutionLevel user
 InstallDir "$APPDATA\Sublime Text 3\Packages"
@@ -22,12 +22,12 @@ InstallDir "$APPDATA\Sublime Text 3\Packages"
 SectionGroup /e "Grammar" sublimeSyntax
 
 	Section "NSIS" sublimeNsisSyntax
-		SetOutPath "$INSTDIR\NSIS Developer\Syntaxes"
+		SetOutPath "$INSTDIR\NSIS IDE\Syntaxes"
 		File "..\Syntaxes\NSIS.tmLanguage" 
 	SectionEnd
 
 	Section "NSIS Language Files" sublimeNlfSyntax
-		SetOutPath "$INSTDIR\NSIS Developer\Syntaxes"
+		SetOutPath "$INSTDIR\NSIS IDE\Syntaxes"
 		File "..\Syntaxes\NLF.tmLanguage" 
 	SectionEnd
 
@@ -36,26 +36,26 @@ SectionGroupEnd
 SectionGroup /e "Completions" sublimeAutoCompletion
 
 	Section "NSIS Commands" sublimeCmdCompletion
-		SetOutPath "$INSTDIR\NSIS Developer\Commands"
+		SetOutPath "$INSTDIR\NSIS IDE\Commands"
 		File "..\Commands\NSIS.sublime-completions" 
 		File "..\Commands\InstallOptions.sublime-completions"
 
-		SetOutPath "$INSTDIR\NSIS Developer"
+		SetOutPath "$INSTDIR\NSIS IDE"
 		File "..\NSIS.sublime-settings" 
 	SectionEnd
 
 	Section "Drunken NSIS" sublimeDrunkenNsis
-		SetOutPath "$INSTDIR\NSIS Developer\Commands"
+		SetOutPath "$INSTDIR\NSIS IDE\Commands"
 		File "..\Commands\DrunkenNSIS.sublime-completions" 
 	SectionEnd
 
 SectionGroupEnd
 
 Section "Build" sublimeBuild
-	SetOutPath "$INSTDIR\NSIS Developer\Commands"
+	SetOutPath "$INSTDIR\NSIS IDE\Commands"
 	File "..\Commands\NSIS.sublime-build"
 
-	SetOutPath "$INSTDIR\NSIS Developer\Support"
+	SetOutPath "$INSTDIR\NSIS IDE\Support"
 	File "..\Support\makensis.cmd"
 	File "..\Support\makensis.sh"
 SectionEnd
@@ -63,12 +63,12 @@ SectionEnd
 SectionGroup /e "Snippets" sublimeSnippets
 
 	Section "NSIS" sublimeNsisSnippets
-		SetOutPath "$INSTDIR\NSIS Developer\Snippets"
+		SetOutPath "$INSTDIR\NSIS IDE\Snippets"
 		File /x "..\Snippets\scaffold.Translate*.sublime-snippet" "..\Snippets\*.sublime-snippet"
 	SectionEnd
 
 	Section "NSIS Language Files" sublimeNlfSnippets
-		SetOutPath "$INSTDIR\NSIS Developer\Snippets"
+		SetOutPath "$INSTDIR\NSIS IDE\Snippets"
 		File "..\Snippets\scaffold.Translate MUI (French).sublime-snippet" 
 		File "..\Snippets\scaffold.Translate MUI (Spanish).sublime-snippet" 
 		File "..\Snippets\scaffold.Translate MUI.sublime-snippet" 
@@ -120,8 +120,8 @@ Function .onInit
 		MessageBox MB_OK|MB_ICONEXCLAMATION "Sublime Text not found, please specify the packages directory."
 	${EndIf}
 
-	${If} ${FileExists} "$INSTDIR\NSIS Developer\*.*"
-		MessageBox MB_YESNO|MB_DEFBUTTON2 'Overwrite existing files in "$INSTDIR\NSIS Developer"?' IDYES +2
+	${If} ${FileExists} "$INSTDIR\NSIS IDE\*.*"
+		MessageBox MB_YESNO|MB_DEFBUTTON2 'Overwrite existing files in "$INSTDIR\NSIS IDE"?' IDYES +2
 		Quit
 	${EndIf}
 FunctionEnd
