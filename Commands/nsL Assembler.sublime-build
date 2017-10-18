@@ -1,0 +1,53 @@
+{
+  "cmd": ["makensis", "$file"],
+  "working_dir": "${project_path:${folder}}",
+  "file_regex": ".*rror in script:? \"(...*?)\" on line (\\d+)",
+  "selector": "source.nsis",
+  "windows": {
+    "cmd": ["$packages\\NSIS IDE\\scripts\\nsl-assembler-build.cmd", "$file"]
+  },
+  "variants": [
+    {
+      "name": "strict",
+      "cmd": ["makensis", "-WX", "$file"],
+      "file_regex": ".*arning: .* \\((...*?):(\\d+)\\)",
+      "windows": {
+        "cmd": ["$packages\\NSIS IDE\\scripts\\nsl-assembler-build.cmd", "/WX", "$file"]
+      }
+    },
+    {
+      "name": "Wine",
+      "cmd": ["sh", "$packages/NSIS IDE/scripts/build-wine.sh", "$file"],
+      "file_regex": ".*rror in script:? \"(...*?)\" on line (\\d+)",
+      "windows": {
+        "cmd": ["echo", "This build system is not available on Windows"],
+        "shell": true
+      }
+    },
+    {
+      "name": "Wine, strict",
+      "cmd": ["sh", "$packages/NSIS IDE/scripts/build-wine.sh", "-WX", "$file"],
+      "file_regex": ".*arning: .* \\((...*?):(\\d+)\\)",
+      "windows": {
+        "cmd": ["echo", "This build system is not available on Windows"],
+        "shell": true
+      }
+    },
+    {
+      "name": "PowerShell",
+      "cmd": ["bash", "-c", "echo This build system is only available on Windows"],
+      "file_regex": ".*rror in script:? \"(...*?)\" on line (\\d+)",
+      "windows": {
+        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\NSIS IDE\\scripts\\nsl-assembler-build.ps1", "\"$file\""]
+      }
+    },
+    {
+      "name": "PowerShell, strict",
+      "cmd": ["bash", "-c", "echo This build system is only available on Windows"],
+      "file_regex": ".*arning: .* \\((...*?):(\\d+)\\)",
+      "windows": {
+        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\NSIS IDE\\scripts\\nsl-assembler-build.ps1", "/WX", "\"$file\""]
+      }
+    }
+  ]
+}
