@@ -44,7 +44,7 @@ $ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS IDE'
 
 ## Building
 
-Before using this plugin, you must ensure that `makensis` is installed on your system. To install `makensis`, do the following:
+Before using this plugin, you must ensure that NSIS v3.02 (or higher) is installed on your system. To install `makensis`, do the following:
 
 ### Windows
 
