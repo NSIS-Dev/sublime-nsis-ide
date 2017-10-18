@@ -17,7 +17,7 @@ This package has been tested and approved for Sublime Text 3 ([Build 3103](http:
 
 * [NSIS Grammar](https://github.com/SublimeText/NSIS)
 * [NSIS Language File Grammar](https://github.com/idleberg/sublime-nlf)
-* [NSIS Completions](https://github.com/idleberg/sublime-nsis-dev)
+* [NSIS Completions](https://github.com/idleberg/sublime-nsis)
 * [Drunken NSIS Completions](https://github.com/idleberg/sublime-drunken-nsis)
 * [Build System](https://github.com/idleberg/sublime-makensis)
 * [Linter](https://github.com/idleberg/SublimeLinter-contrib-makensis)
@@ -50,7 +50,7 @@ $ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS IDE'
 
 ## Building
 
-Before using this plugin, you must ensure that `makensis` is installed on your system. To install `makensis, do the following:
+Before using this plugin, you must ensure that `makensis` is installed on your system. To install `makensis`, do the following:
 
 ### Windows
 
