@@ -67,10 +67,10 @@ $ sudo dnf install nsis
 Install `makensis` through Homebrew:
 
 ```bash
-# Homebrew
+# Homebrew (recommended)
 $ brew install nsis
 
-# MacPorts - not maintained, not recommended!
+# MacPorts
 $ ports install nsis
 ```
 
