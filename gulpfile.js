@@ -103,7 +103,7 @@ gulp.task('deploy:build:core:nsl-assembler', gulp.series( (done) => {
   "file_regex": ".*rror in script:? \\\"(...*?)\\\" on line (\\\\d+)",
   "selector": "source.nsis",
   "windows": {
-    "cmd": ["$packages\\\\NSIS IDE\\\\scripts\\\\nsis-build.cmd", "$file"]
+    "cmd": ["$packages\\\\NSIS IDE\\\\scripts\\\\nsl-assembler-build.cmd", "$file"]
   },
   "variants": [
     {
@@ -111,7 +111,7 @@ gulp.task('deploy:build:core:nsl-assembler', gulp.series( (done) => {
       "cmd": ["makensis", "-WX", "$file"],
       "file_regex": ".*arning: .* \\\\((...*?):(\\\\d+)\\\\)",
       "windows": {
-        "cmd": ["$packages\\\\NSIS IDE\\\\scripts\\\\nsis-build.cmd", "/WX", "$file"]
+        "cmd": ["$packages\\\\NSIS IDE\\\\scripts\\\\nsl-assembler-build.cmd", "/WX", "$file"]
       }
     },
     {
@@ -137,7 +137,7 @@ gulp.task('deploy:build:core:nsl-assembler', gulp.series( (done) => {
       "cmd": ["bash", "-c", "echo This build system is only available on Windows"],
       "file_regex": ".*rror in script:? \\\"(...*?)\\\" on line (\\\\d+)",
       "windows": {
-        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\\\NSIS IDE\\\\scripts\\\\nsis-build.ps1", "\\\"$file\\\""]
+        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\\\NSIS IDE\\\\scripts\\\\nsl-assembler-build.ps1", "\\\"$file\\\""]
       }
     },
     {
@@ -145,14 +145,14 @@ gulp.task('deploy:build:core:nsl-assembler', gulp.series( (done) => {
       "cmd": ["bash", "-c", "echo This build system is only available on Windows"],
       "file_regex": ".*arning: .* \\\\((...*?):(\\\\d+)\\\\)",
       "windows": {
-        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\\\NSIS IDE\\\\scripts\\\\nsis-build.ps1", "/WX", "\\\"$file\\\""]
+        "cmd": ["powershell", "-ExecutionPolicy", "Unrestricted", "-File", "$packages\\\\NSIS IDE\\\\scripts\\\\nsl-assembler-build.ps1", "/WX", "\\\"$file\\\""]
       }
     }
   ]
 }
 `;
 
-  return file('NSIS.sublime-build', str, { src: true })
+  return file('nsL Assembler.sublime-build', str, { src: true })
       .pipe(debug({title: 'deploy:build:core:nsl-assembler'}))
       .pipe(gulp.dest('Commands'));
   done();
