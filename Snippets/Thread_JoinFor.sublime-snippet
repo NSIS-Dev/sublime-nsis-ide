@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Thread_JoinFor} \$${1:thread_id} ${2:time_in_ms} \$${3:result}
+]]></content>
+  <tabTrigger>Thread_JoinFor</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::dll_move} "${1:handle}" "${2:index1}" "${3:index2}" \$${4:var}
+]]></content>
+  <tabTrigger>Stack::dll_move</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

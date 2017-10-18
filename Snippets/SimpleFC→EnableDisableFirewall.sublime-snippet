@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::EnableDisableFirewall ${1:status}
+]]></content>
+  <tabTrigger>SimpleFC::EnableDisableFirewall</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

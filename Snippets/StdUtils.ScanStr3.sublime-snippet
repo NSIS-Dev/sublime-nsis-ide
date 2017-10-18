@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.ScanStr3} \$${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2} ${6:default3}
+]]></content>
+  <tabTrigger>StdUtils.ScanStr3</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

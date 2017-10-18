@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisMultiMon::GetWorkArea ${1:id}
+]]></content>
+  <tabTrigger>NsisMultiMon::GetWorkArea</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

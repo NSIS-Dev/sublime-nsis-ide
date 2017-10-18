@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExecCmd::wait \${1:handle}
+]]></content>
+  <tabTrigger>ExecCmd::wait</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

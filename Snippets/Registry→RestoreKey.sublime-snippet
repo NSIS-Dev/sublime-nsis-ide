@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::RestoreKey} "${1:file}" \$${2:var}
+]]></content>
+  <tabTrigger>Registry::RestoreKey</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

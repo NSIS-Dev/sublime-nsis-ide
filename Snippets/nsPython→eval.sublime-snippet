@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsPython::eval "${1:expr}"
+]]></content>
+  <tabTrigger>nsPython::eval</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

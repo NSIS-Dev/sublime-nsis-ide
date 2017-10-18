@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WinShell::UninstAppUserModelId "${1:id}"
+]]></content>
+  <tabTrigger>WinShell::UninstAppUserModelId</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

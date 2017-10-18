@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ToolTips::Modern \$${1:hwnd} ${2:icon} "${3:text}"
+]]></content>
+  <tabTrigger>ToolTips::Modern</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

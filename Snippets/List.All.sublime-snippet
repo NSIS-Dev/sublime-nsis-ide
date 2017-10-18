@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.All} "${1:name}"
+]]></content>
+  <tabTrigger>List.All</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

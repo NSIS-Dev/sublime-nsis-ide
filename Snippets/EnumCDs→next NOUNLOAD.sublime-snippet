@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+EnumCDs::next /NOUNLOAD
+]]></content>
+  <tabTrigger>EnumCDs::next /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::FirstChildElement} "${1:name}" \$${2:var1} \$${3:var2}
+]]></content>
+  <tabTrigger>xml::FirstChildElement</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

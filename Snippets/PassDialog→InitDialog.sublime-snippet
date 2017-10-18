@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+PassDialog::InitDialog /NOUNLOAD "${1:dialog_name}" ${2:parameters}
+]]></content>
+  <tabTrigger>PassDialog::InitDialog</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

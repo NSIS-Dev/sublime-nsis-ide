@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsSCM::QueryStatus "${1:name_of_service}"
+]]></content>
+  <tabTrigger>nsSCM::QueryStatus</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

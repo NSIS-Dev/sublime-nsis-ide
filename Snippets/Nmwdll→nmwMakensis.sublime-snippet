@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Nmwdll::nmwMakensis "${1:\${NSISDIR\}\makensis.exe}" ${2:parameters} "${3:file}.nsi"
+]]></content>
+  <tabTrigger>Nmwdll::nmwMakensis</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

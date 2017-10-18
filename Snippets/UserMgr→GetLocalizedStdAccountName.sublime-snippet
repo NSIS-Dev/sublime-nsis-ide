@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::GetLocalizedStdAccountName "${1:STDACCOUNTSID}"
+]]></content>
+  <tabTrigger>UserMgr::GetLocalizedStdAccountName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

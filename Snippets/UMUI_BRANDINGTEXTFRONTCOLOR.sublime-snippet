@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_BRANDINGTEXTFRONTCOLOR "${1:RRGGBB}"
+]]></content>
+  <tabTrigger>UMUI_BRANDINGTEXTFRONTCOLOR</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

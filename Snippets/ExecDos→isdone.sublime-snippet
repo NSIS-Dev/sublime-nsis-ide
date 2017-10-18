@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExecDos::isdone /NOUNLOAD ${1:handle}
+]]></content>
+  <tabTrigger>ExecDos::isdone</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

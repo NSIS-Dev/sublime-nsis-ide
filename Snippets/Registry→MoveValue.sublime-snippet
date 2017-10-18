@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::MoveValue} "${1:full_path_source}" "${2:value_source}" "${3:full_path_target}" "${4:value_source}" \$${5:var}
+]]></content>
+  <tabTrigger>Registry::MoveValue</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

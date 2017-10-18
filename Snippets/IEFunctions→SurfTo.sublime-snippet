@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IEFunctions::SurfTo /NOUNLOAD "${1:url}"
+]]></content>
+  <tabTrigger>IEFunctions::SurfTo</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisIIS::Resume
+]]></content>
+  <tabTrigger>NsisIIS::Resume</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

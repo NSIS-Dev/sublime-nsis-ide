@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_PageElevation_OnInit
+]]></content>
+  <tabTrigger>UAC_PageElevation_OnInit</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

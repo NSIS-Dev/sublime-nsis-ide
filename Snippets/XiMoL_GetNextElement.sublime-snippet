@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro XiMoL_GetNextElement "${1:HANDLER}" "${2:GOTO_IF_SUCCESS}"
+]]></content>
+  <tabTrigger>XiMoL_GetNextElement</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

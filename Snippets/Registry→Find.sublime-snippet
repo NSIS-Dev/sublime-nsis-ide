@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::Find} "${1:handle}" "${2:options}" \$${3:path} \$${4:value_or_key} \$${5:string} \$${6:type}
+]]></content>
+  <tabTrigger>Registry::Find</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

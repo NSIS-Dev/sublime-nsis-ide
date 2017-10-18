@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SpiderBanner::ShowPBOnly
+]]></content>
+  <tabTrigger>SpiderBanner::ShowPBOnly</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

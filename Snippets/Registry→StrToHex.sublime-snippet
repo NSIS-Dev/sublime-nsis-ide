@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::StrToHex} "${1:string}" \$${2:var}
+]]></content>
+  <tabTrigger>Registry::StrToHex</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

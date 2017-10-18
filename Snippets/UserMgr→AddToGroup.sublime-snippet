@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::AddToGroup "${1:USERID}" "${2:GROUPID}"
+]]></content>
+  <tabTrigger>UserMgr::AddToGroup</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

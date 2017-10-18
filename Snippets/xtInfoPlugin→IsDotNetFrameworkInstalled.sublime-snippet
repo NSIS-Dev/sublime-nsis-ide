@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::IsDotNetFrameworkInstalled
+]]></content>
+  <tabTrigger>xtInfoPlugin::IsDotNetFrameworkInstalled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

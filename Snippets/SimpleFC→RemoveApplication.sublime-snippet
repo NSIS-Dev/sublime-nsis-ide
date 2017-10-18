@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::RemoveApplication "${1:path}"
+]]></content>
+  <tabTrigger>SimpleFC::RemoveApplication</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

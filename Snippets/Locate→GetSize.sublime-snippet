@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Locate::Find} "${1:path}" "${2:options}" \$${3:size} \$${4:sum_files} \$${5:sum_directories}
+]]></content>
+  <tabTrigger>Locate::GetSize</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

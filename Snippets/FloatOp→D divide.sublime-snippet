@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+FloatOp::D "${1:value1}" "${2:value2}" \$${3:result_var}
+]]></content>
+  <tabTrigger>FloatOp::D divide</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

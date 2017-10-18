@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nxs::getWindow
+]]></content>
+  <tabTrigger>nxs::getWindow</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

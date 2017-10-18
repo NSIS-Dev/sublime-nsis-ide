@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AdvAddRule "${1:name}" "${2:description}" ${3:protocol} ${4:direction} ${5:status} ${6:profile} ${7:action} ${8:application} ${9:icmp_types_and_codes} ${10:group} ${11:local_ports} ${12:remote_ports} ${13:local_address} ${14:remote_address}
+]]></content>
+  <tabTrigger>SimpleFC::AdvExistsRule</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

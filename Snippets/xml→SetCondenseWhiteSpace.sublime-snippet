@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::SetCondenseWhiteSpace} ${1:0|1}
+]]></content>
+  <tabTrigger>xml::SetCondenseWhiteSpace</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InetBgDL::GetStats
+]]></content>
+  <tabTrigger>InetBgDL::GetStats</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

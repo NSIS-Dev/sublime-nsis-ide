@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MoreInfo::GetLegalTrademarks "${1:file}"
+]]></content>
+  <tabTrigger>MoreInfo::GetLegalTrademarks</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

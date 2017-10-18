@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Time::TimeString} "${1:time}" \$${2:day} \$${3:month} \$${4:year} \$${5:hour} \$${6:minute} \$${7:second}
+]]></content>
+  <tabTrigger>Time::TimeString</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro XiMoL_IfPathExists "${1:HANDLER}" "${2:PATH}" "${3:GOTO_IF_PATH_EXISTS}" "${4:GOTO_IF_NOT}"
+]]></content>
+  <tabTrigger>XiMoL_IfPathExists</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MoreInfo::GetPrivateBuild "${1:file}"
+]]></content>
+  <tabTrigger>MoreInfo::GetPrivateBuild</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

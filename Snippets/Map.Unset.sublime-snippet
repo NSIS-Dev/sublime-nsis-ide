@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Map.Unset} "${1:name}" "${2:key}"
+]]></content>
+  <tabTrigger>Map.Unset</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

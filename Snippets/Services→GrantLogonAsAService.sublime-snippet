@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Services::GrantLogonAsAService "${1:user_name}"
+]]></content>
+  <tabTrigger>Services::GrantLogonAsAService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

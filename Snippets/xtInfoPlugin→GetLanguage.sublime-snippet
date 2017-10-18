@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::GetLanguage
+]]></content>
+  <tabTrigger>xtInfoPlugin::GetLanguage</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

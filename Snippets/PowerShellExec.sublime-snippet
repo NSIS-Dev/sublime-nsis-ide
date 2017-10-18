@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${PowerShellExec} "${1:command}"
+]]></content>
+  <tabTrigger>PowerShellExec</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

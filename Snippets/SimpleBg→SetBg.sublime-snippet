@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleBg::SetBg /NOUNLOAD ${1:R_top} ${2:G_top} ${3:B_top} ${4:R_bottom} ${5:G_bottom} ${6:B_bottom} "${7:text}"
+]]></content>
+  <tabTrigger>SimpleBg::SetBg</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

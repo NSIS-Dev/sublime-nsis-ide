@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.GetAllParameter} \$${1:output} ${2:truncate}
+]]></content>
+  <tabTrigger>StdUtils.GetAllParameter</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

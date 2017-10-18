@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Unicode::FileUnicode2UTF8 "${1:input}" "${2:input}" ${3:type}
+]]></content>
+  <tabTrigger>Unicode::FileUnicode2UTF8</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

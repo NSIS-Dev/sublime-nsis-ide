@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::SetFileOwner "${1:filename}" "${2:trustee}"
+]]></content>
+  <tabTrigger>AccessControl::SetFileOwner</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

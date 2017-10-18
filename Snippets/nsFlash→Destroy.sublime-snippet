@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsFlash::Destroy
+]]></content>
+  <tabTrigger>nsFlash::Destroy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

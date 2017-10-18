@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_write} "${1:string}" "${2:index}" \$${3:var}
+]]></content>
+  <tabTrigger>Stack::ns_write</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

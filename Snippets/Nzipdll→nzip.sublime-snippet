@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Nzipdll::nzip ${1:dialog} "${2:file}.zip" "${3:target}"
+]]></content>
+  <tabTrigger>Nzipdll::nzip</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

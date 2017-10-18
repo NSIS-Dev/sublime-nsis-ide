@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+EmbeddedLists::Dialog "${1:file}.ini"
+]]></content>
+  <tabTrigger>EmbeddedLists::Dialog</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

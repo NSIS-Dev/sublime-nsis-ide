@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nxs::HasUserAborted /NOUNLOAD
+]]></content>
+  <tabTrigger>nxs::HasUserAborted /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

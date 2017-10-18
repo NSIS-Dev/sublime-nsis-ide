@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI "${1:ini_file}"
+]]></content>
+  <tabTrigger>UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

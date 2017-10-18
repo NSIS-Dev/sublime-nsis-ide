@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CDRom::Close "${1:drive}" .${2:R0}
+]]></content>
+  <tabTrigger>CDRom::Close</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

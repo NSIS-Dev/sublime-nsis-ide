@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_AsUser_GetSection ${1:Flags|InstTypes|Size|Text} ${2:SectionIndex} \$${3:Output}
+]]></content>
+  <tabTrigger>UAC_AsUser_GetSection</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

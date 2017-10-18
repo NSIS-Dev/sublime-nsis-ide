@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::IsApplicationAdded "${1:path}"
+]]></content>
+  <tabTrigger>SimpleFC::IsApplicationAdded</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

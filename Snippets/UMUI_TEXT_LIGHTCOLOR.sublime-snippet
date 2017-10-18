@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_TEXT_LIGHTCOLOR "${1:RRGGBB}"
+]]></content>
+  <tabTrigger>UMUI_TEXT_LIGHTCOLOR</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

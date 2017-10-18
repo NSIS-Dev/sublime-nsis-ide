@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::dll_size} "${1:handle}" \$${2:order}
+]]></content>
+  <tabTrigger>Stack::dll_size</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

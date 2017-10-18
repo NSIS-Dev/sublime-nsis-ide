@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.SetVerbose} ${1:on|off}
+]]></content>
+  <tabTrigger>StdUtils.SetVerbose</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nxs::Update /NOUNLOAD "${1:caption}" ${2:options}
+]]></content>
+  <tabTrigger>nxs::Update /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

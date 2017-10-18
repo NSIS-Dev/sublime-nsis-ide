@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Games::registerGame "/mcicon:${1:file}.png" "/mcrun:${2:shortcut}.lnk" "${3:file}.exe"
+]]></content>
+  <tabTrigger>Games::registerGame</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

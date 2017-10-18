@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+BrandingURL::Set /NOUNLOAD "${1:red}" "${2:green}" "${3:blue}" "${4:url}"
+]]></content>
+  <tabTrigger>BrandingURL::Set</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

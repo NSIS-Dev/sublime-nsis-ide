@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::GetUserNameFromSID "${1:SID}
+]]></content>
+  <tabTrigger>UserMgr::GetUserNameFromSID</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

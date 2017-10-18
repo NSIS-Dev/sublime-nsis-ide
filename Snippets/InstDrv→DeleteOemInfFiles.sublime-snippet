@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::DeleteOemInfFiles
+]]></content>
+  <tabTrigger>InstDrv::DeleteOemInfFiles</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

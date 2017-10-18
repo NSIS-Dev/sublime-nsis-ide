@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Games::unregisterGame "${1:file}.exe"
+]]></content>
+  <tabTrigger>Games::unregisterGame</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

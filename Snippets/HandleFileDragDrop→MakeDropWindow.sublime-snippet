@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+HandleFileDragDrop::MakeDropWindow \$${1:handle} \$${2:result_var}
+]]></content>
+  <tabTrigger>HandleFileDragDrop::MakeDropWindow</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

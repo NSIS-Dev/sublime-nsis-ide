@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::InitDriverSetup /NOUNLOAD "${1:devClass}" "${2:drvHWID}"
+]]></content>
+  <tabTrigger>InstDrv::InitDriverSetup /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

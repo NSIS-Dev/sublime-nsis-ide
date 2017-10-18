@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${CPUFeatures.CheckFeature} "${1:feature(s)}" \$${2:out_var}
+]]></content>
+  <tabTrigger>CPUFeatures.CheckFeature</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

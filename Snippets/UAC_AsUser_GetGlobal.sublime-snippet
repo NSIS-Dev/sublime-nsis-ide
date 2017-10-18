@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_AsUser_GetGlobal \$${1:Output} \$${2:Source}
+]]></content>
+  <tabTrigger>UAC_AsUser_GetGlobal</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisStartMenu::RegenerateFolder "${1:path}"
+]]></content>
+  <tabTrigger>NsisStartMenu::RegenerateFolder</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

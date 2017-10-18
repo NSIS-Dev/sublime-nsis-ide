@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::SetServiceFailureFlag ${1:name_of_service} ${2:failure_actions_on_non_crash_failures}
+]]></content>
+  <tabTrigger>SimpleSC::SetServiceFailureFlag</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

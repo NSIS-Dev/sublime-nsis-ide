@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::XPathNode} "${1:expression}" \$${2:var}
+]]></content>
+  <tabTrigger>xml::XPathNode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,112 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: nsL Assembler
+file_extensions:
+  - nsl
+scope: source.nsl
+variables:
+  user_var: '\$\w+'
+  variable: '\$(\{__DATE__\}|\{__FILE__\}|\{__FILEDIR__\}|\{__LINE__\}|\{__TIME__\}|\{__TIMESTAMP__\}|ADMINTOOLS|APPDATA|CDBURN_AREA|CMDLINE|COMMONFILES|COOKIES|DESKTOP|DOCUMENTS|EXEDIR|EXEFILE|EXEPATH|FAVORITES|FONTS|HISTORY|HWNDPARENT|INSTDIR|INTERNET_CACHE|LANGUAGE|LOCALAPPDATA|MUSIC|NETHOOD|NSIS_MAX_STRLEN|NSIS_VERSION|NSISDIR|OUTDIR|PICTURES|PLUGINSDIR|PRINTHOOD|PROFILE|PROGRAMFILES(32|64)?|QUICKLAUNCH|RECENT|RESOURCES_LOCALIZED|RESOURCES|SENDTO|SMPROGRAMS|SMSTARTUP|STARTMENU|SYSDIR|TEMP|TEMPLATES|VIDEOS|WINDIR)'
+  language: '\$\([\w\.:\^-]+\)'
+  definitions: '\$\{[\w\.:\^-]+\}'
+  escape_char: '\\(\"|n|r|t)'
+  line_comment: '(//).*$\n?'
+contexts:
+  main:
+    # NSIS syntax inside #nsis blocks only (thanks Keith Hall – https://github.com/keith-hall)
+    # https://forum.sublimetext.com/t/apply-imported-syntax-on-sections-only/24207/2
+    - match: '^\s*(#nsis)\b'
+      captures:
+        1: keyword.other.nsl
+      push:
+        - meta_content_scope: source.nsis.embedded.nsl
+        - match: '^\s*(#nsisend)\b'
+          captures:
+            1: keyword.other.nsl
+          pop: true
+        - include: 'scope:source.nsis'
+        - match: '{{line_comment}}'
+          scope: comment.line.nsl
+          captures:
+            1: punctuation.definition.comment.nsl
+      with_prototype:
+        - match: '(?i)(?=#nsisend)'
+          pop: true
+    # nsL Assembler syntax
+    - match: \b(Abort|AddBrandingImage|AddIncludeDir|AddPluginDir|AddSize|AllowRootDirInstall|AllowSkipFiles|AutoCloseWindow|BGFont|BGGradient|BrandingText|BringToFront|Call|Caption|ChangeUI|CheckBitmap|ClearErrors|CompletedText|ComponentText|CopyFiles|CRCCheck|CreateDirectory|CreateFont|CreateShortCut|Delete|DeleteINISec|DeleteINIStr|DeleteRegKey|DeleteRegValue|DetailPrint|DetailsButtonText|DirText|DirVar|DirVerify|EnableWindow|EnumRegKey|EnumRegValue|Exch|Exec|ExecShell|ExecWait|ExpandEnvStrings|File|FileBufSize|FileClose|FileErrorText|FileOpen|FileRead|FileReadByte|FileRecursive|FileSeek|FileWrite|FileWriteByte|FindClose|FindFirst|FindNext|FindWindow|FlushINI|GetCurInstType|GetCurrentAddress|GetDlgItem|GetDLLVersion|GetDLLVersionLocal|GetErrorLevel|GetFileTime|GetFileTimeLocal|GetFunctionAddress|GetInstDirError|GetLabelAddress|GetTempFileName|HideWindow|Icon|IfAbort|IfErrors|IfFileExists|IfRebootFlag|IfSilent|Include|InitPluginsDir|InstallButtonText|InstallColors|InstallDir|InstallDirRegKey|InstProgressFlags|InstType|InstTypeGetText|InstTypeSetText|IntFmt|IsWindow|LangString|LicenseBkColor|LicenseData|LicenseForceSelection|LicenseLangString|LicenseText|LoadLanguageFile|LockWindow|LogSet|LogText|MessageBox|MiscButtonText|Name|OutFile|Pop|Push|Quit|ReadEnvStr|ReadINIStr|ReadRegDWORD|ReadRegStr|Reboot|RegDLL|Rename|RequestExecutionLevel|ReserveFile|ReserveFileRecursive|RMDir|RMDirRecursive|SearchPath|SectionGetFlags|SectionGetInstTypes|SectionGetSize|SectionGetText|SectionIn|SectionSetFlags|SectionSetInstTypes|SectionSetSize|SectionSetText|SendMessage|SetAutoClose|SetBrandingImage|SetCompress|SetCompressor|SetCompressorDictSize|SetCtlColors|SetCurInstType|SetDatablockOptimize|SetDateSave|SetDetailsPrint|SetDetailsView|SetErrorLevel|SetErrors|SetFileAttributes|SetFont|SetOutPath|SetOverwrite|SetRebootFlag|SetRegView|SetShellVarContext|SetSilent|ShowInstDetails|ShowUninstDetails|ShowWindow|SilentInstall|SilentUninstall|Sleep|SpaceTexts|StrCmp|StrCmpS|StrCpy|StrLen|SubCaption|UninstallButtonText|UninstallCaption|UninstallIcon|UninstallSubCaption|UninstallText|UnRegDLL|VIAddVersionKey|VIProductVersion|WindowIcon|WriteINIStr|WriteRegBin|WriteRegDWORD|WriteRegExpandStr|WriteRegStr|WriteUninstaller|XPStyle)(?=\s*\()
+      scope: keyword.nsl
+    - match: ^\s*(?i)(uninstall\s+)?(function|page|section)\b
+      scope: keyword.control.nsl
+    - match: ^\s*#(define|else|endif|if|ifend|macro|macroend|nsis|nsisend|return)\b
+      scope: keyword.other.nsl
+    - match: \w+\:\:\w+
+      scope: support.class.nsl
+    - match: \s*(?i)(for|if|switch|while)(?=\s*\()
+      scope: entity.name.section.nsl
+    - match: \s*(?i)(break|case|default|do|else|return)\b
+      scope: entity.name.section.nsl
+    - match: \b(?i)(MB_DEFBUTTON1|MB_DEFBUTTON2|MB_DEFBUTTON3|MB_DEFBUTTON4|MB_ICONEXCLAMATION|MB_ICONINFORMATION|MB_ICONQUESTION|MB_ICONSTOP|MB_OK|MB_OKCANCEL|MB_RETRYCANCEL|MB_RIGHT|MB_RTLREADING|MB_SETFOREGROUND|MB_TOPMOST|MB_USERICON|MB_YESNO|MB_YESNOCANCEL|IDABORT|IDCANCEL|IDIGNORE|IDNO|IDOK|IDRETRY|IDYES)\b
+      scope: entity.other.attribute-name.nsl
+    - match: '[\\A-Za-z_.][\\A-Za-z_0-9]*(?=\s*\()'
+      scope: entity.name.function.nsl
+    - match: \b(admin|all|auto|both|current|false|force|hide|highest|ifdiff|ifnewer|lastused|listonly|nevershow|none|normal|off|on|show|silent|silentlog|textonly|true|user)\b
+      scope: constant.language.nsl
+    - match: '\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?))\b'
+      scope: constant.numeric.nsl
+    - match: '@\\$\\w+'
+      scope: constant.character.escape.nsl
+    - match: '{{language}}'
+      scope: constant.other.nsl
+    - match: '{{definitions}}'
+      scope: constant.other.nsl
+    - match: '{{user_var}}'
+      scope: variable.other.nsl
+    - match: '{{variable}}'
+      scope: variable.language.nsl
+    - match: '"'
+      captures:
+        0: punctuation.definition.string.begin.nsl
+      push:
+        - meta_scope: string.quoted.double.nsl
+        - match: (")|(\n)
+          captures:
+            0: punctuation.definition.string.end.nsl
+          pop: true
+        - match: '{{escape_char}}'
+          scope: constant.character.escape.nsl
+    - match: "'"
+      captures:
+        0: punctuation.definition.string.begin.nsl
+      push:
+        - meta_scope: string.quoted.single.nsl
+        - match: (')|(\n)
+          captures:
+            0: punctuation.definition.string.end.nsl
+          pop: true
+        - match: '{{escape_char}}'
+          scope: constant.character.escape.nsl
+    - match: "`"
+      captures:
+        0: punctuation.definition.string.begin.nsl
+      push:
+        - meta_scope: string.quoted.back.nsl
+        - match: (`)|(\n)
+          captures:
+            0: punctuation.definition.string.end.nsl
+          pop: true
+        - match: '{{escape_char}}'
+          scope: constant.character.escape.nsl
+    - match: '{{line_comment}}'
+      scope: comment.line.nsl
+      captures:
+        1: punctuation.definition.comment.nsl
+    - match: /\*
+      captures:
+        0: punctuation.definition.comment.nsl
+      push:
+        - meta_scope: comment.block.nsl
+        - match: \*/
+          captures:
+            0: punctuation.definition.comment.nsl
+          pop: true

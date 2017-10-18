@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${REReplace} \$${1:result} "${2:pattern}" "${3:subject}" "${4:replacement}" ${5:replace_all}
+]]></content>
+  <tabTrigger>REReplace</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

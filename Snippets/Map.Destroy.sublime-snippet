@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Map.Destroy} "${1:name}"
+]]></content>
+  <tabTrigger>Map.Destroy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

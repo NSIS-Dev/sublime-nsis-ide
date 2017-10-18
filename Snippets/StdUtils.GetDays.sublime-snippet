@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.GetDays} \$${1:output}
+]]></content>
+  <tabTrigger>StdUtils.GetDays</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

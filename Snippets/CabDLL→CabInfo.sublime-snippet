@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CabDLL::CabInfo "${1:file}.cab"
+]]></content>
+  <tabTrigger>CabDLL::CabInfo</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

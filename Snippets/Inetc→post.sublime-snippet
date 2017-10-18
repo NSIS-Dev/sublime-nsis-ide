@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Inetc::post "${1:text}" "${2:url}" "${3:target_file}"
+]]></content>
+  <tabTrigger>Inetc::post</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

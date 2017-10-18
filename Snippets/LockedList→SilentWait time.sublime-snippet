@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LockedList::SilentWait /time ${1:time_in_ms}
+]]></content>
+  <tabTrigger>LockedList::SilentWait /time</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

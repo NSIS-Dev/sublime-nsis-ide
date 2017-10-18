@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SpiderBanner::Show ${1:position} ${2:distance} /MODERN
+]]></content>
+  <tabTrigger>SpiderBanner::Show /MODERN</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

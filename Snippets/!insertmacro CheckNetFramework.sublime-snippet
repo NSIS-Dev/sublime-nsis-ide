@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro CheckNetFramework "${1:version}"
+]]></content>
+  <tabTrigger>!insertmacro:CheckNetFramework</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

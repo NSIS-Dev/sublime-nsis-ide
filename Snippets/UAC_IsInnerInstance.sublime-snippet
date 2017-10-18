@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${UAC_IsInnerInstance}
+]]></content>
+  <tabTrigger>UAC_IsInnerInstance</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Email::EmailValidation ${1:email}
+]]></content>
+  <tabTrigger>Email::EmailValidation</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

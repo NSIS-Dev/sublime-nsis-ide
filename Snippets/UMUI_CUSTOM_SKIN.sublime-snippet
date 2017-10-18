@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_CUSTOM_SKIN "${1:custom_skin_path}"
+]]></content>
+  <tabTrigger>UMUI_CUSTOM_SKIN</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

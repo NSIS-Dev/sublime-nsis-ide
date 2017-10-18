@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Linker::link /NOUNLOAD \$${1:hwnd} "${2:url}"
+]]></content>
+  <tabTrigger>Linker::link</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

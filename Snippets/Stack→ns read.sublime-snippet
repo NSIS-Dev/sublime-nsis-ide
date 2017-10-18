@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_read} "${1:index}" \$${2:var} \$${3:var}
+]]></content>
+  <tabTrigger>Stack::ns_read</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

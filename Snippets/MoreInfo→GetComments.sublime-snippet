@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MoreInfo::GetComments "${1:file}"
+]]></content>
+  <tabTrigger>MoreInfo::GetComments</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

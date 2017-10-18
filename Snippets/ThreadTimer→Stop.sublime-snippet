@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ThreadTimer::Stop
+]]></content>
+  <tabTrigger>ThreadTimer::Stop</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

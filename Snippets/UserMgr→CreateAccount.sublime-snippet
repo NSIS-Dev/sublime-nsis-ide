@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::CreateAccount "${1:USERID}" "${2:PASSWORD}" "${3:COMMENT}"
+]]></content>
+  <tabTrigger>UserMgr::CreateAccount</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

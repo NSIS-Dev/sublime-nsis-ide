@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisXML::getText
+]]></content>
+  <tabTrigger>NsisXML::getText</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

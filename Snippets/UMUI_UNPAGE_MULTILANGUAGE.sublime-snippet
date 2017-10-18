@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UMUI_UNPAGE_MULTILANGUAGE
+]]></content>
+  <tabTrigger>UMUI_UNPAGE_MULTILANGUAGE</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

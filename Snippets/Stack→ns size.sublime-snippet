@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_size} \$${1:var}
+]]></content>
+  <tabTrigger>Stack::ns_size</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

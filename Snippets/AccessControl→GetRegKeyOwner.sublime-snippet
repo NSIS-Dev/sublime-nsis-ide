@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::GetRegKeyOwner "${1:rootkey}" "${2:regkey}"
+]]></content>
+  <tabTrigger>AccessControl::GetRegKeyOwner</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

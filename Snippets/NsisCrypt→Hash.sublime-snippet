@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisCrypt::Hash "${1:string}" "${2:algorithm}"
+]]></content>
+  <tabTrigger>NsisCrypt::Hash</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

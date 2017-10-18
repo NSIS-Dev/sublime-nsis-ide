@@ -1,49 +1,45 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+// Scaffolding by https://github.com/idleberg/sublime-nsl-assembler
 
-; Settings ---------------------------------
-Name "${1:installer_name}"
-OutFile "${2:${1}}.exe"
-RequestExecutionLevel ${3:admin}
-InstallDir "\$PROGRAMFILES\\${4:${1}}"
+// Settings ---------------------------------
+Name("${1:installer_name}");
+OutFile("${2:${1}}.exe");
+RequestExecutionLevel("${3:user}");
+InstallDir(\$PROGRAMFILES . "\\\\${4:${1}}");
 
-; Includes ---------------------------------
-$5
+// Includes ---------------------------------
+${5}
 
-; Pages ------------------------------------
-Page components
-Page directory
-Page instfiles
+// Pages ------------------------------------
+page Components();
+page Directory();
+page InstFiles();
 
-; Sections ---------------------------------
-Section "${6:section1}" ${7:${6/(.*)/\L\1/}_index}
+// Sections ---------------------------------
+section ${6:section1_index}("${7:section1_name}") {
 
-	${8:# your code here}
+	${8:// your code here}
 
-SectionEnd
+}
 
-Section "${9:section2}" ${10:${9/(.*)/\L\1/}_index}
+section ${9:section2_index}("${10:section2_name}") {
 
-	${11:# your code here}
+	${11:// your code here}
 
-SectionEnd
+}
 
-Section "${12:section3}" ${13:${12/(.*)/\L\1/}_index}
+section ${12:section3_index}("${13:section3_name}") {
 
-	${14:# your code here}
+	${14:// your code here}
 
-SectionEnd
+}
 
-; Functions --------------------------------
-Function .onInit
-
-	${15:# your code here}
-
-FunctionEnd
-
-$16
+// Functions --------------------------------
+function .onInit() {
+	${15:// your code here}
+}
 ]]></content>
 	<tabTrigger>scaffold:Basic Script (3 Sections, onInit)</tabTrigger>
-	<scope>source.nsis</scope>
+	<scope>source.nsl</scope>
 </snippet>

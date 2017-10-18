@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::RestoreDefaults
+]]></content>
+  <tabTrigger>SimpleFC::RestoreDefaults</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

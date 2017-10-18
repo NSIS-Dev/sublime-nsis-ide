@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InvokeShellVerb::DoIt "${1:dir_path}" "${2:file_name}" "${3:resource_id}"
+]]></content>
+  <tabTrigger>InvokeShellVerb::DoIt</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

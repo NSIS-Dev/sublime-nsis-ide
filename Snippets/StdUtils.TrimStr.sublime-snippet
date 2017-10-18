@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.TrimStr} \$${1:output}
+]]></content>
+  <tabTrigger>StdUtils.TrimStr</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

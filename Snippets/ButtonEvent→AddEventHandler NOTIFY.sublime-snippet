@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ButtonEvent::AddEventHandler ${1:control_id} /NOTIFY
+]]></content>
+  <tabTrigger>ButtonEvent::AddEventHandler /NOTIFY</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

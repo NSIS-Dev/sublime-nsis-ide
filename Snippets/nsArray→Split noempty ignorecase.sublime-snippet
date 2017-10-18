@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty /ignorecase
+]]></content>
+  <tabTrigger>nsArray::Split /noempty /ignorecase</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

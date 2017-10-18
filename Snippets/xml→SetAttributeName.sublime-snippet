@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::SetAttributeName} "${1:name}"
+]]></content>
+  <tabTrigger>xml::SetAttributeName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

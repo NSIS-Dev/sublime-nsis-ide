@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisIIS::CreateVDir "${1:vdir_name}" "${2:physical_path}"
+]]></content>
+  <tabTrigger>NsisIIS::CreateVDir</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

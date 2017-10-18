@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU "${1:page_id}" \$${2:var}
+]]></content>
+  <tabTrigger>UMUI_PAGE_ALTERNATIVESTARTMENU</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

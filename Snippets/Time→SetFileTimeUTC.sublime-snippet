@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Time::SetFileTimeUTC} "${1:file}" "$${2:creation_time}" "${3:last_write_time}" "${4:last_access_time}" \$${5:var}
+]]></content>
+  <tabTrigger>Time::SetFileTimeUTC</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

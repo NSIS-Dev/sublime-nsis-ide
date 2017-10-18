@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::GetOLEDBVersion
+]]></content>
+  <tabTrigger>xtInfoPlugin::GetOLEDBVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

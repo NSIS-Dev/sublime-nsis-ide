@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Version::IsWindowsServer2012
+]]></content>
+  <tabTrigger>Version::IsWindowsServer2012</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ShellLink::GetShortCutShowMode "${1:shortcut}.lnk"
+]]></content>
+  <tabTrigger>ShellLink::GetShortCutShowMode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

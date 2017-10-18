@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${UAC_IsAdmin}
+]]></content>
+  <tabTrigger>UAC_IsAdmin</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

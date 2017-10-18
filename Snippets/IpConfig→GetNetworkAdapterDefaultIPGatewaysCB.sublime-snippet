@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::GetNetworkAdapterDefaultIPGatewaysCB "${1:network_adapter_id}" "${2:callback}"
+]]></content>
+  <tabTrigger>IpConfig::GetNetworkAdapterDefaultIPGatewaysCB</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

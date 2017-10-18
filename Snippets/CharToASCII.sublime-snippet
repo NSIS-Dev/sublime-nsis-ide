@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${CharToASCII} \$${1:result_var} "${2:character}"
+]]></content>
+  <tabTrigger>CharToASCII</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

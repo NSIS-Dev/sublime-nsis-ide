@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsWeb::IsInet ${1:var}
+]]></content>
+  <tabTrigger>nsWeb::IsInet</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

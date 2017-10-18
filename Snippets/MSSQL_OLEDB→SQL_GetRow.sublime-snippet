@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MSSQL_OLEDB::SQL_GetRow
+]]></content>
+  <tabTrigger>MSSQL_OLEDB::SQL_GetRow</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

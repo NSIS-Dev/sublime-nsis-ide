@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::StopSystemService "${1:serviceName}"
+]]></content>
+  <tabTrigger>InstDrv::StopSystemService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

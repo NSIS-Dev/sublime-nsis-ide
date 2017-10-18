@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::CreateDevice /NOUNLOAD
+]]></content>
+  <tabTrigger>InstDrv::CreateDevice /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

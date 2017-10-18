@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+BDEAlias::AddAliasDebug ${1:arguments}
+]]></content>
+  <tabTrigger>BDEAlias::AddAliasDebug</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

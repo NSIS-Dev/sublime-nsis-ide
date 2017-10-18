@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AddPort ${1:port} "${2:name}" ${3:protocol} ${4:scope} ${5:ip_version} ${6:remote_addresses} ${7:status}
+]]></content>
+  <tabTrigger>SimpleFC::AddPort</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

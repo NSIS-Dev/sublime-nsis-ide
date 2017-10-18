@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExDlg::dealloc \$${2:handle}
+]]></content>
+  <tabTrigger>ExDlg::dealloc</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

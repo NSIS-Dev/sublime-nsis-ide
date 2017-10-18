@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UMUI_UNPAGE_INFORMATION "${1:text_file}"
+]]></content>
+  <tabTrigger>UMUI_UNPAGE_INFORMATION</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

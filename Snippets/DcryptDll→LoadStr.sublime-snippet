@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+DcryptDll::LoadStr "${1:InputFileName}"
+]]></content>
+  <tabTrigger>DcryptDll::LoadStr</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

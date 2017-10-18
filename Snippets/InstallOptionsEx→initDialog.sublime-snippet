@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstallOptionsEx::initDialog "${1:file}.ini"
+]]></content>
+  <tabTrigger>InstallOptionsEx::initDialog</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

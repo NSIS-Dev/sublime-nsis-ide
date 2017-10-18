@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::SetEncoding} "${1:encoding}"
+]]></content>
+  <tabTrigger>xml::SetEncoding</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

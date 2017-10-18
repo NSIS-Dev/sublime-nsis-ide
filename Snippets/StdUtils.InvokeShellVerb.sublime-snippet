@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.InvokeShellVerb} \$${1:output} ${2:path} ${3:file} ${4:verb_id}
+]]></content>
+  <tabTrigger>StdUtils.InvokeShellVerb</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

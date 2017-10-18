@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::CompareVersion
+]]></content>
+  <tabTrigger>xtInfoPlugin::CompareVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

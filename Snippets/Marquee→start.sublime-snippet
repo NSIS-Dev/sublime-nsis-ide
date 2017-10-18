@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Marquee::start ${1:parameters} "${2:text}"
+]]></content>
+  <tabTrigger>Marquee::start</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

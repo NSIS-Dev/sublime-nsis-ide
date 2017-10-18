@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WimImage::AppendDir ${1:options}
+]]></content>
+  <tabTrigger>WimImage::AppendDir</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Reverse} "${1:name}"
+]]></content>
+  <tabTrigger>List.Reverse</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

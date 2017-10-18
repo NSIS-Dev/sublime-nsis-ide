@@ -1,0 +1,9 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsFlash::IsInstalled
+Pop ${1:var}
+]]></content>
+  <tabTrigger>nsFlash::IsInstalled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

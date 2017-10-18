@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstallOptionsEx::show /NOUNLOAD
+]]></content>
+  <tabTrigger>IEFunctions::OpenBrowser</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

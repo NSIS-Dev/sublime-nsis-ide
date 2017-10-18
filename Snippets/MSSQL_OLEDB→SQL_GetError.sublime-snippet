@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MSSQL_OLEDB::SQL_GetError
+]]></content>
+  <tabTrigger>MSSQL_OLEDB::SQL_GetError</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

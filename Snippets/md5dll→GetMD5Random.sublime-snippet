@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+md5dll::GetMD5Random
+]]></content>
+  <tabTrigger>md5dll::GetMD5Random</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

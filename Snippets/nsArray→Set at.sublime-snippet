@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsArray::Set ${1:array} /at=${2:position} ${3:value}
+]]></content>
+  <tabTrigger>nsArray::Set /at</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

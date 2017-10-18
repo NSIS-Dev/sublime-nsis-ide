@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MSIBanner::Pos ${1:progress_in_percent} "${2:title}"
+]]></content>
+  <tabTrigger>MSIBanner::Pos</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

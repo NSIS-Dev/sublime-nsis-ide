@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisDDE::Execute ${1:options} "${2:appname}" "${3:commands}"
+]]></content>
+  <tabTrigger>NsisDDE::Execute</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

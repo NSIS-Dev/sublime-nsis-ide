@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${ExprEval} ${1:expression}
+]]></content>
+  <tabTrigger>ExprEval</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Nzwdll::nzwUnzip "${1:file}.zip" "${2:target}"
+]]></content>
+  <tabTrigger>Nzwdll::nzwUnzip</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_USE_CUSTOMBG
+]]></content>
+  <tabTrigger>UMUI_USE_CUSTOMBG</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

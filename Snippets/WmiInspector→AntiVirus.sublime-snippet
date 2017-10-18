@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WmiInspector::AntiVirus
+]]></content>
+  <tabTrigger>WmiInspector::AntiVirus</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

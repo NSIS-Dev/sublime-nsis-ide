@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::Write} "${1:full_path}" "${2:value}" "${3:string}" "${4:type}" \$${5:var}
+]]></content>
+  <tabTrigger>Registry::Write</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

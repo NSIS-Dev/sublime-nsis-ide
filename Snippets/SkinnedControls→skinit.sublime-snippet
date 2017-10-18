@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SkinnedControls::skinit /NOUNLOAD /disabledtextcolor=${1:RRGGBB} /selectedtextcolor=${2:RRGGBB} /selectedtextcolor=${3:textcolor} "/scrollbar=${4:file}.bmp" "/button=${5:file}.bmp"
+]]></content>
+  <tabTrigger>SkinnedControls::skinit</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

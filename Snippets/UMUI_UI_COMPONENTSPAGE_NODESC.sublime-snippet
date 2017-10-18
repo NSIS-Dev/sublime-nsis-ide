@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_UI_COMPONENTSPAGE_NODESC "${1:ui_file}"
+]]></content>
+  <tabTrigger>UMUI_UI_COMPONENTSPAGE_NODESC</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

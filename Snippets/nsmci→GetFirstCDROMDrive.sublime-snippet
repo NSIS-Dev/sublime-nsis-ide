@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsmci::GetFirstCDROMDrive
+]]></content>
+  <tabTrigger>nsmci::GetFirstCDROMDrive</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

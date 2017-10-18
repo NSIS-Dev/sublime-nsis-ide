@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IEFunctions::ReleaseBrowser
+]]></content>
+  <tabTrigger>IEFunctions::ReleaseBrowser</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

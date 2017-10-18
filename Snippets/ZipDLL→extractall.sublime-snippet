@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ZipDLL::extractall "${1:SOURCE}" "${2:DESTINATION}"
+]]></content>
+  <tabTrigger>ZipDLL::extractall</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

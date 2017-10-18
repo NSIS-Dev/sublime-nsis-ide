@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisMultiMon::GetActiveMonitorCount
+]]></content>
+  <tabTrigger>NsisMultiMon::GetActiveMonitorCount</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

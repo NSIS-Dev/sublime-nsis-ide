@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LogEx::AddFile ${1:options} "${2:prefix}" "${3:file}.log"
+]]></content>
+  <tabTrigger>LogEx::AddFile [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

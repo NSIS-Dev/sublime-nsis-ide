@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.RevStr} \$${1:output}
+]]></content>
+  <tabTrigger>StdUtils.RevStr</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

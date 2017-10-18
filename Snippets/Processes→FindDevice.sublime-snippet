@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Processes::FindDevice "${1:device_base_name}"
+]]></content>
+  <tabTrigger>Processes::FindDevice</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

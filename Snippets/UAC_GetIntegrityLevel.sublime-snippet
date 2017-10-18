@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_GetIntegrityLevel \$${1:Output}
+]]></content>
+  <tabTrigger>UAC_GetIntegrityLevel</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

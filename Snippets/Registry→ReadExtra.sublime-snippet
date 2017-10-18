@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::ReadExtra} "${1:full_path}" "${2:value}" "${3:number}" \$${4:value_read} \$${5:type_read}
+]]></content>
+  <tabTrigger>Registry::ReadExtra</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

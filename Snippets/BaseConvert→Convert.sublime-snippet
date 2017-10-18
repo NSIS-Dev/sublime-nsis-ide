@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+BaseConvert::Convert ${1:base_in} ${2:base_out} "${3:string}"
+]]></content>
+  <tabTrigger>BaseConvert::Convert</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

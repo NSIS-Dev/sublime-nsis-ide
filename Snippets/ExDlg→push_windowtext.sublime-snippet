@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExDlg::push_windowtext "${1:control_id}" \$"${2:handle}"
+]]></content>
+  <tabTrigger>ExDlg::push_windowtext</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

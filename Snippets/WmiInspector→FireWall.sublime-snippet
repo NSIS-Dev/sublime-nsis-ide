@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WmiInspector::FireWall
+]]></content>
+  <tabTrigger>WmiInspector::FireWall</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

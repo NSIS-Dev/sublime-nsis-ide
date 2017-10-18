@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Version::IsWindows2003
+]]></content>
+  <tabTrigger>Version::IsWindows2003</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

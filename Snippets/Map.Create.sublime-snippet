@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Map.Create} "${1:name}"
+]]></content>
+  <tabTrigger>Map.Create</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

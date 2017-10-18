@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${unbuttonEnabled} "${1:label" ${2:0|1}
+]]></content>
+  <tabTrigger>unbuttonEnabled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

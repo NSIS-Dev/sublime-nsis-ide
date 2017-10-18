@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ComPlusAdmin::CreateApplication "${1:application_name}" ${2:timeout}
+]]></content>
+  <tabTrigger>ComPlusAdmin::CreateApplication</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

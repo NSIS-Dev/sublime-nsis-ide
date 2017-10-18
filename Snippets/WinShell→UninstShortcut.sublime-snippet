@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WinShell::UninstShortcut "${1:shortcut}.lnk"
+]]></content>
+  <tabTrigger>WinShell::UninstShortcut</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

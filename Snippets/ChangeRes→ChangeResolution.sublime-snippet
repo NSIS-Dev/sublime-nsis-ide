@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ChangeRes::ChangeResolution ${1:width} ${2:height} ${3:color_depth} ${4:frequency}
+]]></content>
+  <tabTrigger>ChangeRes::ChangeResolution</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

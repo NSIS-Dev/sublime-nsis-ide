@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Animate::show /NOUNLOAD ${1:options} "${2:file}"
+]]></content>
+  <tabTrigger>Animate::show /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

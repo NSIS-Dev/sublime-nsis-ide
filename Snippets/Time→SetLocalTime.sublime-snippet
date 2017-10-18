@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Time::SetLocalTime} "${1:local_time}" \$${2:var}
+]]></content>
+  <tabTrigger>Time::SetLocalTime</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

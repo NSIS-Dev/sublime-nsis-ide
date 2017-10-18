@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisCrypt::DecryptSymmetric "${1:encoded_cipher}" "${2:algorithm}" "${3:encoded_key}" "${4:encoded_iv}"
+]]></content>
+  <tabTrigger>NsisCrypt::DecryptSymmetric</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Internet::GetLocalHostName \$${1:return_var}
+]]></content>
+  <tabTrigger>Internet::GetLocalHostName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

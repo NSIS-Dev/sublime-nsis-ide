@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisXML::release "${1:node_reference}"
+]]></content>
+  <tabTrigger>NsisXML::release</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

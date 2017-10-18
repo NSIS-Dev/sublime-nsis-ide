@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsVersionInfo::getStringFileInfo "${1:file}.exe" "${2:field}"
+]]></content>
+  <tabTrigger>nsVersionInfo::getStringFileInfo</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

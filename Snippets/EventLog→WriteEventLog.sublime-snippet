@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+EventLog::WriteEventLog "${1:server}" "${2:log}" "${3:type}" "${4:category}" "${5:message}" "${6:text}"
+]]></content>
+  <tabTrigger>EventLog::WriteEventLog</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

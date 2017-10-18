@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_AsUser_ExecShell ${1:Verb} ${2:ApplicationOrFile} ${3:Parameters} ${4:Working Directory} ${5:SW_*}
+]]></content>
+  <tabTrigger>UAC_AsUser_ExecShell</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

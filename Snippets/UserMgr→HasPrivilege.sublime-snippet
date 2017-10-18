@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::HasPrivilege "${1:USERID}" "${2:PRIVILEGE}"
+]]></content>
+  <tabTrigger>UserMgr::HasPrivilege</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

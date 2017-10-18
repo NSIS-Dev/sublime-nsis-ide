@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::GetServiceDescription ${1:name_of_service}
+]]></content>
+  <tabTrigger>SimpleSC::GetServiceDescription</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

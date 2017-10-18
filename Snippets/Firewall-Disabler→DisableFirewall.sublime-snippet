@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Firewall-Disabler::DisableFirewall
+]]></content>
+  <tabTrigger>Firewall-Disabler::DisableFirewall</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

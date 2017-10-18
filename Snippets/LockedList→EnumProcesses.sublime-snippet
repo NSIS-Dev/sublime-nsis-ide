@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LockedList::EnumProcesses \$${1:var}
+]]></content>
+  <tabTrigger>LockedList::EnumProcesses</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

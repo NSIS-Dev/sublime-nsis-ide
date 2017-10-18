@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${REFindClose}
+]]></content>
+  <tabTrigger>REFindClose</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

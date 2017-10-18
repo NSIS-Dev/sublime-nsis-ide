@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${RECheckPattern} \$${1:result} "${2:pattern}"
+]]></content>
+  <tabTrigger>RECheckPattern</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

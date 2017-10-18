@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::ClearOnFile "${1:filename}" "${2:trustee}" "${3:permissions}"
+]]></content>
+  <tabTrigger>AccessControl::ClearOnFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

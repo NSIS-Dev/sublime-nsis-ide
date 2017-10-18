@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Save} \$${1:var_out} "${2:name}" "${3:filename}"
+]]></content>
+  <tabTrigger>List.Save</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::IsIPRoutingEnabled
+]]></content>
+  <tabTrigger>IpConfig::IsIPRoutingEnabled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

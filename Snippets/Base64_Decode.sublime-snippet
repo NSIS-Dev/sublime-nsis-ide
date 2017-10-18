@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Base64_Decode} "${1:text}"
+]]></content>
+  <tabTrigger>Base64_Decode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

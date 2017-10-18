@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::GetFileOwner "${1:filename}"
+]]></content>
+  <tabTrigger>AccessControl::GetFileOwner</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

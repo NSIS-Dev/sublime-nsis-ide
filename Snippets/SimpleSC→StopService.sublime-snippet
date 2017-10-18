@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::StopService ${1:name_of_service} ${2:wait_for_file_release} ${3:timeout}
+]]></content>
+  <tabTrigger>SimpleSC::StopService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

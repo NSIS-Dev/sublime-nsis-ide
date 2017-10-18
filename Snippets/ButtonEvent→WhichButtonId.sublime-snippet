@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ButtonEvent::WhichButtonId /NOUNLOAD
+]]></content>
+  <tabTrigger>ButtonEvent::WhichButtonId</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsXML::uninitCOM
+]]></content>
+  <tabTrigger>nsXML::uninitCOM</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

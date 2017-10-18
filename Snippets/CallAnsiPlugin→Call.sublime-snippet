@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CallAnsiPlugin::Call "${1:plugin_path}" "${2:function}" "${3:parameter_count}" ${4:parameters}
+]]></content>
+  <tabTrigger>CallAnsiPlugin::Call</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

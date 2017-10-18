@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::IsWindows98
+]]></content>
+  <tabTrigger>xtInfoPlugin::IsWindows98</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

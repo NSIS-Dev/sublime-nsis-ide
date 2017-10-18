@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Locate::Find} "${1:handle}" \$${2:path\name} \$${3:path} \$${4:name} \$${5:size} \$${6:time} \$${7:attributes}
+]]></content>
+  <tabTrigger>Locate::Find</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

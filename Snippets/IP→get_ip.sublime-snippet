@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IP::get_ip
+]]></content>
+  <tabTrigger>IP::get_ip</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

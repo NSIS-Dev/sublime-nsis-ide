@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+EBanner::show /NOUNLOAD "${1:image}"
+]]></content>
+  <tabTrigger>EBanner::show</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

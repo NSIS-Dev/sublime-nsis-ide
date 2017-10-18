@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.SHFileCopy} \$${1:output} ${2:from} ${3:to} ${4:hwnd}
+]]></content>
+  <tabTrigger>StdUtils.SHFileCopy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

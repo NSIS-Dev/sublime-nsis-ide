@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LogEx::Write "${1:log_string}"
+]]></content>
+  <tabTrigger>LogEx::Write</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

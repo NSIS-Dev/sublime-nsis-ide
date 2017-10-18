@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Processes::FindProcess "${1:process_name}"
+]]></content>
+  <tabTrigger>Processes::FindProcess</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

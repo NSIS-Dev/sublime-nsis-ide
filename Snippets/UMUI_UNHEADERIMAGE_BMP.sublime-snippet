@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_UNHEADERIMAGE_BMP "${1:bmp_file}"
+]]></content>
+  <tabTrigger>UMUI_UNHEADERIMAGE_BMP</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

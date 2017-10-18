@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CreateMutex::nsCreateMutex "${1:mutex_name}" ${2:parameter}
+]]></content>
+  <tabTrigger>CreateMutex::nsCreateMutex</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

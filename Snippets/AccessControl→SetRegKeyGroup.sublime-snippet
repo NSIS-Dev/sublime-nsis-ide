@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::SetRegKeyGroup "${1:rootkey}" "${2:regkey}" "${3:trustee}"
+]]></content>
+  <tabTrigger>AccessControl::SetRegKeyGroup</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NSIS_SkinCrafter_Plugin::destroy
+]]></content>
+  <tabTrigger>NSIS_SkinCrafter_Plugin::destroy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

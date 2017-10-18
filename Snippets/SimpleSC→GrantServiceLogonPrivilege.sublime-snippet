@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::GrantServiceLogonPrivilege ${1:account}
+]]></content>
+  <tabTrigger>SimpleSC::GrantServiceLogonPrivilege</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

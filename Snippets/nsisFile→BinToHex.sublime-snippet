@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisFile::BinToHex "${1:string}"
+]]></content>
+  <tabTrigger>NsisFile::BinToHex</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

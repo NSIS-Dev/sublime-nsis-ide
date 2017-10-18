@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Timeout::ExecTimeout "${1:application_to_run}.exe" ${2:timeout} ${3:terminate} \${4:exit_code}
+]]></content>
+  <tabTrigger>Timeout::ExecTimeout</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

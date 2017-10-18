@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UMUI_PAGE_SERIALNUMBER "${1:function}"
+]]></content>
+  <tabTrigger>UMUI_PAGE_SERIALNUMBER</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

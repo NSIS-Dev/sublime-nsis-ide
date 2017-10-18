@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+FindProcDLL::FindProc"${1:file}.exe"
+]]></content>
+  <tabTrigger>FindProcDLL::FindProc</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

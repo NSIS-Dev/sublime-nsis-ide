@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CLR::Call /NOUNLOAD "${1:file}.dll" "${2:class}" ${3:options}
+]]></content>
+  <tabTrigger>CLR::Call /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

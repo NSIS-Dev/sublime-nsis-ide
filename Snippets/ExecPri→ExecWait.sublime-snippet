@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExecPri::ExecWait "${1:application_to_run}.exe" "${2:priority_class}"
+]]></content>
+  <tabTrigger>ExecPri::ExecWait</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

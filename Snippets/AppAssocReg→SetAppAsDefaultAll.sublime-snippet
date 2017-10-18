@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AppAssocReg::SetAppAsDefaultAll "${1:app_name}"
+]]></content>
+  <tabTrigger>AppAssocReg::SetAppAsDefaultAll</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

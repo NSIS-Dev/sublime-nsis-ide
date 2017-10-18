@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${REClearOption} "${1:option}"
+]]></content>
+  <tabTrigger>REClearOption</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

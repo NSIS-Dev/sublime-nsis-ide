@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UAC_AsUser_Call ${1:Function|Label} ${2:NSISAddressName} ${3:UACFlags}
+]]></content>
+  <tabTrigger>UAC_AsUser_Call</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

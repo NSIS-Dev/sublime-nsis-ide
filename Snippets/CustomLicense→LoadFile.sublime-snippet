@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CustomLicense::LoadFile "${1:file}" \${2:hwnd}
+]]></content>
+  <tabTrigger>CustomLicense::LoadFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

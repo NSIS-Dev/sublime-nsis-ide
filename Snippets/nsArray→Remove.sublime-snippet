@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsArray::Remove ${1:array} ${2:element}
+]]></content>
+  <tabTrigger>nsArray::Remove</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

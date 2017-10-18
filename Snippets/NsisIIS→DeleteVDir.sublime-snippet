@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisIIS::DeleteVDir "${1:vdir_name}"
+]]></content>
+  <tabTrigger>NsisIIS::DeleteVDir</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsResize::SetRTL \$(^RTL)
+]]></content>
+  <tabTrigger>nsResize::SetRTL</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

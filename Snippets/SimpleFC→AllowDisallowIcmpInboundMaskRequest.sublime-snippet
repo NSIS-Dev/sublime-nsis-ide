@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AllowDisallowIcmpInboundMaskRequest ${1:status}
+]]></content>
+  <tabTrigger>SimpleFC::AllowDisallowIcmpInboundMaskRequest</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

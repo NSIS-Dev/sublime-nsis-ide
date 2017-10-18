@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsPerl::exec "${1:perl_code}"
+]]></content>
+  <tabTrigger>nsPerl::exec</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

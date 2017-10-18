@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Add} "${1:name}" "${2:item}"
+]]></content>
+  <tabTrigger>List.Add</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

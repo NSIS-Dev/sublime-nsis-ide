@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ShellLink::SetRunAsAdministrator "${1:shortcut}.lnk"
+]]></content>
+  <tabTrigger>ShellLink::SetRunAsAdministrator</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+DlgHost::SetClient \$${1:handle}
+]]></content>
+  <tabTrigger>DlgHost::SetClient</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

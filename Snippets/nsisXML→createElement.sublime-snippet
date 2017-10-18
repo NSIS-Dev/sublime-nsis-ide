@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisXML::createElement "${1:tag}"
+]]></content>
+  <tabTrigger>NsisXML::createElement</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

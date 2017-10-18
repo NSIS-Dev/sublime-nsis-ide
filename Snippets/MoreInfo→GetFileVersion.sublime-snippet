@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MoreInfo::GetFileVersion "${1:file}"
+]]></content>
+  <tabTrigger>MoreInfo::GetFileVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

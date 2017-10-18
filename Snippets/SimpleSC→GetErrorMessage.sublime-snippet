@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::GetErrorMessage ${1:error_code}
+]]></content>
+  <tabTrigger>SimpleSC::GetErrorMessage</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

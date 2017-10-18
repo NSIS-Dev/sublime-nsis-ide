@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::IsPortEnabled ${1:port} ${2:protocol}
+]]></content>
+  <tabTrigger>SimpleFC::IsPortEnabled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

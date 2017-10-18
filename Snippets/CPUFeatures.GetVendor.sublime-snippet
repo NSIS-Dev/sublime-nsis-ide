@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${CPUFeatures.GetVendor} \$${1:out_var}
+]]></content>
+  <tabTrigger>CPUFeatures.GetVendor</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

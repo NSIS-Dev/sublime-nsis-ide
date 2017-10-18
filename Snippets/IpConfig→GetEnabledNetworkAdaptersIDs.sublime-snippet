@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::GetEnabledNetworkAdaptersIDs
+]]></content>
+  <tabTrigger>IpConfig::GetEnabledNetworkAdaptersIDs</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

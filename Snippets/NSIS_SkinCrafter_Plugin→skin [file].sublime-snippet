@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NSIS_SkinCrafter_Plugin::skin /NOUNLOAD "${1:file}.skf"
+]]></content>
+  <tabTrigger>NSIS_SkinCrafter_Plugin::skin [file]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

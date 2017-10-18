@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisSlideshow::show /NOUNLOAD ${1:options} "${2:picture}"
+]]></content>
+  <tabTrigger>NsisSlideshow::show [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

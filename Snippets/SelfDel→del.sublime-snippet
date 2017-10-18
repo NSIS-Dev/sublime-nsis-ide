@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+SelfDel::del ${1:options}
+]]></content>
+  <tabTrigger>SelfDel::del</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::GetPrimaryDNSSuffix
+]]></content>
+  <tabTrigger>IpConfig::GetNodeType</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

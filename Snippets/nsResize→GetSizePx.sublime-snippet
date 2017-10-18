@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsResize::GetSizePx \$${1:hwnd}
+]]></content>
+  <tabTrigger>nsResize::GetSizePx</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

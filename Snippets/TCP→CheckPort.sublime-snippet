@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+TCP::CheckPort ${1:port}
+]]></content>
+  <tabTrigger>TCP::CheckPort</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

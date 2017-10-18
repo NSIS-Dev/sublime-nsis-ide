@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsJSON::Set "${1:NodePath}" /value "${2:value}"
+]]></content>
+  <tabTrigger>nsJSON::Set /value</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::SetServiceDelayedAutoStartInfo ${1:name_of_service} ${2:delayed_autostart}
+]]></content>
+  <tabTrigger>SimpleSC::SetServiceDelayedAutoStartInfo</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

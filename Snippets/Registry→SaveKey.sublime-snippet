@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::SaveKey} "${1:full_path}" "${2:file}" "${3:options}" \$${4:var}
+]]></content>
+  <tabTrigger>Registry::SaveKey</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

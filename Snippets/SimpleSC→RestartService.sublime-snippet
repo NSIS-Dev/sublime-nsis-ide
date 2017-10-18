@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::RestartService ${1:name_of_service} ${2:arguments} ${3:timeout}
+]]></content>
+  <tabTrigger>SimpleSC::RestartService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

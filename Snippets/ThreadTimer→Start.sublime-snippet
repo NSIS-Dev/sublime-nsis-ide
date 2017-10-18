@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ThreadTimer::Start /NOUNLOAD ${1:interval} ${2:ticks} \$${3:function}
+]]></content>
+  <tabTrigger>ThreadTimer::Start</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

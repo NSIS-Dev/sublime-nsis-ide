@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExtractDllEx::extract
+]]></content>
+  <tabTrigger>ExtractDllEx::extract</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

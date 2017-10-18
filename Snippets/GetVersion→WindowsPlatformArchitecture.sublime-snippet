@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+GetVersion::WindowsPlatformArchitecture
+]]></content>
+  <tabTrigger>GetVersion::WindowsPlatformArchitecture</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

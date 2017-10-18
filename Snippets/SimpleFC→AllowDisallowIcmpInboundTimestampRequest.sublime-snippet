@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AllowDisallowIcmpInboundTimestampRequest ${1:status}
+]]></content>
+  <tabTrigger>SimpleFC::AllowDisallowIcmpInboundTimestampRequest</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

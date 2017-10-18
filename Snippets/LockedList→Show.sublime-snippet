@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LockedList::Show
+]]></content>
+  <tabTrigger>LockedList::Show</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

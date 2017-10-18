@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::CreateNode} "<${1:node}>${2:text}</${1:node}>" \$${3:var}
+]]></content>
+  <tabTrigger>xml::CreateNode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

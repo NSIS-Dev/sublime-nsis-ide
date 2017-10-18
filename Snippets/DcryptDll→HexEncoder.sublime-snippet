@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+DcryptDll::HexEncoder "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"
+]]></content>
+  <tabTrigger>DcryptDll::HexEncoder</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

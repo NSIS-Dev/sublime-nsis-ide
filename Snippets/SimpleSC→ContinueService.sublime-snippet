@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::ContinueService ${1:name_of_service} ${2:timeout}
+]]></content>
+  <tabTrigger>SimpleSC::ContinueService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

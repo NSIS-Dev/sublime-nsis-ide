@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NotifyIcon::Icon ${1:flags} ${2:arguments}
+]]></content>
+  <tabTrigger>NotifyIcon::Icon</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

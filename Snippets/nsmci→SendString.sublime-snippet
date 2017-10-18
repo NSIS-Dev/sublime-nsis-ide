@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsmci::SendString "${1:command}"
+]]></content>
+  <tabTrigger>nsmci::SendString</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

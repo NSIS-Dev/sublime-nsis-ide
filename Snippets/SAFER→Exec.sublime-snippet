@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SAFER::SupportsSAFER ${1:level} "${2:file).exe"
+]]></content>
+  <tabTrigger>SAFER::Exec</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

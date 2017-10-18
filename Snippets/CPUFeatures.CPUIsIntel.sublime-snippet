@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${CPUFeatures.CPUIsIntel}
+]]></content>
+  <tabTrigger>CPUFeatures.CPUIsIntel</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

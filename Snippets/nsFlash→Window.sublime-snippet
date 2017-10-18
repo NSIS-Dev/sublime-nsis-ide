@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsFlash::Window "${1:swf_path}" "${2:caption}"
+]]></content>
+  <tabTrigger>nsFlash::Window</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

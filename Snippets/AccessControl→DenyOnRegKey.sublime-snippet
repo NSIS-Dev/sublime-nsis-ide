@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::DenyOnRegKey "${1:rootkey}" "${2:regkey}" "${3:trustee}" "${4:permissions}"
+]]></content>
+  <tabTrigger>AccessControl::DenyOnRegKey</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

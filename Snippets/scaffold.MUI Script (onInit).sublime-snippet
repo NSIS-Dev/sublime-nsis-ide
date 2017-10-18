@@ -1,47 +1,49 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+// Scaffolding by https://github.com/idleberg/sublime-nsl-assembler
 
-; Includes ---------------------------------
-!include MUI2.nsh
+// Includes ---------------------------------
+#nsis
+	!include MUI2.nsh
+#nsisend
 
-; Settings ---------------------------------
-Name "${1:installer_name}"
-OutFile "${2:${1}}.exe"
-RequestExecutionLevel ${3:admin}
-InstallDir "\$PROGRAMFILES\\${4:${1}}"
+// Settings ---------------------------------
+Name("${1:installer_name}");
+OutFile("${2:${1}}.exe");
+RequestExecutionLevel("${3:user}");
+InstallDir(\$PROGRAMFILES . "\\\\${4:${1}}");
 
-; Pages ------------------------------------
-!insertmacro MUI_PAGE_COMPONENTS 
-!insertmacro MUI_PAGE_DIRECTORY
-!insertmacro MUI_PAGE_INSTFILES
+#nsis
+	# Pages ------------------------------------
+	!insertmacro MUI_PAGE_COMPONENTS 
+	!insertmacro MUI_PAGE_DIRECTORY
+	!insertmacro MUI_PAGE_INSTFILES
 
-; Languages --------------------------------
-!insertmacro MUI_LANGUAGE "${5:English}"
+	# Languages --------------------------------
+	!insertmacro MUI_LANGUAGE "${5:English}"
+#nsisend
 
-; Sections ---------------------------------
-Section "${6:section}" ${7:${6/(.*)/\U\1/}_INDEX}
+// Sections ---------------------------------
+section ${6:section_index}("${7:section_name}") {
 
-	${8:# your code here}
+	${8:// your code here}
 
-SectionEnd
+}
 
-; Descriptions -----------------------------
-LangString DESC_${7} \${LANG_${5/(.*)/\U\1/}} "${9:section_description}"
+// Descriptions -----------------------------
+LangString(DESC_${6}, \${LANG_${5/(.*)/\U\1/}}, "${9:section_description}");
 
-!insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-	!insertmacro MUI_DESCRIPTION_TEXT \${${7}} \$(DESC_${7})
-!insertmacro MUI_FUNCTION_DESCRIPTION_END
+#nsis
+	!insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
+		!insertmacro MUI_DESCRIPTION_TEXT \${${6}} \$(DESC_${6})
+	!insertmacro MUI_FUNCTION_DESCRIPTION_END
+#nsisend
 
-; Functions --------------------------------
-Function .onInit
-
-	${10:# your code here}
-
-FunctionEnd
-
-$11
+// Functions --------------------------------
+function .onInit() {
+	${10:// your code here}
+}
 ]]></content>
 	<tabTrigger>scaffold:ModernUI (onInit)</tabTrigger>
-	<scope>source.nsis</scope>
+	<scope>source.nsl</scope>
 </snippet>

@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!macro UMUI_BG_Destroy
+	${1:# your code here}
+!macroend
+]]></content>
+  <tabTrigger>UMUI_BG_Destroy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

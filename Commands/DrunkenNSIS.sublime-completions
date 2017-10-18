@@ -71,6 +71,7 @@
                 { "trigger": "%ForceSelectionLicense checkbox", "contents": "LicenseForceSelection checkbox \"${2:accept_text}\"" },
                 { "trigger": "%ForceSelectionLicense off (default)", "contents": "LicenseForceSelection off \"${2:accept_text}\" \"${3:decline_text}\"" },
                 { "trigger": "%ForceSelectionLicense radiobuttons", "contents": "LicenseForceSelection radiobuttons \"${2:accept_text}\" \"${3:decline_text}\"" },
+                { "trigger": "%GetFullDLLPath", "contents": "SearchPath \\$${1:user_var} \"${2:filename}\"" },
                 { "trigger": "%GetInstTypeText", "contents": "InstTypeGetText ${1:inst_type_idx} \\$${2:user_var}" },
                 { "trigger": "%GetSectionFlags", "contents": "SectionGetFlags \\${${1:section_index}} \\$${2:user_var}" },
                 { "trigger": "%GetSectionInstTypes", "contents": "SectionGetInstTypes \\${${1:section_index}} \\$${2:user_var}" },

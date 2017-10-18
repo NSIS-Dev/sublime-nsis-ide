@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Index} \$${1:var_out} "${2:name}" "${3:index}"
+]]></content>
+  <tabTrigger>List.Index</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

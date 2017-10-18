@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.RandMinMax} \$${1:output} ${2:min} ${3:max}
+]]></content>
+  <tabTrigger>StdUtils.RandMinMax</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+HelpButton::show /NOUNLOAD "${1:x},${2:y}" "${3:button_text}" "${4:window_title}" "${5:window_text}" ${6:options}
+]]></content>
+  <tabTrigger>HelpButton::show</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+FreeArc::ExtractFreeArcArchive /NOUNLOAD "${1:file}.arc" ${2:0|1} "${3:Extracting %s...}"
+]]></content>
+  <tabTrigger>FreeArc::ExtractFreeArcArchive</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

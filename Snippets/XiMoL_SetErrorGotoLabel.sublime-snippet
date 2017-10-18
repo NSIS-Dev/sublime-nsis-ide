@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro XiMoL_SetErrorGotoLabel "${1:LABEL}"
+]]></content>
+  <tabTrigger>XiMoL_SetErrorGotoLabel</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

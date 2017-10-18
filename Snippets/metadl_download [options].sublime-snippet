@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+metadl:download ${1:options} "${2:url}" "${3:local_file}"
+]]></content>
+  <tabTrigger>metadl:download  [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

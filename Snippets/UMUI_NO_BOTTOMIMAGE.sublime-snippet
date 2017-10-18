@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_NO_BOTTOMIMAGE
+]]></content>
+  <tabTrigger>UMUI_NO_BOTTOMIMAGE</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

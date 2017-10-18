@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.FormatStr} \$${1:output} ${2:format} ${3:value}
+]]></content>
+  <tabTrigger>StdUtils.FormatStr</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

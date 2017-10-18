@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Locate::Open} "${1:paths}" "${2:options}"
+]]></content>
+  <tabTrigger>Locate::Open</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

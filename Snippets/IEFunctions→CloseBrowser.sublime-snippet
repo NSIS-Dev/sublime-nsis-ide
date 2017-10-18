@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IEFunctions::CloseBrowser
+]]></content>
+  <tabTrigger>IEFunctions::CloseBrowser</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

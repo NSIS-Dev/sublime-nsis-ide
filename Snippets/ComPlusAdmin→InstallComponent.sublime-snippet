@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ComPlusAdmin::InstallComponent "${1:application_name}" "${2:application_path}.dll"
+]]></content>
+  <tabTrigger>ComPlusAdmin::InstallComponent</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

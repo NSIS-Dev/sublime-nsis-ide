@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::FreeNode} "${1:handle}" \$${2:var}
+]]></content>
+  <tabTrigger>xml::FreeNode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ButtonEvent::UnsetEventHandler ${1:control_id}
+]]></content>
+  <tabTrigger>ButtonEvent::UnsetEventHandler</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsScreenshot::Grab
+]]></content>
+  <tabTrigger>nsScreenshot::Grab</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

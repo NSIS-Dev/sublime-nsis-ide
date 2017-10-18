@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${REFindNext} \$${1:result} "${2:pattern}" "${3:subject}"
+]]></content>
+  <tabTrigger>REFindNext</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

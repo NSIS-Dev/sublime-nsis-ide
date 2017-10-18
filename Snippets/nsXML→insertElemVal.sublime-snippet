@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsXML::insertElemVal "${1:node}" "${2:value}"
+]]></content>
+  <tabTrigger>nsXML::insertElemVal</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

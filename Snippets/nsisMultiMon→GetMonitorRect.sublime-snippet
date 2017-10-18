@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisMultiMon::GetMonitorRect ${1:id}
+]]></content>
+  <tabTrigger>NsisMultiMon::GetMonitorRect</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ToggleInstFiles::Set /NOUNLOAD
+]]></content>
+  <tabTrigger>ToggleInstFiles::Set</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

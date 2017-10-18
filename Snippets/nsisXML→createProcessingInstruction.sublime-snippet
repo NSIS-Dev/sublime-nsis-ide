@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisXML::createProcessingInstruction "${1:target}" "${2:data}"
+]]></content>
+  <tabTrigger>NsisXML::createProcessingInstruction</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

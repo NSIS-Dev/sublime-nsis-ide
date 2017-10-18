@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}
+]]></content>
+  <tabTrigger>NsisMultiMon::CenterInstallerOnMonitor</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

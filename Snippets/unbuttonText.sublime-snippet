@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${unbuttonText} "${1:label_from" ${2:label_to}
+]]></content>
+  <tabTrigger>unbuttonText</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

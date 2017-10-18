@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SysRestore::StartInstallPoint "${1:text}"
+]]></content>
+  <tabTrigger>SysRestore::StartInstallPoint</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

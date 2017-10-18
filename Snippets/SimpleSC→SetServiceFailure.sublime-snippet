@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::SetServiceFailure ${1:name_of_service} ${2:reset_period} ${3:reboot_message} ${4:command} ${5:action_type_1} ${6:action_delay_1} ${7:action_type_2} ${8:action_delay_2} ${9:action_type_3} ${10:action_delay_3}
+]]></content>
+  <tabTrigger>SimpleSC::SetServiceFailure</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

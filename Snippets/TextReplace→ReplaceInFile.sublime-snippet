@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${TextReplace::ReplaceInFile} "${1:input_file}" "${2:output_file}" "${3:string}" "${4:replacement}" ${5:options} \$${6:var}
+]]></content>
+  <tabTrigger>TextReplace::ReplaceInFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

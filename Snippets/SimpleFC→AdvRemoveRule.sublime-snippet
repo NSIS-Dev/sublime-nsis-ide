@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AdvRemoveRule "${1:name}"
+]]></content>
+  <tabTrigger>SimpleFC::AdvRemoveRule</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

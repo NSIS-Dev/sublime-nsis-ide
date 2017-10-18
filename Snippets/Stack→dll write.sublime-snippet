@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::dll_write} "${1:handle}" "${2:string}" "${3:index}" \$${4:var}
+]]></content>
+  <tabTrigger>Stack::dll_write</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

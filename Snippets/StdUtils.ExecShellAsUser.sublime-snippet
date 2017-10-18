@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.ExecShellAsUser} \$${1:output} "${2:file}" ${3:verb} "${4:args}"
+]]></content>
+  <tabTrigger>StdUtils.ExecShellAsUser</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

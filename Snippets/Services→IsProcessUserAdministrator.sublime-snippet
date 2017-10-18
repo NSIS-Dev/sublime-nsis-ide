@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Services::IsProcessUserAdministrator
+]]></content>
+  <tabTrigger>Services::IsProcessUserAdministrator</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

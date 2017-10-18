@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::FindNextElement} "${1:value}" \$${2:var1} \$${3:var2}
+]]></content>
+  <tabTrigger>xml::FindNextElement</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${ForEachIn} ${1:array} \$${2:key} \$${3:value}
+	${4:# your code here}
+\${Next}
+]]></content>
+  <tabTrigger>ForEachIn</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

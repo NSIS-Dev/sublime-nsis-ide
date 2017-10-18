@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Dialogs::Ver \$${1:return_var}
+]]></content>
+  <tabTrigger>Dialogs::Ver</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

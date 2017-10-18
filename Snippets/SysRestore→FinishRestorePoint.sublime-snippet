@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SysRestore::FinishRestorePoint
+]]></content>
+  <tabTrigger>SysRestore::FinishRestorePoint</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

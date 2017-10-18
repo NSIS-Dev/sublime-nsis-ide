@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExecDos::exec ${1:options} "${2:application_to_run}.exe" "${3:stdin_string}" "${4:log_file_name}.log"
+]]></content>
+  <tabTrigger>ExecDos::exec [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

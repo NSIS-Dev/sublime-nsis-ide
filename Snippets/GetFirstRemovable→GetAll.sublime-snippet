@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+GetFirstRemovable::GetAll
+]]></content>
+  <tabTrigger>GetFirstRemovable::GetAll</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

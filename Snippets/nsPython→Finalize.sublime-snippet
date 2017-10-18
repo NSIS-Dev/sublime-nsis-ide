@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsPython::Finalize
+]]></content>
+  <tabTrigger>nsPython::Finalize</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

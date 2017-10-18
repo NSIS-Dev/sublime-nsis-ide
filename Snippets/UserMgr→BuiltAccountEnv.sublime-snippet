@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::BuiltAccountEnv "${1:USERID}" "${2:PASSWORD}"
+]]></content>
+  <tabTrigger>UserMgr::BuiltAccountEnv</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

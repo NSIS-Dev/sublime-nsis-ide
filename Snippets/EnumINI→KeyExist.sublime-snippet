@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+EnumINI::KeyExist "${1:file}.ini" "${2:section}" "${3:key}"
+]]></content>
+  <tabTrigger>EnumINI::KeyExist</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

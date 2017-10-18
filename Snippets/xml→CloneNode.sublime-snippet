@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::CloneNode} \$${1:var}
+]]></content>
+  <tabTrigger>xml::CloneNode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

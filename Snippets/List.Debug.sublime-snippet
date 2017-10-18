@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Debug}
+]]></content>
+  <tabTrigger>List.Debug</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

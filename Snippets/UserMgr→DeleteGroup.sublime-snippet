@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::DeleteGroup "${1:GROUPID}"
+]]></content>
+  <tabTrigger>UserMgr::DeleteGroup</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

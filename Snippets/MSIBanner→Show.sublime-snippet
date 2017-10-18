@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MSIBanner::Show "${1:title}"
+]]></content>
+  <tabTrigger>MSIBanner::Show</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

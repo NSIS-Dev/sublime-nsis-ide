@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${REMatches} \$${1:result} "${2:pattern}" "${3:subject}" "${4:partial}"
+]]></content>
+  <tabTrigger>REMatches</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

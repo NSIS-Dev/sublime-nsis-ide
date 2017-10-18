@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SFhelper::checkFile "${1:file}"
+]]></content>
+  <tabTrigger>SFhelper::checkFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

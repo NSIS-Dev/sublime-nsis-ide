@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Concat} "${1:key_to}" "${2:key_from}"
+]]></content>
+  <tabTrigger>List.Concat</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

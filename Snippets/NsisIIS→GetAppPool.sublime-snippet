@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NsisIIS::GetAppPool "${1:app_pool}"
+]]></content>
+  <tabTrigger>NsisIIS::GetAppPool</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

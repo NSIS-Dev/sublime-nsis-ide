@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.GetLibVersion} \$${1:out_ver} \$${2:out_tst}
+]]></content>
+  <tabTrigger>StdUtils.GetLibVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

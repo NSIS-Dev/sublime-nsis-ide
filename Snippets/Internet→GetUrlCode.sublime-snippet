@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Internet::GetUrlCode "${1:site}" "${2:file}" \$${3:return_var}
+]]></content>
+  <tabTrigger>Internet::GetUrlCode</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

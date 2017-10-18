@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AllowDisallowIcmpOutboundPacketTooBig ${1:status}
+]]></content>
+  <tabTrigger>SimpleFC::AllowDisallowIcmpOutboundPacketTooBig</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AddApplication "${1:name}" "${2:path}" ${3:scope} ${4:ip_version} ${5:remote_addresses} ${6:status}
+]]></content>
+  <tabTrigger>SimpleFC::AddApplication</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::DisableRegKeyInheritance "${1:rootkey}" "${2:regkey}"
+]]></content>
+  <tabTrigger>AccessControl::DisableRegKeyInheritance</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

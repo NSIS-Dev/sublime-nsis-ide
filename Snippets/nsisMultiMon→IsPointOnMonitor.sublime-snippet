@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}
+]]></content>
+  <tabTrigger>NsisMultiMon::IsPointOnMonitor</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

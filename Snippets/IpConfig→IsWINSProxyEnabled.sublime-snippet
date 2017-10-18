@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::IsWINSProxyEnabled
+]]></content>
+  <tabTrigger>IpConfig::IsWINSProxyEnabled</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

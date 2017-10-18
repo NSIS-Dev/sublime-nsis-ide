@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::RemovePort ${1:port} ${2:protocol}
+]]></content>
+  <tabTrigger>SimpleFC::RemovePort</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

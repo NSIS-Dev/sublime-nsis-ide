@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Dialogs::Open "${1:All Files|*.*}" "${2:default_mask}" "${3:caption}" "${4:directory}" \$${5:return_var}
+]]></content>
+  <tabTrigger>Dialogs::Open</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

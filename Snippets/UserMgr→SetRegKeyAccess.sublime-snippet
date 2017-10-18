@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UserMgr::SetRegKeyAccess "${1:USERID}" "${2:ROOTKEY}" "${3:REGKEY}" "${4:ACCESSMASK}"
+]]></content>
+  <tabTrigger>UserMgr::SetRegKeyAccess</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

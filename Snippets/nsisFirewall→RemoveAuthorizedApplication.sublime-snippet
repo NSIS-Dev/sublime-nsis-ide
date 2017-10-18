@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisFirewall::RemoveAuthorizedApplication "${1:application_path}"
+]]></content>
+  <tabTrigger>NsisFirewall::RemoveAuthorizedApplication</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

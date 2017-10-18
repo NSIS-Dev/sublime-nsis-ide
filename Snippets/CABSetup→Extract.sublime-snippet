@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CABSetup::Extract "/SOURCE=${1:file}.cab" "/TARGET=${2:target}" ${3:options} |
+]]></content>
+  <tabTrigger>CABSetup::Extract</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

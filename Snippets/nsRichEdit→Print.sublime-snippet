@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsRichEdit::Print \$${1:hwnd} "${2:document_name}"
+]]></content>
+  <tabTrigger>nsRichEdit::Print</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

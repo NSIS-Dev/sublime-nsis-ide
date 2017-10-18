@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+GetVersion::WindowsServicePackMinor
+]]></content>
+  <tabTrigger>GetVersion::WindowsServicePackMinor</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

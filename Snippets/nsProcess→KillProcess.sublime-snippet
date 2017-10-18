@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${nsProcess::KillProcess} "${1:file}.exe" \$${2:var}
+]]></content>
+  <tabTrigger>nsProcess::KillProcess</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

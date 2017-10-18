@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${TextReplace::FillReadBuffer} "${1:file}" \$${2:var}
+]]></content>
+  <tabTrigger>TextReplace::FillReadBuffer</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

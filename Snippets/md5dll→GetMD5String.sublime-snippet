@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+md5dll::GetMD5String "${1:string}"
+]]></content>
+  <tabTrigger>md5dll::GetMD5String</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

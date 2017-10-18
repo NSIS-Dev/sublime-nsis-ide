@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::InstallDriver "${1:infPath}"
+]]></content>
+  <tabTrigger>InstDrv::InstallDriver</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

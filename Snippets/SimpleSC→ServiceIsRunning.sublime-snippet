@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::ServiceIsRunning ${1:name_of_service}
+]]></content>
+  <tabTrigger>SimpleSC::ServiceIsRunning</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

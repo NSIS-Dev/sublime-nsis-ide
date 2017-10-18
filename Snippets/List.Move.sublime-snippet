@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Move} "${1:name}" "${2:index_from}" "${3:index_to}"
+]]></content>
+  <tabTrigger>List.Move</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

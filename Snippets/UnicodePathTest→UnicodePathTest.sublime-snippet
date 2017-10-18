@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UnicodePathTest::UnicodePathTest "${1:path}"
+]]></content>
+  <tabTrigger>UnicodePathTest::UnicodePathTest</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

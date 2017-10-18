@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+IpConfig::GetNetworkAdapterPrimaryWINSServer "${1:network_adapter_id}"
+]]></content>
+  <tabTrigger>IpConfig::GetNetworkAdapterPrimaryWINSServer</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

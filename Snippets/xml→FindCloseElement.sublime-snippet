@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::FindCloseElement}
+]]></content>
+  <tabTrigger>xml::FindCloseElement</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

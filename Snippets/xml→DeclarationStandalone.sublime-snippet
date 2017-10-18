@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::DeclarationStandalone} \$${1:var1} \$${2:var2}
+]]></content>
+  <tabTrigger>xml::DeclarationStandalone</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

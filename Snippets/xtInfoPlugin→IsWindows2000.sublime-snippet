@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::IsWindows2000
+]]></content>
+  <tabTrigger>xtInfoPlugin::IsWindows2000</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

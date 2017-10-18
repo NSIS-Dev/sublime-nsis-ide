@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_pop_front} \$${1:var} \$${2:var}
+]]></content>
+  <tabTrigger>Stack::ns_pop_front</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

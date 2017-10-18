@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_clear}
+]]></content>
+  <tabTrigger>Stack::ns_clear</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

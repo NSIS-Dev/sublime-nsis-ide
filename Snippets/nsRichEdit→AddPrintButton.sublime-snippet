@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsRichEdit::AddPrintButton "${1:button_text}" "${2:document_name}"
+]]></content>
+  <tabTrigger>nsRichEdit::AddPrintButton</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

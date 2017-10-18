@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${NSKH_OnPostKeyUp} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"
+]]></content>
+  <tabTrigger>NSKH_OnPostKeyUp</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

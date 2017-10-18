@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ShellExecAsUser::ShellExecAsUser ${1:action} "${2:command}"
+]]></content>
+  <tabTrigger>ShellExecAsUser</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

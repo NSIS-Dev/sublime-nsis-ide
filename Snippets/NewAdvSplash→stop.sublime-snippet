@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NewAdvSplash::stop ${1:options}
+]]></content>
+  <tabTrigger>NewAdvSplash::stop</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

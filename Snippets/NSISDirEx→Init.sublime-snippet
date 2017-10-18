@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NSISDirEx::Init /NOUNLOAD "${1:caption}" "${2:text}" "${3:directory}" "${4:required_space}"
+]]></content>
+  <tabTrigger>NsisDirEx::Init</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

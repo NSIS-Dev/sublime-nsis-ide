@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::GetWindowsId
+]]></content>
+  <tabTrigger>xtInfoPlugin::GetWindowsId</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

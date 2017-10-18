@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InstDrv::StartSystemService /NOUNLOAD "${1:serviceName}"
+]]></content>
+  <tabTrigger>InstDrv::StartSystemService /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

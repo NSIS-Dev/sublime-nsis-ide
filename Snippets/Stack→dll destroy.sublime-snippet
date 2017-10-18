@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::dll_destroy} "${1:handle}"
+]]></content>
+  <tabTrigger>Stack::dll_destroy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

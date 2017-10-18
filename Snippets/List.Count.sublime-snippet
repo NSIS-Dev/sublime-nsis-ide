@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Count} \$${1:var_out} "${2:name}"
+]]></content>
+  <tabTrigger>List.Count</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

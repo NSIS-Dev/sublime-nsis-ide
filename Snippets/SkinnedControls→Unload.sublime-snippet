@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SkinnedControls::Unload
+]]></content>
+  <tabTrigger>SkinnedControls::Unload</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

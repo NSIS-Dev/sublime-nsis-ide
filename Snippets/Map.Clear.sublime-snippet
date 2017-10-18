@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Map.Clear} "${1:name}"
+]]></content>
+  <tabTrigger>Map.Clear</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

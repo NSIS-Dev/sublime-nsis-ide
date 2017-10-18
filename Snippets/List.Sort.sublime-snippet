@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Sort} "${1:name}"
+]]></content>
+  <tabTrigger>List.Sort</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

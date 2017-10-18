@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LockedList::AddClass "${1:class_with_wildcards}"
+]]></content>
+  <tabTrigger>LockedList::AddClass</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

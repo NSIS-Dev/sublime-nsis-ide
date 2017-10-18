@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LockedList::AddCustom "${1:application_name}" "${2:process_name}" \$${3:var}
+]]></content>
+  <tabTrigger>LockedList::AddCustom</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

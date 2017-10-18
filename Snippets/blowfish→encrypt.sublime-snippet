@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+blowfish::encrypt \$${1:return_variable} "${2:text_to_encrypt}" "${3:password_key}"
+]]></content>
+  <tabTrigger>blowfish::encrypt</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

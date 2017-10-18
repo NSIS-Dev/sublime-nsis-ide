@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+LogEx::Init true "${2:file}.log"
+]]></content>
+  <tabTrigger>LogEx::Init bTruncateFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

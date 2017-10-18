@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${IniGetSectionNames_StopEnum}
+]]></content>
+  <tabTrigger>IniGetSectionNames_StopEnum</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

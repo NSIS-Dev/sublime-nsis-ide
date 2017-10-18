@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsRichEdit::Load \$${1:hwnd} "${2:file_path}"
+]]></content>
+  <tabTrigger>nsRichEdit::Load</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

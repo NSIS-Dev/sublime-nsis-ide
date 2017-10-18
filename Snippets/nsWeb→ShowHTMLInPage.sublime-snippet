@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsWeb::ShowHTMLInPage "${1:html_string}"
+]]></content>
+  <tabTrigger>nsWeb::ShowHTMLInPage</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

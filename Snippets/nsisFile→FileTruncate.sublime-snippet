@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisFile::FileTruncate "${1:file_handle}"
+]]></content>
+  <tabTrigger>NsisFile::FileTruncate</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+UnTGZ::extractFile ${1:options} "${2:archive}.tgz" "${3:file}"
+]]></content>
+  <tabTrigger>UnTGZ::extractFile</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

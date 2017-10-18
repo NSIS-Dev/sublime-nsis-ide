@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${IniGetSectionNames} "${1:file}.ini" ${2:function}
+]]></content>
+  <tabTrigger>IniGetSectionNames</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

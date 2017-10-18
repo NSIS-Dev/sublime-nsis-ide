@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ProxySettings::GetConnectionName \$${1:var}
+]]></content>
+  <tabTrigger>ProxySettings::GetConnectionName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

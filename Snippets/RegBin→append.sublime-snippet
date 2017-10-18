@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+RegBin::append /NOUNLOAD "${1:value}"
+]]></content>
+  <tabTrigger>RegBin::append</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

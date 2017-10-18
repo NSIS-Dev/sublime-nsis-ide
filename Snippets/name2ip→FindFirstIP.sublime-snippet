@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${name2ip::FindFirstIP} "${1:host_name}" \$${2:result}
+]]></content>
+  <tabTrigger>name2ip::FindFirstIP</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

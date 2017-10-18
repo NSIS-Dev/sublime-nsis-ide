@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsRestartExplorer::nsRestartExplorer start ${1:timeout}
+]]></content>
+  <tabTrigger>nsRestartExplorer::nsRestartExplorer start</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

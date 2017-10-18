@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!define UMUI_USE_ALTERNATE_PAGE
+]]></content>
+  <tabTrigger>UMUI_USE_ALTERNATE_PAGE</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

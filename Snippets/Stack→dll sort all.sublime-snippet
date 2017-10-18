@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::dll_sort_all} "${1:handle}" "${2:order}"
+]]></content>
+  <tabTrigger>Stack::dll_sort_all</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

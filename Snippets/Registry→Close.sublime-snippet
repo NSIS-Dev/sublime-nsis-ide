@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::Close} "${1:handle}"
+]]></content>
+  <tabTrigger>Registry::Close</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsVersionInfo::getLibVersion
+]]></content>
+  <tabTrigger>nsVersionInfo::getLibVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AreExceptionsNotAllowed
+]]></content>
+  <tabTrigger>SimpleFC::AreExceptionsNotAllowed</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

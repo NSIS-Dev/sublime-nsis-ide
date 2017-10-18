@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.ExecShellWaitEx} \$${1:output1} \$${2:output2} "${3:file}" ${4:verb} "${5:args}"
+]]></content>
+  <tabTrigger>StdUtils.ExecShellWaitEx</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro UMUI_PAGE_FILEDISKREQUEST
+]]></content>
+  <tabTrigger>UMUI_PAGE_FILEDISKREQUEST</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

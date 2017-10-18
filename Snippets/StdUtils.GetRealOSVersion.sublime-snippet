@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.GetRealOSVersion} \$${1:out_major} \$${2:out_minor}
+]]></content>
+  <tabTrigger>StdUtils.GetRealOSVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

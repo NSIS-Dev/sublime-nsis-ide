@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${nsArray_Copy} ${1:source_array} ${2:destination_array}
+]]></content>
+  <tabTrigger>nsArray_Copy</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

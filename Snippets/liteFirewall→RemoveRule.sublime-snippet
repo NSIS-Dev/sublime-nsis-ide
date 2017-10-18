@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+liteFirewall::RemoveRule "${1:application_path}" "${2:rule_name}"
+]]></content>
+  <tabTrigger>liteFirewall::RemoveRule</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

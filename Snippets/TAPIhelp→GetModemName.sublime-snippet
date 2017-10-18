@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+TAPIhelp::GetModemName
+]]></content>
+  <tabTrigger>TAPIhelp::GetModemName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

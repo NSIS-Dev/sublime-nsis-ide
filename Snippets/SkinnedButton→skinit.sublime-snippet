@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SkinnedButton::skinit "{1:BitmapImage}"
+]]></content>
+  <tabTrigger>SkinnedButton::skinit</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

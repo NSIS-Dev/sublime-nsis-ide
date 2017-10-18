@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+InetLoad::load ${1:options} "${2:url}" "${3:target_file}"
+]]></content>
+  <tabTrigger>InetLoad::load [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

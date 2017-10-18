@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsRandom::GetRandom
+]]></content>
+  <tabTrigger>nsRandom::GetRandom</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

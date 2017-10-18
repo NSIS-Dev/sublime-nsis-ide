@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Animate::wait ${1:options} ${2:time_in_ms}
+]]></content>
+  <tabTrigger>Animate::wait</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

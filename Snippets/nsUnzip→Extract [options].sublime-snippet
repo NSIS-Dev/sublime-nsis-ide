@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsUnzip::Extract ${1:options} "${2:file}.zip" ${3:files} /END
+]]></content>
+  <tabTrigger>nsUnzip::Extract [/options]</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

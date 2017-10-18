@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisFile::FileFindBytes "${1:file_handle}" "${2:string}" "${3:length}"
+]]></content>
+  <tabTrigger>NsisFile::FileFindBytes</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

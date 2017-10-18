@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${List.Delete} "${1:name}" "${2:index}"
+]]></content>
+  <tabTrigger>List.Delete</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

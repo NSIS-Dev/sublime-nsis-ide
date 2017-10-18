@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Services::GetServiceNameFromDisplayName "${1:display_name}"
+]]></content>
+  <tabTrigger>Services::GetServiceNameFromDisplayName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

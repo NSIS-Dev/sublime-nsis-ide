@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+xtInfoPlugin::GetInstallerFileName
+]]></content>
+  <tabTrigger>xtInfoPlugin::GetInstallerFileName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

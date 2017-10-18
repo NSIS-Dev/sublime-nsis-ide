@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsislog::log "${1:file}.log" "${2:text}"
+]]></content>
+  <tabTrigger>Nsislog::log</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

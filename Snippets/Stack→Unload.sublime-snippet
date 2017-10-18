@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::Unload}
+]]></content>
+  <tabTrigger>Stack::Unload</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

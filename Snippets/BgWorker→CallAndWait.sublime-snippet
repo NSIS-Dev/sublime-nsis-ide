@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+BgWorker::CallAndWait
+]]></content>
+  <tabTrigger>BgWorker::CallAndWait</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

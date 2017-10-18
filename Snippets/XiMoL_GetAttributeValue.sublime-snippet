@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+!insertmacro XiMoL_GetAttributeValue "${1:HANDLER}" "${2:ATTRIBUTE_NAME}" "${3:VALUE}"
+]]></content>
+  <tabTrigger>XiMoL_GetAttributeValue</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

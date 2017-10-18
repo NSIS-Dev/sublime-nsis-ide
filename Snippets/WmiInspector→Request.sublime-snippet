@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WmiInspector::Request "${1:DomainNamespot}" "${2:TableName}" "${3:ValueName}"
+]]></content>
+  <tabTrigger>WmiInspector::Request</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

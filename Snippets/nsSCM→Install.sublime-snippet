@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsSCM::Install "${1:name_of_service}" "${2:display_name}" "${3:service_type}" "${4:start_type}" "${5:service_commandline}" "${6:load_order_group}" "${7:dependencies}" "${8:account}" "${9:password}"
+]]></content>
+  <tabTrigger>nsSCM::Install</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

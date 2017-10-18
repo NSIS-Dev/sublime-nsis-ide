@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Services::IsServiceRunning "${1:service_name}"
+]]></content>
+  <tabTrigger>Services::IsServiceRunning</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

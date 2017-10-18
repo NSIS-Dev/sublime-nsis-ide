@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Stack::ns_push_back} "${1:string}"
+]]></content>
+  <tabTrigger>Stack::ns_push_back</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

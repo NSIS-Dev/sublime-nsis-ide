@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+Nsis7z::ExtractWithCallback "${1:file}.7z" \$${2:var}
+]]></content>
+  <tabTrigger>Nsis7z::ExtractWithCallback</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

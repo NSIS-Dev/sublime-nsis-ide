@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsisXML::loadAndValidate "${1:file}.xml"
+]]></content>
+  <tabTrigger>NsisXML::loadAndValidate</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

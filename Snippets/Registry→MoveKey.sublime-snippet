@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::MoveKey} "${1:full_path_source}" "${2:full_path_target\new_key_name}" \$${3:var}
+]]></content>
+  <tabTrigger>Registry::MoveKey</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

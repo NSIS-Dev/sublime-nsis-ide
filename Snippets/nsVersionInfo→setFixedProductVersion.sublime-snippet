@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsVersionInfo::setFixedProductVersion "${1:file}.exe" ${2:1} ${3:2} ${4:3} ${5:4}
+]]></content>
+  <tabTrigger>nsVersionInfo::setFixedProductVersion</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

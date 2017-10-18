@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+FloatOp::Ver \$${1:result_var}
+]]></content>
+  <tabTrigger>FloatOp::Ver</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

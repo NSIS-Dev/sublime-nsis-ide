@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+NewAdvSplash::show ${1:delay} ${2:fade_in} ${3:fade_out} ${4:0xRRGGBB} ${5:options} "${6:file}"
+]]></content>
+  <tabTrigger>NewAdvSplash::show</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

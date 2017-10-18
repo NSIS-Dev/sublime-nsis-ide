@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::SetServiceBinaryPath ${1:name_of_service} ${2:binary_path}
+]]></content>
+  <tabTrigger>SimpleSC::SetServiceBinaryPath</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

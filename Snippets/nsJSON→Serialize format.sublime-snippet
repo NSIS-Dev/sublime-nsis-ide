@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsJSON::Serialize /format
+]]></content>
+  <tabTrigger>nsJSON::Serialize format</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::GetNodeValue} \$${1:var}
+]]></content>
+  <tabTrigger>xml::GetNodeValue</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

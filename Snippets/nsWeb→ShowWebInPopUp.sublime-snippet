@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsWeb::ShowWebInPopUp "${1:url_or_html}"
+]]></content>
+  <tabTrigger>nsWeb::ShowWebInPopUp</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

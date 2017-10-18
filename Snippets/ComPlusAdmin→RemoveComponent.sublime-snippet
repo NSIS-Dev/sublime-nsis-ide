@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ComPlusAdmin::RemoveComponent "${1:application_name}" "${2:file}.dll"
+]]></content>
+  <tabTrigger>ComPlusAdmin::RemoveComponent</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

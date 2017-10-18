@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+WmiInspector::UserName
+]]></content>
+  <tabTrigger>WmiInspector::UserName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

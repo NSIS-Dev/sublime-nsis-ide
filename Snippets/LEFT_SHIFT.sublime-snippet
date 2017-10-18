@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${LEFT_SHIFT}
+]]></content>
+  <tabTrigger>LEFT_SHIFT</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

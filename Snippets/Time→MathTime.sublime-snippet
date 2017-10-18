@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Time::MathTime} "${1:expression}" \$${2:var}
+]]></content>
+  <tabTrigger>Time::MathTime</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

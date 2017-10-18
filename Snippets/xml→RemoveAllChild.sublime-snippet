@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${xml::RemoveAllChild}
+]]></content>
+  <tabTrigger>xml::RemoveAllChild</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+MSSQL_OLEDB::SQL_Logout
+]]></content>
+  <tabTrigger>MSSQL_OLEDB::SQL_Logout</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

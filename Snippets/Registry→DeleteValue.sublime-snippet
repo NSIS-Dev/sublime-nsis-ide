@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Registry::DeleteValue} "${1:full_path}" "${2:value}" \$${3:var}
+]]></content>
+  <tabTrigger>Registry::DeleteValue</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

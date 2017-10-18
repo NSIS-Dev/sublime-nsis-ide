@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExDlg::create_dlg "${1:dialog_id}" "${2:file}.res"
+]]></content>
+  <tabTrigger>ExDlg::create_dlg</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

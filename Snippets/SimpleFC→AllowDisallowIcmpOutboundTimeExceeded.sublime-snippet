@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleFC::AllowDisallowIcmpOutboundTimeExceeded ${1:status}
+]]></content>
+  <tabTrigger>SimpleFC::AllowDisallowIcmpOutboundTimeExceeded</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

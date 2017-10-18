@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${Thread_Create} "${1:thread_proc}" \$${2:thread_id}
+]]></content>
+  <tabTrigger>Thread_Create</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

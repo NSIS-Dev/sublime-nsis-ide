@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::InstallService ${1:name_of_service} ${2:display_name} ${3:service_type} ${4:start_type} ${5:binary_path} ${6:dependencies} ${7:account} ${8:password}
+]]></content>
+  <tabTrigger>SimpleSC::InstallService</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

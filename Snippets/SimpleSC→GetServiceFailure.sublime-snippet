@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+SimpleSC::GetServiceFailure ${1:name_of_service}
+]]></content>
+  <tabTrigger>SimpleSC::GetServiceFailure</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

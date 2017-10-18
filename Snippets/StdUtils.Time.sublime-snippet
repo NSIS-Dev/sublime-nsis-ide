@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+\${StdUtils.Time} \$${1:output}
+]]></content>
+  <tabTrigger>StdUtils.Time</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

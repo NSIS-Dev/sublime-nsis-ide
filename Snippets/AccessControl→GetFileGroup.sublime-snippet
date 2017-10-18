@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+AccessControl::GetFileGroup "${1:filename}"
+]]></content>
+  <tabTrigger>AccessControl::GetFileGroup</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ComPlusAdmin::IsApplicationPresent "${1:application_name}"
+]]></content>
+  <tabTrigger>ComPlusAdmin::IsApplicationPresent</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

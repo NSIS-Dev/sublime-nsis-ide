@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+DlgHost::DlgBox "${1:options}"
+]]></content>
+  <tabTrigger>DlgHost::DlgBox</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

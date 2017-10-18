@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+nsSCM::Start /NOUNLOAD "${1:name_of_service}"
+]]></content>
+  <tabTrigger>nsSCM::Start /NOUNLOAD</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

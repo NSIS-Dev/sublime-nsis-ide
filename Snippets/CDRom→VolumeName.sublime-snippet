@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CDRom::VolumeName "${1:drive}" .${2:R0}
+]]></content>
+  <tabTrigger>CDRom::VolumeName</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

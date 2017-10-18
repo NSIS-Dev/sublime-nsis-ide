@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+ExecCmd::exec "${1:application_to_run}.exe" "${2:stdin_string}"
+]]></content>
+  <tabTrigger>ExecCmd::exec</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>

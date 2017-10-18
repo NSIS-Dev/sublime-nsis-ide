@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+CABSetup::DataSetSize "/REPORTFILE=${1:file}.rpt" |
+]]></content>
+  <tabTrigger>CABSetup::DataSetSize</tabTrigger>
+  <scope>source.nsis</scope>
+</snippet>
