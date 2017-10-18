@@ -214,12 +214,20 @@ gulp.task('deploy:linter', gulp.series( (done) => {
   done();
 }));
 
-gulp.task('deploy:settings', gulp.series( (done) => {
+gulp.task('deploy:settings:sublime-text', gulp.series( (done) => {
   gulp.src([
-    './node_modules/sublime-nsis-completions/NSIS.sublime-settings',
+    './node_modules/sublime-nsis-completions/NSIS.sublime-settings'
+    ])
+    .pipe(debug({title: 'deploy:settings:sublime-text'}))
+    .pipe(gulp.dest('./'));
+  done();
+}));
+
+gulp.task('deploy:settings:textmate', gulp.series( (done) => {
+  gulp.src([
     './node_modules/sublime-nsis-syntax/Miscellaneous.tmPreferences'
     ])
-    .pipe(debug({title: 'deploy:settings'}))
+    .pipe(debug({title: 'deploy:settings:textmate'}))
     .pipe(gulp.dest('./Preferences'));
   done();
 }));
@@ -297,6 +305,16 @@ gulp.task('deploy:build',
   gulp.parallel(
       'deploy:build:core',
       'deploy:build:scripts',
+      (done) => {
+        done();
+      }
+  )
+);
+
+gulp.task('deploy:settings',
+  gulp.parallel(
+      'deploy:settings:textmate',
+      'deploy:settings:sublime-text',
       (done) => {
         done();
       }
