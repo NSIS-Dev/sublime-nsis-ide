@@ -36,7 +36,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### GitHub
 
-Change to your Sublime Text `Packages` directory, then clone this repository:
+Change to your Sublime Text `Packages` directory, then clone this repository as “NSIS IDE”:
 
 ```bash
 $ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS IDE'
