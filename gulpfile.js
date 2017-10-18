@@ -1,5 +1,5 @@
  /*
- * vscode-gulpfile.js
+ * nsis-ide-builder
  *
  * Copyright (c) 2016, 2017 Jan T. Sott
  * Licensed under the MIT license.
