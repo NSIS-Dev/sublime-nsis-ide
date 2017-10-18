@@ -6,6 +6,14 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/JSV/-/JSV-4.0.2.tgz#d077f6825571f82132f9dffaed587b4029feff57"
 
+"NSIS@github:SublimeText/NSIS#master", "sublime-nsis-syntax@github:SublimeText/NSIS#master":
+  version "0.0.0"
+  resolved "https://codeload.github.com/SublimeText/NSIS/tar.gz/ccfaa80c15baf24de38a23a53de761614d679477"
+
+"SublimeLinter-contrib-makensis@github:idleberg/SublimeLinter-contrib-makensis#master", "sublime-linter-makensis@github:idleberg/SublimeLinter-contrib-makensis#master":
+  version "0.0.0"
+  resolved "https://codeload.github.com/idleberg/SublimeLinter-contrib-makensis/tar.gz/90925499bbc675b89ac21beb69fa92538e92c590"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -833,14 +841,6 @@ gulp-file@^0.3.0:
     gulp-util "^2.2.14"
     through2 "^0.4.1"
 
-gulp-json-lint@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-json-lint/-/gulp-json-lint-0.1.0.tgz#93d004f42fbb6a4206f640946463b4cb8c501fe2"
-  dependencies:
-    gulp-util "~3.0.3"
-    json-lint "~0.1.0"
-    map-stream "~0.1.0"
-
 gulp-jsonlint@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gulp-jsonlint/-/gulp-jsonlint-1.2.0.tgz#b9dd52daffd0f5426d16f657dedcfe9d86851ad9"
@@ -900,7 +900,7 @@ gulp-util@^2.2.14:
     through2 "^0.5.0"
     vinyl "^0.2.1"
 
-gulp-util@^3.0.0, gulp-util@^3.0.5, gulp-util@^3.0.8, gulp-util@~3.0.3:
+gulp-util@^3.0.0, gulp-util@^3.0.5, gulp-util@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
   dependencies:
@@ -1234,10 +1234,6 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
-json-lint@~0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/json-lint/-/json-lint-0.1.0.tgz#45b03fba86c4f30f2c6e70aa73a90d3fe18f9803"
-
 json-schema@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
@@ -1552,7 +1548,7 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
-map-stream@^0.1.0, map-stream@~0.1.0:
+map-stream@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
@@ -2219,10 +2215,6 @@ strip-json-comments@~2.0.1:
   version "0.1.1"
   resolved "https://codeload.github.com/idleberg/sublime-drunken-nsis/tar.gz/c36c29abc6ccb6204c142563e1e74f1eb5add760"
 
-"sublime-linter-makensis@github:idleberg/SublimeLinter-contrib-makensis#master":
-  version "0.0.0"
-  resolved "https://codeload.github.com/idleberg/SublimeLinter-contrib-makensis/tar.gz/90925499bbc675b89ac21beb69fa92538e92c590"
-
 "sublime-makensis@github:idleberg/sublime-makensis#v2.3.2":
   version "0.1.1"
   resolved "https://codeload.github.com/idleberg/sublime-makensis/tar.gz/93f6753d59f3854e834d58bcee97ddbe47bc0373"
@@ -2238,10 +2230,6 @@ strip-json-comments@~2.0.1:
 "sublime-nsis-plugins@github:idleberg/sublime-nsis-plugins#master":
   version "0.1.1"
   resolved "https://codeload.github.com/idleberg/sublime-nsis-plugins/tar.gz/bcf3388830ee4e936b59d9f108dfc5f34268a43e"
-
-"sublime-nsis-syntax@github:SublimeText/NSIS#master":
-  version "0.0.0"
-  resolved "https://codeload.github.com/SublimeText/NSIS/tar.gz/ccfaa80c15baf24de38a23a53de761614d679477"
 
 "sublime-nsl-assembler@github:idleberg/sublime-nsl-assembler#master":
   version "0.1.1"
