@@ -18,9 +18,11 @@ This package has been tested and approved for Sublime Text 3 ([Build 3103](http:
 * [NSIS Grammar](https://github.com/SublimeText/NSIS)
 * [NSIS Language File Grammar](https://github.com/idleberg/sublime-nlf)
 * [NSIS Completions](https://github.com/idleberg/sublime-nsis)
+* [NSIS Plug-in Completions](https://github.com/idleberg/sublime-nsis-plugins)
 * [Drunken NSIS Completions](https://github.com/idleberg/sublime-drunken-nsis)
 * [Build System](https://github.com/idleberg/sublime-makensis)
 * [Linter](https://github.com/idleberg/SublimeLinter-contrib-makensis)
+* [nsL Assembler](https://github.com/idleberg/sublime-nsl-assembler)
 
 ## Installation
 
