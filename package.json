@@ -5,14 +5,29 @@
   "repositoy": "https://github.com/idleberg/sublimetext-gulpfile.js",
   "license": "MIT",
   "private": true,
+  "dependencies": {
+    "sublime-nsis-syntax": "github:SublimeText/NSIS#master",
+    "sublime-nlf-syntax": "github:idleberg/sublime-nlf#master",
+    "sublime-nsis-completions": "github:idleberg/sublime-nsis#master",
+    "sublime-nsis-plugins": "github:idleberg/sublime-nsis-plugins#master",
+    "sublime-nsl-assembler": "github:idleberg/sublime-nsl-assembler#master",
+    "sublime-drunken-nsis": "github:idleberg/sublime-drunken-nsis#master",
+    "sublime-makensis": "github:idleberg/sublime-makensis#v2.3.2",
+    "sublime-linter-makensis": "github:idleberg/SublimeLinter-contrib-makensis#master"
+  },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-debug": "^2.1.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-file": "^0.3.0",
     "gulp-json-lint": "^0.1.0",
-    "gulp-xml-validator": "^0.1.1",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-xml-validator": "^0.1.3",
     "gulp-yaml-validate": "^1.0.2"
   },
   "scripts": {
+    "postinstall": "gulp deploy",
+    "prepublish": "gulp",
     "test": "gulp lint"
   }
 }
