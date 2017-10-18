@@ -42,12 +42,6 @@ Change to your Sublime Text `Packages` directory, then clone this repository:
 $ git clone https://github.com/NSIS-Dev/sublime-nsis-ide.git 'NSIS IDE'
 ```
 
-### Windows Installer
-
-1. Download the [latest release](https://github.com/NSIS-Dev/sublime-nsis-ide/releases)
-2. Compile `Support/installer.nsi`
-3. Run setup and follow instructions
-
 ## Building
 
 Before using this plugin, you must ensure that `makensis` is installed on your system. To install `makensis`, do the following:
@@ -87,6 +81,10 @@ SublimeLinter 3 must be [installed](http://sublimelinter.readthedocs.org/en/late
 In order for `makensis` to be executed by SublimeLinter, you must [ensure that its path is available][path] to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
 
 Use the [Command Palette](http://docs.sublimetext.info/en/latest/reference/command_palette.html) to set up your linting preferences, or to run the linter.
+
+## Nightly Versions
+
+With [Node](https://nodejs.org) installed, you can keep the package at bleeding edge. Simply run `yarn upgrade || npm update` in the folder of this package.
 
 ## License
 
